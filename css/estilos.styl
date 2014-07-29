@@ -1,0 +1,145 @@
+
+@import "reset.styl"
+
+// Fuentes =========================================
+principal = 'Lato', sans-serif;
+lectura = 'Open Sans', sans-serif;
+
+
+// Colores =========================================
+
+
+active = #618617
+azul = #177dd4
+azulClaro = #4d93ff
+azulOscuro = #315b8d
+grisMenu = #a4a8aa
+blancoManchado = #f8f8f8
+body = #929292
+borde = #dcdcdc
+footer = #576774 
+granate = #654b6b
+gris = #484645
+grisClaro = #eff3f6
+grisEventoActual = #8a8a8a
+grisFondo = #dcdcdc
+menuLateral = #212121
+morado = #bd294e
+naranja = #fda524
+negro = #242d35
+negroFondo = #3e4145
+negroInterface = #222326
+negroInterface2 = #161719
+negroInterface3 = #2a2c2f
+negroOscuro = #121314
+rojoClaro = #db321c
+rojoLogo = #bd0506
+rojoOscuro = #982617 
+rosa = #f95d49
+rosa = rgb(209, 80, 95)
+separador = #323438
+separador2 = #121314
+texto = rgba(white,.8)
+texto2 = rgba(black,.75)
+textoEvento = #f2f2f2
+verde = #80b21e
+verdeFooter = #98cb6a
+verdeLinea = #b3d494
+verdeOscuro = #a01157
+
+
+
+
+// @font-face ======================================
+
+add = "\e607"
+back = "\e604"
+baile = "\e222"
+calendario = "\e601"
+campeonato = "\"
+cloenda = "\"
+colaboradores = "\e2fe"
+comentar = "\e152"
+compartir = "\e603"
+concurso = "\"
+cultural = "\"
+disco = "\e135"
+disqus = "\e152"
+email = "\e60d"
+entrada = "\e602"
+flecha = '\e600'
+flechaAbajo = '\e607'
+gastronomico = "\e229"
+happy = "\e31f"
+info = "\e606"
+menu = "\e120"
+menu2 = "\e2aa"
+micro = "\e06f"
+nota = "\e608"
+pubillas = "\e60f"
+religion = "\e609"
+reloj = "\e605"
+salutacions = "\e165"
+sport = "\e282"
+
+
+
+body
+    background rgba(black,.1)
+    font-family lato
+    font-size 20px
+    font-weight 100
+    height 100%
+    width 100%
+
+::selection
+    background azul
+    color white
+
+a
+    &:link
+        some style
+        text-decoration none
+    &:visited
+        some style
+    &:hover
+        some style
+    &:active
+        some style
+
+
+
+// Clases preconfiguradas =====================
+
+.enlace
+    position absolute
+    top 0
+    right 0
+    bottom 0 
+    left 0
+.invisible
+    display none
+.visible
+    display block
+    transition all .5s ease
+    -webkit-transition all .5s ease
+.left
+    float left
+
+
+
+// Break points ====================================
+
+@import "bp1.styl"
+
+@media screen and (min-width: 450px) 
+    @import "bp2.styl"
+
+@media screen and (min-width: 770px) 
+    @import "bp3.styl"
+
+// @media screen and (min-width: 760px) 
+//     @import "bp4.styl"
+
+// @media screen and (min-width: 960px) 
+//     @import "bp5.styl"
