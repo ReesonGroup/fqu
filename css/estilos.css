@@ -368,13 +368,13 @@ span
   font-family: icomoon;
   font-size: 3em;
   position: relative;
-  top: 75px;
+  top: 30px;
 }
 .contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .hero .detalle .noLogo {
   font-weight: 400;
   margin: 0 auto;
   position: relative;
-  top: 90px;
+  top: 55px;
   width: 75%;
 }
 .contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .hero .detalle .noLogo .sitioEvento {
@@ -382,6 +382,9 @@ span
   font-weight: 300;
   margin-top: 7px;
   text-transform: uppercase;
+}
+.contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .hero .detalle .noLogo .tituloEvento {
+  font-size: 1.2em;
 }
 .contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .hero .imagen {
   -webkit-filter: grayscale(0.4);
@@ -489,7 +492,7 @@ span
 }
 .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .back {
   color: rgba(189,41,78,0.8);
-  padding: 20px 0 5px 18px;
+  padding: 20px 0 20px 18px;
 }
 .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .back:last-child {
   padding: 20px 0 45px 18px;
@@ -511,7 +514,7 @@ span
   right: 75px;
 }
 .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero {
-  height: 400px;
+  height: 430px;
   position: relative;
 }
 .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero .detalle {
@@ -555,7 +558,6 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
 								filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f7f7f7', endColorstr='#ad000000',GradientType=0 );
 .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero .fotoOuter {
   bottom: 0;
-  height: 400px;
   position: absolute;
   width: 100%;
   z-index: 0;
@@ -1307,7 +1309,7 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     margin-bottom: 16px;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneColaboradores .colaboradores .logoOuter {
-    padding: 100px 15px 100px 15px;
+    padding: 100px 0px;
     text-align: center;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneColaboradores .colaboradores .logoOuter .logoInner {
