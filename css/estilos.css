@@ -927,7 +927,7 @@ background: rgb(215,81,93);
   z-index: 6;
 }
 .llamadaLabel .boton {
-  color: rgba(255,255,255,0.8);
+  color: #fff;
   height: 80px;
   text-align: center;
   width: 40px;
@@ -938,12 +938,13 @@ background: rgb(215,81,93);
   -webkit-transform: rotateZ(0deg);
 }
 .llamadaLabel .boton .flecha {
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 .llamadaLabel .boton .flecha:after {
   content: '\e607';
   font-family: icomoon;
   line-height: 80px;
+  margin: 0 0 0 5px;
 }
 .llamadaTitulo {
   -webkit-transition: all 0.5s;
