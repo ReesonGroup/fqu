@@ -445,6 +445,7 @@ span
 .contenidos .noCalendario .vistaMovil .contienePubillas .pubillas {
   background: #fff;
   color: rgba(0,0,0,0.75);
+  padding: 10px 0 0 0;
 }
 .contenidos .noCalendario .vistaMovil .contienePubillas .pubillas h3 {
   font-size: 24px;
