@@ -1137,6 +1137,7 @@ background: rgb(215,81,93);
     width: 100%;
   }
   .contenidos .noCalendario {
+    background: #fff;
     bottom: 0;
     border-right: 1px solid #dcdcdc;
     left: 0;
@@ -1309,6 +1310,9 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .unaPubilla .texto p {
     margin-bottom: 16px;
   }
+  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneColaboradores .colaboradores {
+    background: #fff;
+  }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneColaboradores .colaboradores .logoOuter {
     padding: 100px 0px;
     text-align: center;
@@ -1321,6 +1325,9 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneColaboradores .colaboradores .logoOuter .logoInner img {
     width: 100%;
+  }
+  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion {
+    background: #fff;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion {
     position: relative;
