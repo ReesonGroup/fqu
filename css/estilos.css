@@ -320,7 +320,7 @@ a:active {
 }
 .contenidos .calendario .listaEventos .contieneEvento .evento .headerEvento span:after {
   color: #177dd4;
-  content: menu;
+  content: '\e609';
   font-family: icomoon;
   font-size: 1.2em;
   font-weight: 400;
@@ -364,7 +364,7 @@ span
   z-index: 1;
 }
 .contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .hero .detalle .logoEvento:before {
-  content: '\e135';
+  content: '\e60e';
   font-family: icomoon;
   font-size: 3em;
   position: relative;
@@ -417,7 +417,7 @@ span
 }
 .contenidos .calendario .listaEventos .contieneEvento .evento .plegado .logoEvento:before {
   color: rgba(0,0,0,0.75);
-  content: '\e135';
+  content: '\e60e';
   font-family: icomoon;
   font-size: 2em;
   left: 10px;
@@ -498,7 +498,7 @@ span
   border-bottom: 1px solid;
 }
 .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .back .backTo:before {
-  content: back;
+  content: '\e607';
   font-family: icomoon;
   margin-right: 5px;
 }
@@ -1212,14 +1212,18 @@ background: rgb(215,81,93);
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .back .backTo {
     display: inline-block;
     font-weight: 400;
+    position: relative;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .back .backTo span {
     border-bottom: 1px solid;
+    margin: 0 0 0 25px;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .back .backTo:before {
-    content: back;
+    content: '\e60f';
     font-family: icomoon;
-    margin-right: 5px;
+    position: absolute;
+    top: 3px;
+    right: 75px;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .unaPubilla .hero {
     height: 400px;
@@ -1488,7 +1492,19 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     position: relative;
   }
   .contenidos .noCalendario .vistaEscritorio .menuNavegacion .boton .pubillas:before {
-    content: '\e102';
+    content: '\e605';
+    font-family: icomoon;
+    font-size: 1em;
+    left: -25px;
+    position: absolute;
+    top: -13px;
+  }
+  .contenidos .noCalendario .vistaEscritorio .menuNavegacion .boton .pubillasActive {
+    color: #177dd4;
+    position: relative;
+  }
+  .contenidos .noCalendario .vistaEscritorio .menuNavegacion .boton .pubillasActive:before {
+    content: '\e606';
     font-family: icomoon;
     font-size: 1.2em;
     left: -25px;

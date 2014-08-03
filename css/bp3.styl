@@ -82,12 +82,16 @@
 							.backTo
 								display inline-block
 								font-weight 400
+								position relative
 								span
 									border-bottom 1px solid
+									margin 0 0 0 25px
 								&:before
-									content back
+									content flechaIzq
 									font-family icomoon
-									margin-right 5px
+									position absolute
+									top 3px 
+									right 75px
 						.hero
 							height 400px
 							position relative
@@ -316,7 +320,17 @@
 					.pubillas
 						position relative
 						&:before
-							content '\e102'
+							content grillaVacia
+							font-family icomoon
+							font-size 1em
+							left -25px 
+							position absolute
+							top -13px
+					.pubillasActive
+						color azul
+						position relative
+						&:before
+							content grillaLlena
 							font-family icomoon
 							font-size 1.2em
 							left -25px 
