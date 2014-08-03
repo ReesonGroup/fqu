@@ -360,7 +360,7 @@ span
   color: #fff;
   position: relative;
   text-align: center;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
   z-index: 1;
 }
 .contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .hero .detalle .logoEvento:before {
@@ -385,6 +385,7 @@ span
 }
 .contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .hero .detalle .noLogo .tituloEvento {
   font-size: 1.2em;
+  line-height: 1.2em;
 }
 .contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .hero .imagen {
   -webkit-filter: grayscale(0.4);
