@@ -447,7 +447,7 @@ span
   color: rgba(0,0,0,0.75);
   padding: 10px 0 0 0;
 }
-.contenidos .noCalendario .vistaMovil .contienePubillas .pubillas h3 {
+.contenidos .noCalendario .vistaMovil .contienePubillas .pubillas h2 {
   font-size: 24px;
   font-weight: 300;
   padding: 20px;
@@ -716,7 +716,7 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
   background: #fff;
   color: rgba(0,0,0,0.7);
 }
-.contenidos .noCalendario .vistaMovil .contieneColaboradores .colaboradores h3 {
+.contenidos .noCalendario .vistaMovil .contieneColaboradores .colaboradores h2 {
   font-size: 24px;
   font-weight: 300;
   padding: 20px;
@@ -1174,7 +1174,7 @@ background: rgb(215,81,93);
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .pubillas .pubillasOuter {
     background: #fff;
     font-size: 0;
-    padding: 90px 20px 100px 20px;
+    padding: 100px 20px 100px 20px;
     text-align: center;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .pubillas .pubillasOuter .pubillasInner {
@@ -1189,7 +1189,8 @@ background: rgb(215,81,93);
     box-shadow: 0 0 3px rgba(0,0,0,0.3);
     display: block;
     margin: 0 auto;
-    width: 100px;
+    width: 90px;
+    height: auto;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contienePubillas .pubillas .pubillasOuter .pubillasInner .detall {
     font-size: 14px;
@@ -1206,7 +1207,7 @@ background: rgb(215,81,93);
     padding: 0 0 100px 0;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .unaPubilla .back {
-    color: #bd294e;
+    color: rgba(189,41,78,0.8);
     padding: 21px 0 25px 21px;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .unaPubilla .back:last-child {
@@ -1244,11 +1245,11 @@ background: rgb(215,81,93);
     z-index: 3;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .unaPubilla .hero .detalle .nombre {
-    font-size: 1.3em;
+    font-size: 1.9em;
     font-weight: 700;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .unaPubilla .hero .detalle .club {
-    font-size: 0.9em;
+    font-size: 1.3em;
     font-weight: 400;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .unaPubilla .hero .degradado {
@@ -1298,27 +1299,15 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .unaPubilla .texto p {
     margin-bottom: 16px;
   }
-  .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneColaboradores .colaboradores h3 {
-    background: #808080;
-    color: #fff;
-    font-size: 24px;
-    font-weight: 300;
-    left: 80px;
-    padding: 20px;
-    position: fixed;
-    right: 0;
-    text-align: left;
-    top: 85px;
-  }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneColaboradores .colaboradores .logoOuter {
-    padding: 90px 20px 30px 20px;
+    padding: 100px 15px 100px 15px;
     text-align: center;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneColaboradores .colaboradores .logoOuter .logoInner {
     display: inline-block;
-    padding: 15px;
+    padding: 20px;
     vertical-align: top;
-    width: 70%;
+    width: 40%;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneColaboradores .colaboradores .logoOuter .logoInner img {
     width: 100%;
@@ -1351,13 +1340,13 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     margin: -70px 0 0 0;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .entrades:before {
-    content: entrada;
+    content: '\e60c';
     font-family: icomoon;
     font-style: normal;
     font-size: 18px;
     left: 20px;
     position: absolute;
-    top: 30px;
+    top: 29px;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .inscripcions {
     margin: -70px 0 0 0;
@@ -1369,7 +1358,7 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     font-size: 18px;
     left: 20px;
     position: absolute;
-    top: 30px;
+    top: 29px;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .horario {
     margin: -70px 0 0 0;
@@ -1381,19 +1370,19 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     font-size: 18px;
     left: 20px;
     position: absolute;
-    top: 30px;
+    top: 29px;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .notes {
     margin: -70px 0 0 0;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .notes:before {
-    content: nota;
+    content: '\e608';
     font-family: icomoon;
     font-style: normal;
-    font-size: 18px;
+    font-size: 14px;
     left: 20px;
     position: absolute;
-    top: 30px;
+    top: 29px;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .contieneInformacion .informacion .infoOuter .infoInner .post {
     color: rgba(0,0,0,0.75);
@@ -1533,7 +1522,7 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
   .contenidos .noCalendario .vistaEscritorio .menuNavegacion .boton .pubillasActive:before {
     content: '\e606';
     font-family: icomoon;
-    font-size: 1.2em;
+    font-size: 1.3em;
     left: -25px;
     position: absolute;
     top: -13px;
