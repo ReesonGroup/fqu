@@ -166,8 +166,8 @@ a:active {
 .contenidos .calendario .botonera {
   background: #f8f8f8;
   border: 1px solid #dcdcdc;
-  border-left: 5px solid #4d4d4d;
-  border-right: 5px solid #4d4d4d;
+  border-left: 5px solid #6f8595;
+  border-right: 5px solid #6f8595;
   height: auto;
   position: relative;
   width: 100%;
@@ -176,7 +176,7 @@ a:active {
 .contenidos .calendario .botonera:after {
   border-bottom: 37px solid transparent;
   border-left: 10px solid transparent;
-  border-right: 8px solid #4d4d4d;
+  border-right: 8px solid #6f8595;
   border-top: 37px solid transparent;
   content: '';
   position: absolute;
@@ -489,6 +489,7 @@ span
   font-weight: 400;
 }
 .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla {
+  background: #fff;
   padding: 0 0 20px 0;
 }
 .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .back {
@@ -969,7 +970,7 @@ background: rgb(215,81,93);
   z-index: 5;
 }
 .llamadaTitulo h2 {
-  color: rgba(0,0,0,0.75);
+  color: #6f8595;
   font-size: 21px;
   font-style: italic;
   letter-spacing: 1px;
