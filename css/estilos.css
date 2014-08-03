@@ -1203,9 +1203,10 @@ background: rgb(215,81,93);
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .unaPubilla {
     overflow: hidden;
+    padding: 0 0 100px 0;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .unaPubilla .back {
-    color: #80b21e;
+    color: #bd294e;
     padding: 21px 0 25px 21px;
   }
   .contenidos .noCalendario .vistaEscritorio .escritorioInner .unaPubilla .back:last-child {
