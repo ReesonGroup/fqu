@@ -1563,6 +1563,7 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     border-radius: 0 0 0 10px;
   }
   .contenidos .calendario .eventoActual {
+    background: #ddeefb;
     box-shadow: none;
     position: relative;
     z-index: 5;
