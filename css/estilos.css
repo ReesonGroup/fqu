@@ -164,10 +164,10 @@ a:active {
   -webkit-transition: all 0.5s;
 }
 .contenidos .calendario .botonera {
-  background: #fff;
+  background: #f8f8f8;
   border: 1px solid #dcdcdc;
-  border-left: 5px solid #c2c2c2;
-  border-right: 5px solid #c2c2c2;
+  border-left: 5px solid #4d4d4d;
+  border-right: 5px solid #4d4d4d;
   height: auto;
   position: relative;
   width: 100%;
@@ -176,7 +176,7 @@ a:active {
 .contenidos .calendario .botonera:after {
   border-bottom: 37px solid transparent;
   border-left: 10px solid transparent;
-  border-right: 8px solid #c2c2c2;
+  border-right: 8px solid #4d4d4d;
   border-top: 37px solid transparent;
   content: '';
   position: absolute;
@@ -217,10 +217,10 @@ a:active {
   top: 28px;
 }
 .contenidos .calendario .eventoActual {
-  background: #eff3f6;
+  background: #cae8fb;
   box-shadow: 0 3px 5px rgba(0,0,0,0.7) inset;
   box-shadow: none;
-  color: rgba(0,0,0,0.75);
+  color: #177afc;
   position: relative;
   z-index: 5;
 }
@@ -237,7 +237,7 @@ a:active {
   font-family: icomoon;
 }
 .contenidos .calendario .eventoActual .detalleEvento .sitioEvento {
-  color: rgba(0,0,0,0.5);
+  color: rgba(23,122,252,0.5);
   font-size: 12px;
   margin: 5px 0 0 75px;
   text-align: left;
@@ -1555,9 +1555,7 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     border-radius: 0 0 0 10px;
   }
   .contenidos .calendario .eventoActual {
-    background: #f2f2f2;
     box-shadow: none;
-    color: rgba(0,0,0,0.75);
     position: relative;
     z-index: 5;
   }
@@ -1574,7 +1572,7 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     font-family: icomoon;
   }
   .contenidos .calendario .eventoActual .detalleEvento .sitioEvento {
-    color: rgba(0,0,0,0.5);
+    color: rgba(23,122,252,0.5);
     font-size: 12px;
     margin: 5px 0 0 75px;
     text-align: left;
