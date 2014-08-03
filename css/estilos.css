@@ -1469,7 +1469,19 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     position: relative;
   }
   .contenidos .noCalendario .vistaEscritorio .menuNavegacion .boton .colaboradores:before {
-    content: '\f006';
+    content: '\e601';
+    font-family: icomoon;
+    font-size: 1.2em;
+    left: -25px;
+    position: absolute;
+    top: -13px;
+  }
+  .contenidos .noCalendario .vistaEscritorio .menuNavegacion .boton .colaboradoresActive {
+    color: #177dd4;
+    position: relative;
+  }
+  .contenidos .noCalendario .vistaEscritorio .menuNavegacion .boton .colaboradoresActive:before {
+    content: '\e602';
     font-family: icomoon;
     font-size: 1.2em;
     left: -25px;
@@ -1477,11 +1489,22 @@ background: -moz-linear-gradient(top,  rgba(247,247,247,0) 0%, rgba(175,175,175,
     top: -13px;
   }
   .contenidos .noCalendario .vistaEscritorio .menuNavegacion .boton .info {
-    color: #177dd4;
     position: relative;
   }
   .contenidos .noCalendario .vistaEscritorio .menuNavegacion .boton .info:before {
-    content: '\e60c';
+    content: '\e603';
+    font-family: icomoon;
+    font-size: 1.2em;
+    left: -25px;
+    position: absolute;
+    top: -13px;
+  }
+  .contenidos .noCalendario .vistaEscritorio .menuNavegacion .boton .infoActive {
+    color: #177dd4;
+    position: relative;
+  }
+  .contenidos .noCalendario .vistaEscritorio .menuNavegacion .boton .infoActive:before {
+    content: '\e604';
     font-family: icomoon;
     font-size: 1.2em;
     left: -25px;

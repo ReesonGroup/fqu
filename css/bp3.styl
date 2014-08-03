@@ -292,7 +292,17 @@
 					.colaboradores
 						position relative
 						&:before
-							content '\f006'
+							content estrellaVacia
+							font-family icomoon
+							font-size 1.2em
+							left -25px 
+							position absolute
+							top -13px
+					.colaboradoresActive
+						color azul
+						position relative
+						&:before
+							content estrellaLlena
 							font-family icomoon
 							font-size 1.2em
 							left -25px 
@@ -308,10 +318,19 @@
 					// 		position absolute
 					// 		top -13px
 					.info
+						position relative
+						&:before
+							content infoVacia
+							font-family icomoon
+							font-size 1.2em
+							left -25px 
+							position absolute
+							top -13px
+					.infoActive
 						color azul
 						position relative
 						&:before
-							content '\e60c'
+							content infoLlena
 							font-family icomoon
 							font-size 1.2em
 							left -25px 
