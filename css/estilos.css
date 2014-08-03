@@ -921,6 +921,8 @@ background: rgb(215,81,93);
 .header .titulo {
   color: #fff;
   font-size: 24px;
+  font-style: italic;
+  letter-spacing: 1px;
   margin: 200px 0 0 0;
   position: relative;
   text-align: center;
