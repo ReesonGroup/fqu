@@ -1,3 +1,30 @@
+
+$(document).on('ready', function(){
+  
+  $('.unaPubilla').hide();
+  if ($(window).width()>=770){
+    $('.detallePost').show();
+  }
+  
+  $('.backTo').on('click', function(){
+
+    $('.unaPubilla').fadeOut();
+    $('.pubillas').fadeIn();
+
+  })
+  
+  $('.pubillasInner').on('click', function(){
+   
+    $('.pubillas').fadeOut();
+    $('.unaPubilla').fadeIn();
+
+  })
+});
+
+
+
+
+
 //función para subir o bajar el tamaño de la fuente
 function resizer (multiplicador){
     for (var i = 0; i < texto.length; i++) {
