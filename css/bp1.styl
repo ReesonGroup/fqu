@@ -187,11 +187,15 @@
 								z-index 1
 								.logoEvento
 									&:before
-										content disco
 										font-family icomoon
 										font-size 3em
 										position relative
 										top 30px
+								// LISTA DE ICONOS EN EVENTOS
+								.concurso
+									&:before
+										content disco
+								// LISTA DE ICONOS EN EVENTOS
 								.noLogo
 									font-weight 400
 									margin 0 auto
@@ -210,7 +214,7 @@
 								-webkit-filter grayscale(0.4)
 								background-position 0 0 
 								background-repeat no-repeat
-								background-size 100% auto
+								background-size auto 100% 
 								bottom 0
 								left 0
 								position absolute
@@ -235,12 +239,16 @@
 							position relative
 							&:before
 								color texto2
-								content disco
 								font-family icomoon
 								font-size 2em
 								left 10px
 								position absolute
 								top 5px
+						// LISTA DE ICONOS EN EVENTOS
+						.concurso
+							&:before
+								content disco
+						// LISTA DE ICONOS EN EVENTOS
 						.sitioEvento
 							color grisMenu
 							font-size 12px
