@@ -1,20 +1,46 @@
 
-$(document).on('ready', function(){
-  var info = $('div.contieneInformacion');
-  var detallInfo = $('div.detallePost');
-  var partners = $('div.contieneColaboradores');
-  var navPubillas = $('section.pubillas');
-  var unaPubilla = $('div.unaPubilla');
-  var pubillas = $('section.pubillas');
+var info = $('div.contieneInformacion');
+var detallInfo = $('div.detallePost');
+var partners = $('div.contieneColaboradores');
+var navPubillas = $('section.pubillas');
+var unaPubilla = $('div.unaPubilla');
+var pubillas = $('section.pubillas');
+
+$(document).on('ready', init);
+
+function init(){
   
+  // startClock();
+
+  startViews();
+
+  unaPubilla.hide();
+  
+  actionNavPubillas();
+
+  backTo();
+
+};
+
+function startClock(){
+
+ 
+
+
+  
+  
+
+};
+
+function startViews(){
   if ($(window).width()>=770){
     detallInfo.show();
     partners.hide();
     info.hide();
   }
-  
-  unaPubilla.hide();
-  
+};
+
+function backTo(){
   $('div.backTo').on('click', function(){
 
     $('body,html').stop(true,true).animate({
@@ -24,7 +50,9 @@ $(document).on('ready', function(){
     navPubillas.fadeIn();
 
   })
-  
+};
+
+function actionNavPubillas(){
   $('article.pubillasInner').on('click', function(){
    
     var el=$(this).attr('id');
@@ -80,9 +108,9 @@ $(document).on('ready', function(){
     }
     else{console.log('Algo falla en la botonera')};
   })
-});
+};
 
-//función para subir o bajar el tamaño de la fuente
+
 function resizer (multiplicador){
     for (var i = 0; i < texto.length; i++) {
         
@@ -96,11 +124,11 @@ function resizer (multiplicador){
         };
 };
 
-//Función para desplegar los elementos por su Id.
 function slideToggle(a){
   var elem = document.getElementById(a);
   $(elem).slideToggle(400);
 };
+
 
 // //Facebook
 // (function(d, s, id) {
