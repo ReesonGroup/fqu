@@ -11,21 +11,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/bp1.styl": {
-		"debugStyle": 0,
-		"fileType": 8,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"importCSS": 0,
-		"inputAbbreviatedPath": "\/css\/bp1.styl",
-		"outputAbbreviatedPath": "\/css\/bp1.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"resolveRelativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0
-		},
 	"\/css\/bp2.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -35,21 +20,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/bp2.styl": {
-		"debugStyle": 0,
-		"fileType": 8,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"importCSS": 0,
-		"inputAbbreviatedPath": "\/css\/bp2.styl",
-		"outputAbbreviatedPath": "\/css\/bp2.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"resolveRelativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0
-		},
 	"\/css\/bp3.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -58,21 +28,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/css\/bp3.styl": {
-		"debugStyle": 0,
-		"fileType": 8,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"importCSS": 0,
-		"inputAbbreviatedPath": "\/css\/bp3.styl",
-		"outputAbbreviatedPath": "\/css\/bp3.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"resolveRelativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0
 		},
 	"\/css\/bp4.css": {
 		"fileType": 16,
@@ -91,21 +46,6 @@
 		"importCSS": 0,
 		"inputAbbreviatedPath": "\/css\/bp4.styl",
 		"outputAbbreviatedPath": "\/css\/bp4.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"resolveRelativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0
-		},
-	"\/css\/estilos.styl": {
-		"debugStyle": 0,
-		"fileType": 8,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"importCSS": 0,
-		"inputAbbreviatedPath": "\/css\/estilos.styl",
-		"outputAbbreviatedPath": "\/css\/estilos.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -161,28 +101,6 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
 		},
-	"\/img\/eventos\/concierto.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 393534,
-		"inputAbbreviatedPath": "\/img\/eventos\/concierto.jpg",
-		"outputAbbreviatedPath": "\/img\/eventos\/concierto.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/eventos\/dibujo.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 311318,
-		"inputAbbreviatedPath": "\/img\/eventos\/dibujo.jpg",
-		"outputAbbreviatedPath": "\/img\/eventos\/dibujo.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/eventos\/disco.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -190,17 +108,6 @@
 		"initialSize": 127517,
 		"inputAbbreviatedPath": "\/img\/eventos\/disco.jpg",
 		"outputAbbreviatedPath": "\/img\/eventos\/disco.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/eventos\/techno.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 127517,
-		"inputAbbreviatedPath": "\/img\/eventos\/techno.jpg",
-		"outputAbbreviatedPath": "\/img\/eventos\/techno.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -688,15 +595,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/js\/main-ck.js": {
 		"fileType": 64,
