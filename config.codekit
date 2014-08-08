@@ -101,6 +101,28 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
 		},
+	"\/img\/eventos\/concierto.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 393534,
+		"inputAbbreviatedPath": "\/img\/eventos\/concierto.jpg",
+		"outputAbbreviatedPath": "\/img\/eventos\/concierto.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/eventos\/dibujo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 311318,
+		"inputAbbreviatedPath": "\/img\/eventos\/dibujo.jpg",
+		"outputAbbreviatedPath": "\/img\/eventos\/dibujo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/eventos\/disco.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -108,6 +130,17 @@
 		"initialSize": 127517,
 		"inputAbbreviatedPath": "\/img\/eventos\/disco.jpg",
 		"outputAbbreviatedPath": "\/img\/eventos\/disco.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/eventos\/techno.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 267710,
+		"inputAbbreviatedPath": "\/img\/eventos\/techno.jpg",
+		"outputAbbreviatedPath": "\/img\/eventos\/techno.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -595,6 +628,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/js\/main-ck.js": {
 		"fileType": 64,
