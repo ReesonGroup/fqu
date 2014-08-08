@@ -6,9 +6,6 @@ $(document).on('ready', function(){
   var navPubillas = $('section.pubillas');
   var unaPubilla = $('div.unaPubilla');
   var pubillas = $('section.pubillas');
-  var butPubillas = $('#butPubillas').find('span');
-  var butInfo = $('#butInfo').find('span');
-  var butPartners = $('#butPartners').find('span');
   
   if ($(window).width()>=770){
     detallInfo.show();
@@ -17,46 +14,12 @@ $(document).on('ready', function(){
   }
   
   unaPubilla.hide();
-
-  butPubillas.on('click', function(){
-
-    $(this).addClass('pubillasActive');
-    butInfo.removeClass('infoActive');
-    butPartners.removeClass('colaboradoresActive')
-    navPubillas.fadeIn();
-    unaPubilla.fadeOut();
-    info.fadeOut();
-    partners.fadeOut();
-
-  })
-  butInfo.on('click', function(){
-
-    $(this).addClass('infoActive');
-    butPartners.removeClass('colaboradoresActive')
-    butPubillas.removeClass('pubillasActive')
-    navPubillas.fadeOut();
-    unaPubilla.fadeOut();
-    info.fadeIn();
-    partners.fadeOut();
-
-  })
-  butPartners.on('click', function(){
-
-    $(this).addClass('colaboradoresActive');
-    butPubillas.removeClass('pubillasActive');
-    butInfo.removeClass('infoActive');
-    navPubillas.fadeOut();
-    unaPubilla.fadeOut();
-    info.fadeOut();
-    partners.fadeIn();
-
-  })
   
   $('div.backTo').on('click', function(){
 
     $('body,html').stop(true,true).animate({
         scrollTop: $('#llamadaTitulo').offset().top
-    });
+      })
     unaPubilla.fadeOut();
     navPubillas.fadeIn();
 

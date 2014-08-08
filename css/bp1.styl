@@ -69,11 +69,13 @@
 				font-weight 400
 				padding 30px 0 30px 0 
 				.logoEvento
-					float left
-					padding 5px 20px 0 30px
-					&:after
-						content disco
+					position relative
+					&:before
 						font-family icomoon
+						left 30px
+						position absolute
+						top 5px
+
 				.sitioEvento
 					color rgba(eventoActualFuente,.5)
 					font-size 12px
@@ -187,7 +189,6 @@
 								z-index 1
 								.logoEvento
 									&:before
-										content disco
 										font-family icomoon
 										font-size 3em
 										position relative
@@ -208,10 +209,10 @@
 										line-height 1.2em
 							.imagen
 								-webkit-filter grayscale(0.4)
-								background-image url(../img/eventos/techno.jpg)
+								// background-image url(../img/hero.jpg)
 								background-position 0 0 
 								background-repeat no-repeat
-								background-size 100% auto
+								background-size  auto 110%  
 								bottom 0
 								left 0
 								position absolute
@@ -236,9 +237,8 @@
 							position relative
 							&:before
 								color texto2
-								content disco
 								font-family icomoon
-								font-size 2em
+								font-size 1.5em
 								left 10px
 								position absolute
 								top 5px
@@ -761,5 +761,16 @@
 // 		-webkit-transform translate(-50%, -50%)
 // 		opacity 0
 
-
-
+// DECLARA ICONOS DE LOS EVENTOS con esta clase se pinta el mismo icono en evento actual y evnetos plegado y desplegado
+.dibujo
+	&:before
+		content dibujo
+.globos
+	&:before
+		content globos
+.campana
+	&:before
+		content campana
+.tiro
+	&:before
+		content estrellaLlena

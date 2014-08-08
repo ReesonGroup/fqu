@@ -79,31 +79,6 @@ samp {
 pre {
   white-space: pre-wrap;
 }
-@font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon.eot?-vup9ry");
-  src: url("../fonts/icomoon.eot?#iefix-vup9ry") format('embedded-opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon.woff?-vup9ry") format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon.ttf?-vup9ry") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon.svg?-vup9ry#icomoon") format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
 body {
   background: rgba(0,0,0,0.1);
   font-family: lato;
@@ -229,12 +204,13 @@ a:active {
   padding: 30px 0 30px 0;
 }
 .contenidos .calendario .eventoActual .detalleEvento .logoEvento {
-  float: left;
-  padding: 5px 20px 0 30px;
+  position: relative;
 }
-.contenidos .calendario .eventoActual .detalleEvento .logoEvento:after {
-  content: '\e60e';
+.contenidos .calendario .eventoActual .detalleEvento .logoEvento:before {
   font-family: icomoon;
+  left: 30px;
+  position: absolute;
+  top: 5px;
 }
 .contenidos .calendario .eventoActual .detalleEvento .sitioEvento {
   color: rgba(23,122,252,0.5);
@@ -364,7 +340,6 @@ span
   z-index: 1;
 }
 .contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .hero .detalle .logoEvento:before {
-  content: '\e60e';
   font-family: icomoon;
   font-size: 3em;
   position: relative;
@@ -389,10 +364,9 @@ span
 }
 .contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .hero .imagen {
   -webkit-filter: grayscale(0.4);
-  background-image: url("../img/eventos/techno.jpg");
   background-position: 0 0;
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: auto 110%;
   bottom: 0;
   left: 0;
   position: absolute;
@@ -421,9 +395,8 @@ span
 }
 .contenidos .calendario .listaEventos .contieneEvento .evento .plegado .logoEvento:before {
   color: rgba(0,0,0,0.75);
-  content: '\e60e';
   font-family: icomoon;
-  font-size: 2em;
+  font-size: 1.5em;
   left: 10px;
   position: absolute;
   top: 5px;
@@ -1024,51 +997,66 @@ background: rgb(215,81,93);
 #llamadaCalendario:checked ~ .llamadaTitulo {
   margin-left: -100%;
 }
+.dibujo:before {
+  content: '\e611';
+}
+.globos:before {
+  content: '\e612';
+}
+.campana:before {
+  content: '\e613';
+}
+.tiro:before {
+  content: '\e602';
+}
 @media screen and (min-width: 450px) {
-  .contenidos .noCalendario .vistaMovil .contieneColaboradores .colaboradores .logoOuter {
+  .contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .hero .imagen {
+    background-size: 100% auto;
+  }
+  .contenidos .noCalendario .contieneColaboradores .colaboradores .logoOuter {
     padding: 0 20px 100px 20px;
   }
-  .contenidos .noCalendario .vistaMovil .contieneColaboradores .colaboradores .logoOuter .logoInner {
+  .contenidos .noCalendario .contieneColaboradores .colaboradores .logoOuter .logoInner {
     padding: 15px;
     width: 30%;
   }
-  .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .back {
+  .contenidos .noCalendario .contienePubillas .unaPubilla .back {
     padding: 30px 0 40px 30px;
   }
-  .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .back:last-child {
+  .contenidos .noCalendario .contienePubillas .unaPubilla .back:last-child {
     padding: 10px 0 40px 30px;
   }
-  .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero {
+  .contenidos .noCalendario .contienePubillas .unaPubilla .hero {
     height: 600px;
   }
-  .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero .fotoOuter {
+  .contenidos .noCalendario .contienePubillas .unaPubilla .hero .fotoOuter {
     height: 600px;
   }
-  .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero .fotoOuter .foto {
+  .contenidos .noCalendario .contienePubillas .unaPubilla .hero .fotoOuter .foto {
     background-position: 10% 100%;
     background-size: auto 100%;
     position: absolute;
   }
-  .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero .detalle {
+  .contenidos .noCalendario .contienePubillas .unaPubilla .hero .detalle {
     bottom: 50px;
     left: 30px;
     text-align: left;
   }
-  .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero .detalle .nombre {
+  .contenidos .noCalendario .contienePubillas .unaPubilla .hero .detalle .nombre {
     font-size: 1.9em;
     font-weight: 700;
   }
-  .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .hero .detalle .club {
+  .contenidos .noCalendario .contienePubillas .unaPubilla .hero .detalle .club {
     font-size: 1.3em;
     font-weight: 400;
   }
-  .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .texto {
+  .contenidos .noCalendario .contienePubillas .unaPubilla .texto {
     padding: 30px 50px;
   }
-  .contenidos .noCalendario .vistaMovil .contienePubillas .unaPubilla .texto p {
+  .contenidos .noCalendario .contienePubillas .unaPubilla .texto p {
     margin-bottom: 16px;
   }
-  .contenidos .noCalendario .vistaMovil .contienePubillas .pubillas .pubillasOuter {
+  .contenidos .noCalendario .contienePubillas .pubillas .pubillasOuter {
     padding: 20px 20px 20px 20px;
     width: 70%;
   }
