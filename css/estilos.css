@@ -79,31 +79,6 @@ samp {
 pre {
   white-space: pre-wrap;
 }
-@font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon.eot?-vup9ry");
-  src: url("../fonts/icomoon.eot?#iefix-vup9ry") format('embedded-opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon.woff?-vup9ry") format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon.ttf?-vup9ry") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon.svg?-vup9ry#icomoon") format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
 body {
   background: rgba(0,0,0,0.1);
   font-family: lato;
@@ -364,11 +339,13 @@ span
   z-index: 1;
 }
 .contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .hero .detalle .logoEvento:before {
-  content: '\e60e';
-  font-family: icomoon;
   font-size: 3em;
   position: relative;
   top: 30px;
+}
+.contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .hero .detalle .concurso:before {
+  font-family: icomoon;
+  content: '\e610';
 }
 .contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .hero .detalle .noLogo {
   font-weight: 400;
@@ -389,10 +366,9 @@ span
 }
 .contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .hero .imagen {
   -webkit-filter: grayscale(0.4);
-  background-image: url("../img/eventos/techno.jpg");
   background-position: 0 0;
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: auto 100%;
   bottom: 0;
   left: 0;
   position: absolute;
@@ -420,13 +396,15 @@ span
   position: relative;
 }
 .contenidos .calendario .listaEventos .contieneEvento .evento .plegado .logoEvento:before {
-  color: rgba(0,0,0,0.75);
-  content: '\e60e';
   font-family: icomoon;
   font-size: 2em;
   left: 10px;
   position: absolute;
   top: 5px;
+  content: '\e610';
+}
+.contenidos .calendario .listaEventos .contieneEvento .evento .plegado .pruebaLogo:before {
+  color: rgba(0,0,0,0.75);
 }
 .contenidos .calendario .listaEventos .contieneEvento .evento .plegado .sitioEvento {
   color: #a4a8aa;

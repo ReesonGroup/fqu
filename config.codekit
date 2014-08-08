@@ -98,15 +98,6 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
 		},
-	"\/css\/estilos.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/estilos.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/css\/estilos.styl": {
 		"debugStyle": 0,
 		"fileType": 8,
@@ -170,53 +161,6 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
 		},
-	"\/html-parts\/contieneColaboradores.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html-parts\/contieneColaboradores.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html-parts\/contieneInformacion.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html-parts\/contieneInformacion.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html-parts\/contienePubillas.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html-parts\/contienePubillas.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/html-parts\/unaPubilla.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html-parts\/unaPubilla.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/img\/eventos\/ball.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 676434,
-		"inputAbbreviatedPath": "\/img\/eventos\/ball.jpg",
-		"outputAbbreviatedPath": "\/img\/eventos\/ball.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/eventos\/concierto.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -228,13 +172,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/eventos\/concierto2.jpg": {
+	"\/img\/eventos\/dibujo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 31602,
-		"inputAbbreviatedPath": "\/img\/eventos\/concierto2.jpg",
-		"outputAbbreviatedPath": "\/img\/eventos\/concierto2.jpg",
+		"initialSize": 311318,
+		"inputAbbreviatedPath": "\/img\/eventos\/dibujo.jpg",
+		"outputAbbreviatedPath": "\/img\/eventos\/dibujo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/eventos\/disco.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 127517,
+		"inputAbbreviatedPath": "\/img\/eventos\/disco.jpg",
+		"outputAbbreviatedPath": "\/img\/eventos\/disco.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -246,17 +201,6 @@
 		"initialSize": 127517,
 		"inputAbbreviatedPath": "\/img\/eventos\/techno.jpg",
 		"outputAbbreviatedPath": "\/img\/eventos\/techno.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/eventos\/techno2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 30021,
-		"inputAbbreviatedPath": "\/img\/eventos\/techno2.jpg",
-		"outputAbbreviatedPath": "\/img\/eventos\/techno2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
