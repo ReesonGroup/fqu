@@ -6,11 +6,22 @@ var navPubillas = $('section.pubillas');
 var unaPubilla = $('div.unaPubilla');
 var pubillas = $('section.pubillas');
 
+var eaLogo = $('#eaLogo');
+var eaTitulo = $('#eaTitulo p');
+var eaLugar = $('#eaLugar p');
+var aux = $('#aux');
+
+var fecha,
+    dia,
+    hora,
+    min,
+    seg;
+
 $(document).on('ready', init);
 
 function init(){
   
-  // startClock();
+  startClock();
 
   startViews();
 
@@ -22,14 +33,35 @@ function init(){
 
 };
 
+setInterval(startClock, 500)
+
 function startClock(){
 
- 
+  fecha = new Date();
+  dia = fecha.getDate();
+  hora = fecha.getHours();
+  min = fecha.getMinutes();
+  seg = fecha.getSeconds();
+  var aux2 = fecha.toLocaleTimeString();
+  aux.text(aux2)
+
+  if (dia) {
+    if (seg <= 15 ) {
+      
+
+    }
+    else if (seg <= 30) {
 
 
-  
-  
+    }
+    else if (seg <= 45) {
 
+    }
+    else if (seg <= 59) {
+
+    }
+    else{console.log('nada')}
+  }
 };
 
 function startViews(){
