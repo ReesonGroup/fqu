@@ -9,6 +9,7 @@ var pubillas = $('section.pubillas');
 var eaLogo = $('#eaLogo');
 var eaTitulo = $('#eaTitulo p');
 var eaLugar = $('#eaLugar p');
+
 var aux = $('#aux');
 
 var fecha,
@@ -19,8 +20,8 @@ var fecha,
 
 $(document).on('ready', init);
 
-function init(){
-  
+function init()
+{
   startClock();
 
   startViews();
@@ -30,13 +31,12 @@ function init(){
   actionNavPubillas();
 
   backTo();
-
 };
 
 setInterval(startClock, 500)
 
-function startClock(){
-
+function startClock()
+{
   fecha = new Date();
   dia = fecha.getDate();
   hora = fecha.getHours();
@@ -46,7 +46,8 @@ function startClock(){
   aux.text(aux2)
 
   if (dia) {
-    if (seg <= 15 ) {
+    if (seg <= 15 ) 
+    {
       
 
     }
@@ -64,76 +65,100 @@ function startClock(){
   }
 };
 
-function startViews(){
-  if ($(window).width()>=770){
+function startViews()
+{
+  if ($(window).width()>=770)
+  {
     detallInfo.show();
     partners.hide();
     info.hide();
   }
 };
 
-function backTo(){
-  $('div.backTo').on('click', function(){
-
+function backTo()
+{
+  $('div.backTo').on('click', function()
+  {
     $('body,html').stop(true,true).animate({
         scrollTop: $('#llamadaTitulo').offset().top
       })
     unaPubilla.fadeOut();
     navPubillas.fadeIn();
-
   })
 };
 
-function actionNavPubillas(){
-  $('article.pubillasInner').on('click', function(){
-   
+function actionNavPubillas()
+{
+  $('article.pubillasInner').on('click', function()
+  {
     var el=$(this).attr('id');
     navPubillas.fadeOut();
-    if (el=='navButPub1') {
-      $('#pub1').fadeIn(300,function () {
-        $('body,html').stop(true,true).animate({
+    if (el=='navButPub1')
+    {
+      $('#pub1').fadeIn(300,function()
+      {
+        $('body,html').stop(true,true).animate(
+        {
           scrollTop: $('#llamadaTitulo').offset().top
         })
       })
     }
-    else if (el=='navButPub2') {
-      $('#pub2').fadeIn(300,function () {
-        $('body,html').stop(true,true).animate({
+    else if (el=='navButPub2')
+    {
+      $('#pub2').fadeIn(300,function()
+      {
+        $('body,html').stop(true,true).animate(
+        {
           scrollTop: $('#llamadaTitulo').offset().top
         })
       })
     }
-    else if (el=='navButPub3') {
-      $('#pub3').fadeIn(300,function () {
-        $('body,html').stop(true,true).animate({
+    else if (el=='navButPub3')
+    {
+      $('#pub3').fadeIn(300,function()
+      {
+        $('body,html').stop(true,true).animate(
+        {
           scrollTop: $('#llamadaTitulo').offset().top
         })
       })
     }
-    else if (el=='navButPub4') {
-      $('#pub4').fadeIn(300,function () {
-        $('body,html').stop(true,true).animate({
+    else if (el=='navButPub4')
+    {
+      $('#pub4').fadeIn(300,function ()
+      {
+        $('body,html').stop(true,true).animate(
+        {
           scrollTop: $('#llamadaTitulo').offset().top
         })
       })
     }
-    else if (el=='navButPub5') {
-      $('#pub5').fadeIn(300,function () {
-        $('body,html').stop(true,true).animate({
+    else if (el=='navButPub5')
+    {
+      $('#pub5').fadeIn(300,function()
+      {
+        $('body,html').stop(true,true).animate(
+        {
           scrollTop: $('#llamadaTitulo').offset().top
         })
       })
     }
-    else if (el=='navButPub6') {
-      $('#s6').fadeIn(300,function () {
-        $('body,html').stop(true,true).animate({
+    else if (el=='navButPub6')
+    {
+      $('#s6').fadeIn(300,function()
+      {
+        $('body,html').stop(true,true).animate(
+        {
           scrollTop: $('#llamadaTitulo').offset().top
         })
       })
     }
-    else if (el=='navButPub7') {
-      $('#pub7').fadeIn(300,function () {
-        $('body,html').stop(true,true).animate({
+    else if (el=='navButPub7')
+    {
+      $('#pub7').fadeIn(300,function()
+      {
+        $('body,html').stop(true,true).animate(
+        {
           scrollTop: $('#llamadaTitulo').offset().top
         })
       })
@@ -143,20 +168,21 @@ function actionNavPubillas(){
 };
 
 
-function resizer (multiplicador){
-    for (var i = 0; i < texto.length; i++) {
-        
-        if (texto[i].style.fontSize == ""){
-
-            texto[i].style.fontSize = "1em";
-
-        }
-        texto[i].style.fontSize = parseFloat(texto[i].style.fontSize)
-        + (multiplicador * 0.1) + "em";
-        };
+function resizer (multiplicador)
+{
+  for (var i = 0; i < texto.length; i++)
+  {    
+    if (texto[i].style.fontSize == "")
+    {
+        texto[i].style.fontSize = "1em";
+    }
+    
+    texto[i].style.fontSize = parseFloat(texto[i].style.fontSize)+ (multiplicador * 0.1) + "em";
+  };
 };
 
-function slideToggle(a){
+function slideToggle(a)
+{
   var elem = document.getElementById(a);
   $(elem).slideToggle(400);
 };
