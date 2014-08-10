@@ -5,10 +5,14 @@ var partners = $('div.contieneColaboradores');
 var navPubillas = $('section.pubillas');
 var unaPubilla = $('div.unaPubilla');
 var pubillas = $('section.pubillas');
+var butPubillas = $('#butPubillas').find('span');
+var butInfo = $('#butInfo').find('span');
+var butPartners = $('#butPartners').find('span');
 
 var eaLogo = $('#eaLogo');
 var eaTitulo = $('#eaTitulo p');
 var eaLugar = $('#eaLugar p');
+var arrayEa = $('div.plegado');
 
 var aux = $('#aux');
 
@@ -32,6 +36,14 @@ function init()
 
   backTo();
 };
+
+function ancla1()
+{
+  $('body,html').stop(true,true).animate(
+    {
+      scrollTop: $('#llamadaTitulo').offset().top
+    })
+}
 
 setInterval(startClock, 500)
 
@@ -72,6 +84,37 @@ function startViews()
     detallInfo.show();
     partners.hide();
     info.hide();
+
+    butPubillas.on('click', function()
+    {
+      $(this).addClass('pubillasActive');
+      butInfo.removeClass('infoActive');
+      butPartners.removeClass('colaboradoresActive');
+      navPubillas.fadeIn();
+      unaPubilla.fadeOut();
+      info.fadeOut();
+      partners.fadeOut();
+    });
+    butInfo.on('click', function()
+    {
+      $(this).addClass('infoActive');
+      butPartners.removeClass('colaboradoresActive');
+      butPubillas.removeClass('pubillasActive');
+      navPubillas.fadeOut();
+      unaPubilla.fadeOut();
+      info.fadeIn();
+      partners.fadeOut();
+    });
+    butPartners.on('click', function()
+    {
+      $(this).addClass('colaboradoresActive');
+      butPubillas.removeClass('pubillasActive');
+      butInfo.removeClass('infoActive');
+      navPubillas.fadeOut();
+      unaPubilla.fadeOut();
+      info.fadeOut();
+      partners.fadeIn();
+    });
   }
 };
 
@@ -79,9 +122,10 @@ function backTo()
 {
   $('div.backTo').on('click', function()
   {
-    $('body,html').stop(true,true).animate({
-        scrollTop: $('#llamadaTitulo').offset().top
-      })
+    $('body,html').stop(true,true).animate(
+    {
+      scrollTop: $('#llamadaTitulo').offset().top
+    })
     unaPubilla.fadeOut();
     navPubillas.fadeIn();
   })
@@ -95,73 +139,33 @@ function actionNavPubillas()
     navPubillas.fadeOut();
     if (el=='navButPub1')
     {
-      $('#pub1').fadeIn(300,function()
-      {
-        $('body,html').stop(true,true).animate(
-        {
-          scrollTop: $('#llamadaTitulo').offset().top
-        })
-      })
+      $('#pub1').fadeIn();
+      ancla1();
     }
     else if (el=='navButPub2')
     {
-      $('#pub2').fadeIn(300,function()
-      {
-        $('body,html').stop(true,true).animate(
-        {
-          scrollTop: $('#llamadaTitulo').offset().top
-        })
-      })
-    }
-    else if (el=='navButPub3')
-    {
-      $('#pub3').fadeIn(300,function()
-      {
-        $('body,html').stop(true,true).animate(
-        {
-          scrollTop: $('#llamadaTitulo').offset().top
-        })
-      })
+      $('#pub2').fadeIn();
+      ancla1();
     }
     else if (el=='navButPub4')
     {
-      $('#pub4').fadeIn(300,function ()
-      {
-        $('body,html').stop(true,true).animate(
-        {
-          scrollTop: $('#llamadaTitulo').offset().top
-        })
-      })
+      $('#pub4').fadeIn();
+      ancla1();
     }
     else if (el=='navButPub5')
     {
-      $('#pub5').fadeIn(300,function()
-      {
-        $('body,html').stop(true,true).animate(
-        {
-          scrollTop: $('#llamadaTitulo').offset().top
-        })
-      })
+      $('#pub5').fadeIn();
+      ancla1();
     }
     else if (el=='navButPub6')
     {
-      $('#s6').fadeIn(300,function()
-      {
-        $('body,html').stop(true,true).animate(
-        {
-          scrollTop: $('#llamadaTitulo').offset().top
-        })
-      })
+      $('#s6').fadeIn();
+      ancla1();
     }
     else if (el=='navButPub7')
     {
-      $('#pub7').fadeIn(300,function()
-      {
-        $('body,html').stop(true,true).animate(
-        {
-          scrollTop: $('#llamadaTitulo').offset().top
-        })
-      })
+      $('#pub7').fadeIn();
+      ancla1();
     }
     else{console.log('Algo falla en la botonera')};
   })
