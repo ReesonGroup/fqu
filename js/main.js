@@ -9,10 +9,8 @@ var butPubillas = $('#butPubillas').find('span');
 var butInfo = $('#butInfo').find('span');
 var butPartners = $('#butPartners').find('span');
 
-var eaLogo = $('#eaLogo');
-var eaTitulo = $('#eaTitulo p');
-var eaLugar = $('#eaLugar p');
-var arrayEa = $('div.plegado');
+var ea = $('div.detalleEvento');
+var arrayEa = $('div.plegado').clone();
 
 var aux = $('#aux');
 
@@ -21,6 +19,7 @@ var dia;
 var hora;
 var min;
 var seg;
+
 
 $(document).on('ready', init);
 
@@ -37,6 +36,8 @@ function init()
   backTo();
 };
 
+setInterval(startClock, 500);
+
 function ancla1()
 {
   $('body,html').stop(true,true).animate(
@@ -44,8 +45,6 @@ function ancla1()
       scrollTop: $('#llamadaTitulo').offset().top
     })
 }
-
-setInterval(startClock, 500)
 
 function startClock()
 {
@@ -60,18 +59,20 @@ function startClock()
   if (dia) {
     if (seg <= 15 ) 
     {
-      
+      ea.html(arrayEa[0])
 
     }
-    else if (seg <= 30) {
-
-
+    else if (seg <= 30)
+    {
+      ea.html(arrayEa[1])
     }
-    else if (seg <= 45) {
-
+    else if (seg <= 45)
+    {
+      ea.html(arrayEa[2])
     }
-    else if (seg <= 59) {
-
+    else if (seg <= 59)
+    {
+      ea.html(arrayEa[3])
     }
     else{console.log('nada')}
   }
