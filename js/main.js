@@ -12,11 +12,11 @@ var eaLugar = $('#eaLugar p');
 
 var aux = $('#aux');
 
-var fecha,
-    dia,
-    hora,
-    min,
-    seg;
+var fecha;
+var dia;
+var hora;
+var min;
+var seg;
 
 $(document).on('ready', init);
 
