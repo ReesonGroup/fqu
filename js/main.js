@@ -126,18 +126,70 @@ function startViews()
       info.fadeOut();
       partners.fadeIn();
     });
-  }
+  };
 };
 
 function actionBotonera()
 {
   botonera.on('click', function (e)
   {
-    console.log($(this));
+    console.log($(this).attr('id'));
     e.preventDefault();
     botonera.removeClass('botoneraActive');
     $(this).addClass('botoneraActive');
-  })
+
+    if ($(this).attr('id')=='d1')
+    {
+      diasEventos.fadeOut();
+      $('#dia1').fadeIn();
+    }
+    else if ($(this).attr('id')=='d2')
+    {
+      diasEventos.fadeOut();
+      $('#dia2').fadeIn();
+    }
+    else if ($(this).attr('id')=='d3')
+    {
+      diasEventos.fadeOut();
+      $('#dia3').fadeIn();
+    }
+    else{console.log('la botonera esta fallando')}
+    // else if ($(this).attr('id')===d4)
+    // {
+    //   diasEventos.fadeOut();
+    //   $('#dia4').fadeIn();
+    // }
+    // else if ($(this).attr('id')===d5)
+    // {
+    //   diasEventos.fadeOut();
+    //   $('#dia5').fadeIn();
+    // }
+    // else if ($(this).attr('id')===d6)
+    // {
+    //   diasEventos.fadeOut();
+    //   $('#dia6').fadeIn();
+    // }
+    // else if ($(this).attr('id')===d7)
+    // {
+    //   diasEventos.fadeOut();
+    //   $('#dia7').fadeIn();
+    // }
+    // else if ($(this).attr('id')===d8)
+    // {
+    //   diasEventos.fadeOut();
+    //   $('#dia8').fadeIn();
+    // }
+    // else if ($(this).attr('id')===d9)
+    // {
+    //   diasEventos.fadeOut();
+    //   $('#dia9').fadeIn();
+    // }
+    // else if ($(this).attr('id')===d10)
+    // {
+    //   diasEventos.fadeOut();
+    //   $('#dia10').fadeIn();
+    // }
+  });
 };
 
 function actionEvents()
