@@ -14,7 +14,7 @@ var botonera = $('div.botonera li');
 var ea = $('div.detalleEvento');
 var arrayEa = $('div.plegado').clone();
 
-var aux = $('#aux');
+// var aux = $('#aux');
 
 var fecha;
 var dia;
@@ -63,8 +63,8 @@ function startClock()
   hora = fecha.getHours();
   min = fecha.getMinutes();
   seg = fecha.getSeconds();
-  var aux2 = fecha.toLocaleTimeString();
-  aux.text(aux2)
+  // var aux2 = fecha.toLocaleTimeString();
+  // aux.text(aux2)
 
   if (dia) {
     if (seg <= 15 ) 
