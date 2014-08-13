@@ -5,6 +5,7 @@ var partners = $('div.contieneColaboradores');
 var navPubillas = $('section.pubillas');
 var unaPubilla = $('div.unaPubilla');
 var pubillas = $('section.pubillas');
+var diasEventos = $('div.listaEventos');
 var butPubillas = $('#butPubillas span');
 var butInfo = $('#butInfo span');
 var butPartners = $('#butPartners span');
@@ -31,6 +32,8 @@ function init()
   startViews();
 
   unaPubilla.hide();
+
+  diasEventos.hide();
   
   actionNavPubillas();
 
