@@ -197,6 +197,7 @@ function actionEvents()
   $('div.evento').on('click', function()
   {
     $(this).find('div.desplegado').slideToggle();
+    $(this).find('div.plegado').fadeToggle();
   })
 };
 
