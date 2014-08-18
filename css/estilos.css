@@ -419,12 +419,11 @@ span
 .contenidos .noCalendario .contienePubillas .pubillas {
   background: #fff;
   color: rgba(0,0,0,0.75);
-  padding: 10px 0 0 0;
 }
 .contenidos .noCalendario .contienePubillas .pubillas h2 {
   font-size: 24px;
   font-weight: 300;
-  padding: 20px;
+  padding: 30px 20px 20px 20px;
   text-align: center;
 }
 .contenidos .noCalendario .contienePubillas .pubillas .pubillasOuter {
@@ -1137,6 +1136,9 @@ background: rgb(215,81,93);
     right: 420px;
     top: 85px;
     z-index: 0;
+  }
+  .contenidos .noCalendario .contienePubillas .pubillas .pubillasOuter {
+    padding: 0;
   }
   .contenidos .noCalendario .menuNavegacion {
     display: block;
