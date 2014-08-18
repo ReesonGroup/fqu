@@ -153,42 +153,47 @@ function actionBotonera()
       diasEventos.fadeOut();
       $('#dia3').fadeIn();
     }
+    else if ($(this).attr('id')=='d4')
+    {
+      diasEventos.fadeOut();
+      $('#dia4').fadeIn();
+    }
+    else if ($(this).attr('id')=='d5')
+    {
+      diasEventos.fadeOut();
+      $('#dia5').fadeIn();
+    }
+    else if ($(this).attr('id')=='d6')
+    {
+      diasEventos.fadeOut();
+      $('#dia6').fadeIn();
+    }
+    else if ($(this).attr('id')=='d7')
+    {
+      diasEventos.fadeOut();
+      $('#dia7').fadeIn();
+    }
+    else if ($(this).attr('id')=='d8')
+    {
+      diasEventos.fadeOut();
+      $('#dia8').fadeIn();
+    }
+    else if ($(this).attr('id')=='d9')
+    {
+      diasEventos.fadeOut();
+      $('#dia9').fadeIn();
+    }
+    else if ($(this).attr('id')=='d10')
+    {
+      diasEventos.fadeOut();
+      $('#dia10').fadeIn();
+    }
+    else if ($(this).attr('id')=='d11')
+    {
+      diasEventos.fadeOut();
+      $('#dia10').fadeIn();
+    }
     else{console.log('la botonera esta fallando')}
-    // else if ($(this).attr('id')=='d4')
-    // {
-    //   diasEventos.fadeOut();
-    //   $('#dia4').fadeIn();
-    // }
-    // else if ($(this).attr('id')=='d5')
-    // {
-    //   diasEventos.fadeOut();
-    //   $('#dia5').fadeIn();
-    // }
-    // else if ($(this).attr('id')=='d6')
-    // {
-    //   diasEventos.fadeOut();
-    //   $('#dia6').fadeIn();
-    // }
-    // else if ($(this).attr('id')=='d7')
-    // {
-    //   diasEventos.fadeOut();
-    //   $('#dia7').fadeIn();
-    // }
-    // else if ($(this).attr('id')=='d8')
-    // {
-    //   diasEventos.fadeOut();
-    //   $('#dia8').fadeIn();
-    // }
-    // else if ($(this).attr('id')=='d9')
-    // {
-    //   diasEventos.fadeOut();
-    //   $('#dia9').fadeIn();
-    // }
-    // else if ($(this).attr('id')=='d10')
-    // {
-    //   diasEventos.fadeOut();
-    //   $('#dia10').fadeIn();
-    // }
   });
 };
 
