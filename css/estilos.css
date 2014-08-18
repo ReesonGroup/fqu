@@ -430,7 +430,7 @@ span
   display: block;
   font-size: 0;
   margin: 0 auto;
-  padding: 0 10px 20px 10px;
+  padding: 20px 0 20px 0;
   text-align: center;
 }
 .contenidos .noCalendario .contienePubillas .pubillas .pubillasOuter .pubillasInner {
@@ -445,7 +445,8 @@ span
   display: block;
   height: auto;
   margin: 0 auto;
-  width: 90px;
+  width: 85px;
+  height: auto;
 }
 .contenidos .noCalendario .contienePubillas .pubillas .pubillasOuter .pubillasInner .detall {
   font-size: 14px;
@@ -1056,8 +1057,12 @@ background: rgb(215,81,93);
     margin-bottom: 16px;
   }
   .contenidos .noCalendario .contienePubillas .pubillas .pubillasOuter {
-    padding: 20px 20px 20px 20px;
+    padding: 20px 0 20px 0;
     width: 70%;
+  }
+  .contenidos .noCalendario .contienePubillas .pubillas .pubillasOuter .pubillasInner img {
+    width: 90px;
+    height: auto;
   }
   .header {
     background: #f00;
@@ -1138,7 +1143,7 @@ background: rgb(215,81,93);
     z-index: 0;
   }
   .contenidos .noCalendario .contienePubillas .pubillas .pubillasOuter {
-    padding: 0;
+    width: 80%;
   }
   .contenidos .noCalendario .menuNavegacion {
     display: block;
