@@ -27,13 +27,13 @@ $(document).on('ready', init);
 
 function init()
 {
-  startClock();
-
-  startViews();
-
   unaPubilla.hide();
 
   diasEventos.hide();
+
+  startClock();
+
+  startViews();
   
   actionNavPubillas();
 
