@@ -11,7 +11,7 @@ var butInfo = $('#butInfo span');
 var butPartners = $('#butPartners span');
 var botonera = $('div.botonera li');
 
-var ea = $('div.detalleEvento');
+var eventActual = $('div.detalleEvento');
 var arrayEa = $('div.plegado').clone();
 
 // var aux = $('#aux');
@@ -46,7 +46,6 @@ function init()
   backTo();
 };
 
-setInterval(startClock, 500);
 
 function ancla1()
 {
@@ -55,6 +54,8 @@ function ancla1()
       scrollTop: $('#llamadaTitulo').offset().top
     })
 }
+
+setInterval(startClock, 500);
 
 function startClock()
 {
@@ -69,20 +70,20 @@ function startClock()
   if (dia) {
     if (seg <= 15 ) 
     {
-      ea.html(arrayEa[0])
+      eventActual.html(arrayEa[0])
 
     }
     else if (seg <= 30)
     {
-      ea.html(arrayEa[1])
+      eventActual.html(arrayEa[1])
     }
     else if (seg <= 45)
     {
-      ea.html(arrayEa[2])
+      eventActual.html(arrayEa[2])
     }
     else if (seg <= 59)
     {
-      ea.html(arrayEa[3])
+      eventActual.html(arrayEa[3])
     }
     else{console.log('nada')}
   }
