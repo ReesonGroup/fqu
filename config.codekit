@@ -11,6 +11,21 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/bp1.styl": {
+		"debugStyle": 0,
+		"fileType": 8,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"importCSS": 0,
+		"inputAbbreviatedPath": "\/css\/bp1.styl",
+		"outputAbbreviatedPath": "\/css\/bp1.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
 	"\/css\/bp2.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -20,6 +35,21 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/bp2.styl": {
+		"debugStyle": 0,
+		"fileType": 8,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"importCSS": 0,
+		"inputAbbreviatedPath": "\/css\/bp2.styl",
+		"outputAbbreviatedPath": "\/css\/bp2.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
 	"\/css\/bp3.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -28,6 +58,21 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/css\/bp3.styl": {
+		"debugStyle": 0,
+		"fileType": 8,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"importCSS": 0,
+		"inputAbbreviatedPath": "\/css\/bp3.styl",
+		"outputAbbreviatedPath": "\/css\/bp3.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
 		},
 	"\/css\/bp4.css": {
 		"fileType": 16,
@@ -46,6 +91,21 @@
 		"importCSS": 0,
 		"inputAbbreviatedPath": "\/css\/bp4.styl",
 		"outputAbbreviatedPath": "\/css\/bp4.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"\/css\/estilos.styl": {
+		"debugStyle": 0,
+		"fileType": 8,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"importCSS": 0,
+		"inputAbbreviatedPath": "\/css\/estilos.styl",
+		"outputAbbreviatedPath": "\/css\/estilos.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -101,13 +161,13 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
 		},
-	"\/img\/eventos\/concierto.jpg": {
+	"\/img\/eventos\/campanas.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 393534,
-		"inputAbbreviatedPath": "\/img\/eventos\/concierto.jpg",
-		"outputAbbreviatedPath": "\/img\/eventos\/concierto.jpg",
+		"initialSize": 90948,
+		"inputAbbreviatedPath": "\/img\/eventos\/campanas.jpg",
+		"outputAbbreviatedPath": "\/img\/eventos\/campanas.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -134,13 +194,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/eventos\/techno.jpg": {
+	"\/img\/eventos\/globos.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 267710,
-		"inputAbbreviatedPath": "\/img\/eventos\/techno.jpg",
-		"outputAbbreviatedPath": "\/img\/eventos\/techno.jpg",
+		"initialSize": 80291,
+		"inputAbbreviatedPath": "\/img\/eventos\/globos.jpg",
+		"outputAbbreviatedPath": "\/img\/eventos\/globos.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/eventos\/tiro.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65590,
+		"inputAbbreviatedPath": "\/img\/eventos\/tiro.jpg",
+		"outputAbbreviatedPath": "\/img\/eventos\/tiro.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -171,7 +242,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 54267,
+		"initialSize": 41465,
 		"inputAbbreviatedPath": "\/img\/logo\/energy.png",
 		"outputAbbreviatedPath": "\/img\/logo\/energy.png",
 		"outputPathIsOutsideProject": 0,

@@ -12,10 +12,139 @@
 		border-right 1px solid borde
 		left 0
 		overflow-y auto
+		overflow-x hidden
 		position fixed 
 		right 420px
 		top 85px
 		z-index 0
+		.contieneColaboradores
+			.colaboradores
+				.colabHeader
+					h2
+						padding 30px 20px 50px 20px
+				.logoOuter
+					.logoInner
+						max-width 200px
+		.contieneInformacion
+			.informacion
+				background white
+				position relative
+				.infoHeader
+					color texto2
+					height 80px
+					h2
+						font-size 24px
+						font-weight 300
+						padding 30px 20px 50px 20px
+						text-align center
+						font-style normal
+						text-transform none
+						span
+							display inline-block
+							font-size 24px 
+				.infoOuter
+					.infoInner
+						border-bottom 1px solid borde
+						padding 0 0 10px 0
+						.checkInfo
+							background transparent
+							height 70px 
+							position relative
+							width 100%
+							z-index 20
+							.puntos
+								display none
+						.entrades
+							margin -70px 0 0 0
+							&:before
+								content ticket
+								font-family icomoon
+								font-size 18px 
+								font-style normal
+								left 20px
+								position absolute
+								top 30px
+						.inscripcions
+							margin -70px 0 0 0
+							&:before
+								content calendario
+								font-family icomoon
+								font-size 18px 
+								font-style normal
+								left 20px
+								position absolute
+								top 30px
+						.horario
+							margin -70px 0 0 0
+							&:before
+								content reloj
+								font-family icomoon
+								font-size 18px 
+								font-style normal
+								left 20px
+								position absolute
+								top 30px
+						.notes
+							margin -70px 0 70px 0
+							&:before
+								content notas
+								font-family icomoon
+								font-size 14px 
+								font-style normal
+								left 20px
+								position absolute
+								top 30px
+						.post
+							background white
+							color texto2
+							font-size 16px
+							font-style italic
+							line-height 21px
+							padding 28px 0 28px 0
+							position relative
+							h4
+								margin 0 78px 0 55px
+							.detallePost
+								border-left none
+								h5
+									color texto2
+									font-style normal
+									margin 20px 20px 10px 55px
+									&:first-child
+										margin 40px 20px 10px 55px
+								p
+									color rgba(black,.5)
+									font-style normal
+									font-weight 400
+									margin 0 20px 0 55px
+									&:last-child 
+										margin 0 20px 30px 55px
+								p.detallePostPiscina
+									margin 20px 20px 30px 55px
+								ul
+									margin 20px 20px 0 55px
+									li 
+										color texto2
+										font-style normal
+										font-weight 400
+										list-style-type circle
+										margin 0 0 10px 0
+										&:last-child 
+											margin 0 0 30px 0
+							&:last-child
+								border-bottom none
+		.contienePubillas
+			.pubillas
+				.pubillasHeader
+					h2
+						padding 30px 20px 50px 20px
+				.pubillasOuter
+					padding  0 0 100px 0
+					width 80%
+					.pubillasInner
+						img
+							width 85px
+							height auto
 		.menuNavegacion
 			display block
 			background rgba(white,.95)
@@ -37,6 +166,7 @@
 					font-size .8em
 					font-weight 400
 					margin-left 15px
+					min-width 140px
 				.colaboradores
 					position relative
 					&:before
@@ -62,7 +192,7 @@
 						content infoVacia
 						font-family icomoon
 						font-size 1.2em
-						left -25px 
+						left -27px 
 						position absolute
 						top -13px
 				.infoActive
@@ -186,21 +316,7 @@
 			width 420px
 		.listaEventos
 			display block
-			margin 310px 0 100px 0
-
-.seccionHeader
-	background blancoManchado
-	border-bottom 1px solid borde
-	color texto2
-	height 68px
-	position absolute
-	width 100%
-	z-index 15
-	h2
-		font-size 24px
-		font-weight 300
-		line-height 68px
-		margin-left 20px
+			margin 285px 0 100px 0
 .decoracion
 	position fixed
 	top 15px
@@ -311,17 +427,26 @@
 
 
 // ANIMACIONES
-@keyframes animacionTablet
-	0%
-		transform translate(-100%, -100%)
-		-ms-transform translate(-100%, -100%)
-		-webkit-transform translate(-100%, -100%)
-	50%
-		transform translate(0%, 40%)
-		-ms-transform translate(0%, 40%)
-		-webkit-transform translate(0%, 40%)
+// @keyframes animacionTablet
+// 	0%
+// 		transform translate(-100%, -100%)
+// 		-ms-transform translate(-100%, -100%)
+// 		-webkit-transform translate(-100%, -100%)
+// 	50%
+// 		transform translate(0%, 40%)
+// 		-ms-transform translate(0%, 40%)
+// 		-webkit-transform translate(0%, 40%)
 
-	100%
-		transform translate(-100%, -100%)
-		-ms-transform translate(-100%, -100%)
-		-webkit-transform translate(-100%, -100%)
+// 	100%
+// 		transform translate(-100%, -100%)
+// 		-ms-transform translate(-100%, -100%)
+// 		-webkit-transform translate(-100%, -100%)
+
+
+
+
+
+
+
+
+		
