@@ -68,24 +68,52 @@ function startClock()
   // aux.text(aux2)
 
   if (dia) {
-    if (seg <= 15 ) 
+    if (hora==10||(hora==11&&min<=29)) 
     {
       eventActual.html(arrayEa[0])
 
     }
-    else if (seg <= 30)
+    else if (hora==11&&min>=30)
     {
       eventActual.html(arrayEa[1])
     }
-    else if (seg <= 45)
+    else if (hora==13)
     {
       eventActual.html(arrayEa[2])
     }
-    else if (seg <= 59)
+    else if (hora==16)
     {
       eventActual.html(arrayEa[3])
     }
-    else{console.log('nada')}
+    else if (hora==17&&min<=29)
+    {
+      eventActual.html(arrayEa[4])
+    }
+    else if (hora==17&&min>=30)
+    {
+      eventActual.html(arrayEa[5])
+    }
+    else if (hora==18)
+    {
+      eventActual.html(arrayEa[6])
+    }
+    else if (hora==19)
+    {
+      eventActual.html(arrayEa[7])
+    }
+    else if (hora==20||(hora==21&&min<=29))
+    {
+      eventActual.html(arrayEa[8])
+    }
+    else if (hora==21&&min>=30)
+    {
+      eventActual.html(arrayEa[9])
+    }
+    else if (hora==23)
+    {
+      eventActual.html(arrayEa[10])
+    }
+    else{eventActual.html('<p>Ara descansem</p>')}
   }
 };
 
