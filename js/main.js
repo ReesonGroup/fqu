@@ -68,6 +68,9 @@ function startClock()
   // aux.text(aux2)
 
   if (dia) {
+
+    $('#dia1').show();
+
     if (hora==10||(hora==11&&min<=29)) 
     {
       eventActual.html(arrayEa[0])
