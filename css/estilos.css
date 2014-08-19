@@ -200,6 +200,170 @@ a:active {
   position: absolute;
   top: 28px;
 }
+.contieneColaboradores .colaboradores {
+  background: #fff;
+  color: rgba(0,0,0,0.7);
+}
+.contieneColaboradores .colaboradores h2 {
+  font-size: 24px;
+  font-weight: 300;
+  padding: 30px 20px 20px 20px;
+  text-align: center;
+}
+.contieneColaboradores .colaboradores .logoOuter {
+  padding: 0 20px 100px 20px;
+  text-align: center;
+}
+.contieneColaboradores .colaboradores .logoOuter .logoInner {
+  display: inline-block;
+  padding: 15px;
+  vertical-align: top;
+  width: 60%;
+}
+.contieneColaboradores .colaboradores .logoOuter .logoInner img {
+  width: 100%;
+}
+.contieneInformacion .informacion {
+  background: #2a2c2f;
+  position: relative;
+}
+.contieneInformacion .informacion .infoHeader {
+  color: rgba(255,255,255,0.8);
+  height: 80px;
+}
+.contieneInformacion .informacion .infoHeader h2 {
+  font-size: 21px;
+  font-style: italic;
+  letter-spacing: 1px;
+  padding: 15px 0 0 30px;
+  text-transform: uppercase;
+}
+.contieneInformacion .informacion .infoHeader h2 span {
+  display: block;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 21px;
+  text-transform: lowercase;
+}
+.contieneInformacion .informacion .infoOuter .infoInner {
+  border-bottom: 1px solid #2a2c2f;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .checkInfo {
+  background: transparent;
+  height: 70px;
+  position: relative;
+  width: 100%;
+  z-index: 20;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .checkInfo .puntos:after {
+  color: rgba(255,255,255,0.8);
+  content: '\e600';
+  font-family: icomoon;
+  font-style: normal;
+  padding: 5px 0 5px 20px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .entrades {
+  margin: -70px 0 0 0;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .entrades:before {
+  content: '\e60c';
+  font-family: icomoon;
+  font-size: 18px;
+  font-style: normal;
+  left: 20px;
+  position: absolute;
+  top: 30px;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .inscripcions {
+  margin: -70px 0 0 0;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .inscripcions:before {
+  content: '\e60b';
+  font-family: icomoon;
+  font-size: 18px;
+  font-style: normal;
+  left: 20px;
+  position: absolute;
+  top: 30px;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .horario {
+  margin: -70px 0 0 0;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .horario:before {
+  content: '\e60a';
+  font-family: icomoon;
+  font-size: 18px;
+  font-style: normal;
+  left: 20px;
+  position: absolute;
+  top: 30px;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .notes {
+  margin: -70px 0 0 0;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .notes:before {
+  content: '\e608';
+  font-family: icomoon;
+  font-size: 14px;
+  font-style: normal;
+  left: 20px;
+  position: absolute;
+  top: 30px;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .post {
+  background: #222326;
+  color: rgba(255,255,255,0.7);
+  font-size: 16px;
+  font-style: italic;
+  line-height: 21px;
+  padding: 28px 0 28px 0;
+  position: relative;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .post h4 {
+  margin: 0 78px 0 55px;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .post .detallePost {
+  border-left: none;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .post .detallePost h5 {
+  color: #fff;
+  font-style: normal;
+  margin: 20px 20px 10px 55px;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .post .detallePost h5:first-child {
+  margin: 40px 20px 10px 55px;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p {
+  color: rgba(255,255,255,0.6);
+  font-style: normal;
+  font-weight: 400;
+  margin: 0 20px 0 55px;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p:last-child {
+  margin: 0 20px 30px 55px;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p.detallePostPiscina {
+  margin: 20px 20px 30px 55px;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul {
+  margin: 20px 20px 0 55px;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul li {
+  color: rgba(255,255,255,0.6);
+  font-style: normal;
+  font-weight: 400;
+  list-style-type: circle;
+  margin: 0 0 10px 0;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul li:last-child {
+  margin: 0 0 30px 0;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .post:last-child {
+  border-bottom: none;
+}
 .tituloAra {
   -webkit-animation: timeLineLento 0.8s;
   animation: timeLineLento 0.8s;
@@ -627,389 +791,8 @@ background: rgb(215,81,93);
 .tiro:before {
   content: '\e602';
 }
-@media screen and (min-width: 450px) {
-  .contenidos .calendario .listaEventos .contieneEvento .evento {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  .contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .hero .imagen {
-    background-size: 100% auto;
-  }
-  .contenidos .noCalendario .contieneColaboradores .colaboradores .logoOuter {
-    padding: 0 20px 100px 20px;
-  }
-  .contenidos .noCalendario .contieneColaboradores .colaboradores .logoOuter .logoInner {
-    padding: 15px;
-    width: 30%;
-  }
-  .contenidos .noCalendario .contienePubillas .unaPubilla .back {
-    padding: 30px 0 40px 30px;
-  }
-  .contenidos .noCalendario .contienePubillas .unaPubilla .back:last-child {
-    padding: 10px 0 40px 30px;
-  }
-  .contenidos .noCalendario .contienePubillas .unaPubilla .hero {
-    height: 600px;
-  }
-  .contenidos .noCalendario .contienePubillas .unaPubilla .hero .fotoOuter {
-    height: 600px;
-  }
-  .contenidos .noCalendario .contienePubillas .unaPubilla .hero .fotoOuter .foto {
-    background-position: 10% 100%;
-    background-size: auto 100%;
-    position: absolute;
-  }
-  .contenidos .noCalendario .contienePubillas .unaPubilla .hero .detalle {
-    bottom: 50px;
-    left: 30px;
-    text-align: left;
-  }
-  .contenidos .noCalendario .contienePubillas .unaPubilla .hero .detalle .nombre {
-    font-size: 1.9em;
-    font-weight: 700;
-  }
-  .contenidos .noCalendario .contienePubillas .unaPubilla .hero .detalle .club {
-    font-size: 1.3em;
-    font-weight: 400;
-  }
-  .contenidos .noCalendario .contienePubillas .unaPubilla .texto {
-    padding: 30px 50px;
-  }
-  .contenidos .noCalendario .contienePubillas .unaPubilla .texto p {
-    margin-bottom: 16px;
-  }
-  .contenidos .noCalendario .contienePubillas .pubillas .pubillasOuter {
-    padding: 20px 0 70px 0;
-    width: 70%;
-  }
-  .contenidos .noCalendario .contienePubillas .pubillas .pubillasOuter .pubillasInner img {
-    width: 90px;
-    height: auto;
-  }
-  .header {
-    background: #f00;
-    height: 500px;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-  }
-  .header .efecto {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 4;
-  }
-  .header .efecto .rayo {
-    width: 100%;
-    height: 500px;
-    animation: animacion 22s infinite;
-    -webkit-animation: animacion 22s infinite;
-  }
-  .header .efecto .rayo .rayoInner {
-    background-image: url("../img/rayos.png");
-    background-position: 0 0;
-    background-repeat: repeat-x repeat-y;
-    background-size: 45% auto;
-    width: 100%;
-    height: 500px;
-  }
-  .header .efecto .rayo2 {
-    width: 100%;
-    height: 500px;
-    animation: animacion2 42s infinite;
-    -webkit-animation: animacion2 42s infinite;
-  }
-  .header .efecto .rayo2 .rayoInner {
-    background-image: url("../img/rayos.png");
-    background-position: 0 0;
-    background-repeat: repeat-x repeat-y;
-    background-size: 45% auto;
-    width: 100%;
-    height: 500px;
-  }
-  .header .efecto .rayo3 {
-    width: 100%;
-    height: 500px;
-    animation: animacion3 62s infinite;
-    -webkit-animation: animacion3 62s infinite;
-  }
-  .header .efecto .rayo3 .rayoInner {
-    background-image: url("../img/rayos.png");
-    background-position: 0 0;
-    background-repeat: repeat-x repeat-y;
-    background-size: 45% auto;
-    width: 100%;
-    height: 500px;
-  }
-}
 @media screen and (min-width: 770px) {
-  .contenidos {
-    bottom: 0;
-    left: 0;
-    position: fixed;
-    right: 0;
-    top: 85px;
-    width: 100%;
-  }
-  .contenidos .noCalendario {
-    background: #fff;
-    bottom: 0;
-    border-right: 1px solid #dcdcdc;
-    left: 0;
-    overflow-y: auto;
-    overflow-x: hidden;
-    position: fixed;
-    right: 420px;
-    top: 85px;
-    z-index: 0;
-  }
-  .contenidos .noCalendario .contieneColaboradores .colaboradores .colabHeader h2 {
-    padding: 30px 20px 50px 20px;
-  }
-  .contenidos .noCalendario .contieneColaboradores .colaboradores .logoOuter .logoInner {
-    max-width: 200px;
-  }
-  .contenidos .noCalendario .contieneInformacion .informacion {
-    background: #fff;
-    position: relative;
-  }
-  .contenidos .noCalendario .contieneInformacion .informacion .infoHeader {
-    color: rgba(0,0,0,0.75);
-    height: 80px;
-  }
-  .contenidos .noCalendario .contieneInformacion .informacion .infoHeader h2 {
-    font-size: 24px;
-    font-weight: 300;
-    padding: 30px 20px 50px 20px;
-    text-align: center;
-    font-style: normal;
-    text-transform: none;
-  }
-  .contenidos .noCalendario .contieneInformacion .informacion .infoHeader h2 span {
-    display: inline-block;
-    font-size: 24px;
-  }
-  .contenidos .noCalendario .contieneInformacion .informacion .infoOuter .infoInner {
-    border-bottom: 1px solid #dcdcdc;
-    padding: 0 0 10px 0;
-  }
-  .contenidos .noCalendario .contieneInformacion .informacion .infoOuter .infoInner .checkInfo {
-    background: transparent;
-    height: 70px;
-    position: relative;
-    width: 100%;
-    z-index: 20;
-  }
-  .contenidos .noCalendario .contieneInformacion .informacion .infoOuter .infoInner .checkInfo .puntos {
-    display: none;
-  }
-  .contenidos .noCalendario .contieneInformacion .informacion .infoOuter .infoInner .entrades {
-    margin: -70px 0 0 0;
-  }
-  .contenidos .noCalendario .contieneInformacion .informacion .infoOuter .infoInner .entrades:before {
-    content: '\e60c';
-    font-family: icomoon;
-    font-size: 18px;
-    font-style: normal;
-    left: 20px;
-    position: absolute;
-    top: 30px;
-  }
-  .contenidos .noCalendario .contieneInformacion .informacion .infoOuter .infoInner .inscripcions {
-    margin: -70px 0 0 0;
-  }
-  .contenidos .noCalendario .contieneInformacion .informacion .infoOuter .infoInner .inscripcions:before {
-    content: '\e60b';
-    font-family: icomoon;
-    font-size: 18px;
-    font-style: normal;
-    left: 20px;
-    position: absolute;
-    top: 30px;
-  }
-  .contenidos .noCalendario .contieneInformacion .informacion .infoOuter .infoInner .horario {
-    margin: -70px 0 0 0;
-  }
-  .contenidos .noCalendario .contieneInformacion .informacion .infoOuter .infoInner .horario:before {
-    content: '\e60a';
-    font-family: icomoon;
-    font-size: 18px;
-    font-style: normal;
-    left: 20px;
-    position: absolute;
-    top: 30px;
-  }
-  .contenidos .noCalendario .contieneInformacion .informacion .infoOuter .infoInner .notes {
-    margin: -70px 0 70px 0;
-  }
-  .contenidos .noCalendario .contieneInformacion .informacion .infoOuter .infoInner .notes:before {
-    content: '\e608';
-    font-family: icomoon;
-    font-size: 14px;
-    font-style: normal;
-    left: 20px;
-    position: absolute;
-    top: 30px;
-  }
-  .contenidos .noCalendario .contieneInformacion .informacion .infoOuter .infoInner .post {
-    background: #fff;
-    color: rgba(0,0,0,0.75);
-    font-size: 16px;
-    font-style: italic;
-    line-height: 21px;
-    padding: 28px 0 28px 0;
-    position: relative;
-  }
-  .contenidos .noCalendario .contieneInformacion .informacion .infoOuter .infoInner .post h4 {
-    margin: 0 78px 0 55px;
-  }
-  .contenidos .noCalendario .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost {
-    border-left: none;
-  }
-  .contenidos .noCalendario .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost h5 {
-    color: rgba(0,0,0,0.75);
-    font-style: normal;
-    margin: 20px 20px 10px 55px;
-  }
-  .contenidos .noCalendario .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost h5:first-child {
-    margin: 40px 20px 10px 55px;
-  }
-  .contenidos .noCalendario .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p {
-    color: rgba(0,0,0,0.5);
-    font-style: normal;
-    font-weight: 400;
-    margin: 0 20px 0 55px;
-  }
-  .contenidos .noCalendario .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p:last-child {
-    margin: 0 20px 30px 55px;
-  }
-  .contenidos .noCalendario .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p.detallePostPiscina {
-    margin: 20px 20px 30px 55px;
-  }
-  .contenidos .noCalendario .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul {
-    margin: 20px 20px 0 55px;
-  }
-  .contenidos .noCalendario .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul li {
-    color: rgba(0,0,0,0.75);
-    font-style: normal;
-    font-weight: 400;
-    list-style-type: circle;
-    margin: 0 0 10px 0;
-  }
-  .contenidos .noCalendario .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul li:last-child {
-    margin: 0 0 30px 0;
-  }
-  .contenidos .noCalendario .contieneInformacion .informacion .infoOuter .infoInner .post:last-child {
-    border-bottom: none;
-  }
-  .contenidos .noCalendario .contienePubillas .pubillas .pubillasHeader h2 {
-    padding: 30px 20px 50px 20px;
-  }
-  .contenidos .noCalendario .contienePubillas .pubillas .pubillasOuter {
-    padding: 0 0 100px 0;
-    width: 80%;
-  }
-  .contenidos .noCalendario .contienePubillas .pubillas .pubillasOuter .pubillasInner img {
-    width: 85px;
-    height: auto;
-  }
-  .contenidos .noCalendario .menuNavegacion {
-    display: block;
-    background: rgba(255,255,255,0.95);
-    border-top: 1px solid #dcdcdc;
-    bottom: 0;
-    height: 48px;
-    left: 0;
-    position: fixed;
-    right: 420px;
-    z-index: 20;
-  }
-  .contenidos .noCalendario .menuNavegacion .boton {
-    color: #a4a8aa;
-    display: inline-block;
-    width: 32.7%;
-    text-align: center;
-    max-width: 200px;
-  }
-  .contenidos .noCalendario .menuNavegacion .boton span {
-    line-height: 45px;
-    font-size: 0.8em;
-    font-weight: 400;
-    margin-left: 15px;
-    min-width: 140px;
-  }
-  .contenidos .noCalendario .menuNavegacion .boton .colaboradores {
-    position: relative;
-  }
-  .contenidos .noCalendario .menuNavegacion .boton .colaboradores:before {
-    content: '\e601';
-    font-family: icomoon;
-    font-size: 1.2em;
-    left: -25px;
-    position: absolute;
-    top: -13px;
-  }
-  .contenidos .noCalendario .menuNavegacion .boton .colaboradoresActive {
-    color: #177dd4;
-    position: relative;
-  }
-  .contenidos .noCalendario .menuNavegacion .boton .colaboradoresActive:before {
-    content: '\e602';
-    font-family: icomoon;
-    font-size: 1.2em;
-    left: -25px;
-    position: absolute;
-    top: -13px;
-  }
-  .contenidos .noCalendario .menuNavegacion .boton .info {
-    position: relative;
-  }
-  .contenidos .noCalendario .menuNavegacion .boton .info:before {
-    content: '\e603';
-    font-family: icomoon;
-    font-size: 1.2em;
-    left: -27px;
-    position: absolute;
-    top: -13px;
-  }
-  .contenidos .noCalendario .menuNavegacion .boton .infoActive {
-    color: #177dd4;
-    position: relative;
-  }
-  .contenidos .noCalendario .menuNavegacion .boton .infoActive:before {
-    content: '\e604';
-    font-family: icomoon;
-    font-size: 1.2em;
-    left: -25px;
-    position: absolute;
-    top: -13px;
-  }
-  .contenidos .noCalendario .menuNavegacion .boton .pubillas {
-    position: relative;
-  }
-  .contenidos .noCalendario .menuNavegacion .boton .pubillas:before {
-    content: '\e605';
-    font-family: icomoon;
-    font-size: 1em;
-    left: -25px;
-    position: absolute;
-    top: -13px;
-  }
-  .contenidos .noCalendario .menuNavegacion .boton .pubillasActive {
-    color: #177dd4;
-    position: relative;
-  }
-  .contenidos .noCalendario .menuNavegacion .boton .pubillasActive:before {
-    content: '\e606';
-    font-family: icomoon;
-    font-size: 1.3em;
-    left: -25px;
-    position: absolute;
-    top: -13px;
-  }
-  .contenidos .calendario {
+  .calendario {
     bottom: 0;
     float: right;
     margin: 0;
@@ -1019,118 +802,6 @@ background: rgb(215,81,93);
     top: -5px;
     width: 420px;
     z-index: 5;
-  }
-  .contenidos .calendario .botonera {
-    border-radius: 0 0 0 10px;
-  }
-  .contenidos .calendario .eventoActual {
-    background: #ddeefb;
-    box-shadow: none;
-    position: relative;
-    z-index: 5;
-  }
-  .contenidos .calendario .eventoActual .detalleEvento {
-    font-weight: 400;
-    padding: 30px 0 30px 0;
-  }
-  .contenidos .calendario .eventoActual .detalleEvento .logoEvento {
-    float: left;
-    padding: 5px 20px 0 30px;
-  }
-  .contenidos .calendario .eventoActual .detalleEvento .logoEvento:after {
-    content: micro;
-    font-family: icomoon;
-  }
-  .contenidos .calendario .eventoActual .detalleEvento .sitioEvento {
-    color: rgba(23,122,252,0.5);
-    font-size: 12px;
-    margin: 5px 0 0 75px;
-    text-align: left;
-    text-transform: uppercase;
-  }
-  .contenidos .calendario .eventoActual .detalleEvento .tituloEvento {
-    margin: 0 40px 0 75px;
-  }
-  .contenidos .calendario .eventoActual .tituloOuter {
-    display: none;
-    height: auto;
-    left: 0;
-    position: absolute;
-    top: 435px;
-    width: 100%;
-    animation: timeLineLento 0.8s;
-    -webkit-animation: timeLineLento 0.8s;
-    z-index: 5;
-  }
-  .contenidos .calendario .eventoActual .tituloOuter .tituloInner {
-    background: #a01157;
-    border-radius: 5px 5px 0 0;
-    box-shadow: 0 -2px 16px rgba(0,0,0,0.8);
-    height: 70px;
-    left: 50%;
-    margin: 0 0 0 -73px;
-    position: relative;
-    width: 140px;
-  }
-  .contenidos .calendario .eventoActual .tituloOuter .tituloInner:after {
-    content: "";
-    border-bottom: 37px solid transparent;
-    border-left: 70px solid transparent;
-    border-right: 70px solid transparent;
-    border-top: 15px solid #a01157;
-    content: '';
-    position: absolute;
-    right: 0px;
-    left: 0;
-    bottom: -52px;
-  }
-  .contenidos .calendario .eventoActual .tituloOuter .tituloInner p {
-    color: #fff;
-    font-family: Oswald;
-    font-size: 1.2em;
-    font-weight: 400;
-    left: 14px;
-    line-height: 30px;
-    margin: 0;
-    position: absolute;
-    text-transform: uppercase;
-    top: 9px;
-    transform: scale(1, 0.9);
-    -ms-transform: scale(1, 0.9);
-    -webkit-transform: scale(1, 0.9);
-  }
-  .contenidos .calendario .eventoActual .tituloOuter .tituloInner p span {
-    display: block;
-    font-weight: 700;
-    transform: scale(1, 1.2);
-    -ms-transform: scale(1, 1.2);
-    -webkit-transform: scale(1, 1.2);
-  }
-  .contenidos .calendario .noListaEventos {
-    position: fixed;
-    right: 0;
-    top: 85px;
-    z-index: 10;
-    width: 420px;
-  }
-  .contenidos .calendario .listaEventos {
-    display: block;
-    margin: 285px 0 100px 0;
-  }
-  .decoracion {
-    position: fixed;
-    top: 15px;
-    right: 210px;
-    bottom: 0;
-    z-index: 10;
-  }
-  .decoracion .tituloOuter {
-    -webkit-animation: none;
-    animation: none;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
   }
   .footer {
     display: none;
@@ -1214,36 +885,5 @@ background: rgb(215,81,93);
   }
   .logo img {
     width: 63px;
-  }
-  .llamadaLabel,
-  .llamadaTitulo {
-    display: none;
-  }
-  .tituloOuter {
-    animation: none;
-    -webkit-animation: none;
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 10;
-  }
-  #llamadaCalendario {
-    display: none;
-  }
-  #llamadaCalendario:checked ~ .calendario {
-    margin: 0;
-  }
-  #llamadaCalendario:checked ~ .contenidos {
-    margin: 0;
-  }
-  #llamadaCalendario:checked ~ .contenidos .calendario .listaDias {
-    display: block;
-  }
-  #llamadaCalendario:checked ~ .contenidos .calendario .decoracion .lineaOuter {
-    display: none;
-  }
-  #llamadaCalendario:checked ~ .contenidos .calendario .tituloOuter {
-    display: block;
   }
 }

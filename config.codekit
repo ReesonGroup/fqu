@@ -38,7 +38,7 @@
 	"\/css\/bp2.styl": {
 		"debugStyle": 0,
 		"fileType": 8,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"importCSS": 0,
 		"inputAbbreviatedPath": "\/css\/bp2.styl",
