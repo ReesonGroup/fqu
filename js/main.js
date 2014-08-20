@@ -33,7 +33,6 @@ function init()
 
   actionInfo();
 
-  backTo();
 };
 
 
