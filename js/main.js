@@ -1,14 +1,7 @@
 
 var info = $('div.contieneInformacion');
 var detallInfo = $('div.detallePost');
-var partners = $('div.contieneColaboradores');
-var navPubillas = $('section.pubillas');
-var unaPubilla = $('div.unaPubilla');
-var pubillas = $('section.pubillas');
 var diasEventos = $('div.listaEventos');
-var butPubillas = $('#butPubillas span');
-var butInfo = $('#butInfo span');
-var butPartners = $('#butPartners span');
 var botonera = $('div.botonera li');
 
 var eventActual = $('div.detalleEvento');
@@ -27,15 +20,12 @@ $(document).on('ready', init);
 
 function init()
 {
-  unaPubilla.hide();
 
   diasEventos.hide();
 
   startClock();
 
   startViews();
-  
-  actionNavPubillas();
 
   actionBotonera();
 
@@ -125,39 +115,7 @@ function startViews()
   if ($(window).width()>=770)
   {
     detallInfo.show();
-    partners.hide();
-    info.hide();
-
-    butPubillas.on('click', function()
-    {
-      $(this).addClass('pubillasActive');
-      butInfo.removeClass('infoActive');
-      butPartners.removeClass('colaboradoresActive');
-      navPubillas.fadeIn();
-      unaPubilla.fadeOut();
-      info.fadeOut();
-      partners.fadeOut();
-    });
-    butInfo.on('click', function()
-    {
-      $(this).addClass('infoActive');
-      butPartners.removeClass('colaboradoresActive');
-      butPubillas.removeClass('pubillasActive');
-      navPubillas.fadeOut();
-      unaPubilla.fadeOut();
-      info.fadeIn();
-      partners.fadeOut();
-    });
-    butPartners.on('click', function()
-    {
-      $(this).addClass('colaboradoresActive');
-      butPubillas.removeClass('pubillasActive');
-      butInfo.removeClass('infoActive');
-      navPubillas.fadeOut();
-      unaPubilla.fadeOut();
-      info.fadeOut();
-      partners.fadeIn();
-    });
+    detalleInfo.stop();
   };
 };
 
@@ -223,7 +181,22 @@ function actionBotonera()
     else if ($(this).attr('id')=='d11')
     {
       diasEventos.fadeOut();
-      $('#dia10').fadeIn();
+      $('#dia11').fadeIn();
+    }
+    else if ($(this).attr('id')=='d12')
+    {
+      diasEventos.fadeOut();
+      $('#dia12').fadeIn();
+    }
+    else if ($(this).attr('id')=='d13')
+    {
+      diasEventos.fadeOut();
+      $('#dia13').fadeIn();
+    }
+    else if ($(this).attr('id')=='d14')
+    {
+      diasEventos.fadeOut();
+      $('#dia14').fadeIn();
     }
     else{console.log('la botonera esta fallando')}
   });
@@ -235,59 +208,6 @@ function actionEvents()
   {
     $(this).find('div.desplegado').slideToggle();
     $(this).find('div.plegado').fadeToggle();
-  })
-};
-
-function backTo()
-{
-  $('div.backTo').on('click', function()
-  {
-    $('body,html').stop(true,true).animate(
-    {
-      scrollTop: $('#llamadaTitulo').offset().top
-    })
-    unaPubilla.fadeOut();
-    navPubillas.fadeIn();
-  })
-};
-
-function actionNavPubillas()
-{
-  $('article.pubillasInner').on('click', function()
-  {
-    var el=$(this).attr('id');
-    navPubillas.fadeOut();
-    if (el=='navButPub1')
-    {
-      $('#pub1').fadeIn();
-      ancla1();
-    }
-    else if (el=='navButPub2')
-    {
-      $('#pub2').fadeIn();
-      ancla1();
-    }
-    else if (el=='navButPub4')
-    {
-      $('#pub4').fadeIn();
-      ancla1();
-    }
-    else if (el=='navButPub5')
-    {
-      $('#pub5').fadeIn();
-      ancla1();
-    }
-    else if (el=='navButPub6')
-    {
-      $('#s6').fadeIn();
-      ancla1();
-    }
-    else if (el=='navButPub7')
-    {
-      $('#pub7').fadeIn();
-      ancla1();
-    }
-    else{console.log('Algo falla en la botonera')};
   })
 };
 
