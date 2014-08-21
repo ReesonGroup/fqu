@@ -40,7 +40,7 @@ function ancla1()
 {
   $('body,html').stop(true,true).animate(
     {
-      scrollTop: $('#llamadaTitulo').offset().top
+      scrollTop: $('#botonera').offset().top
     })
 }
 
