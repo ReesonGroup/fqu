@@ -1,10 +1,9 @@
 
-
 .botonera
 	background blancoManchado
 	border 1px solid borde
-	border-left 5px solid texto4
-	border-right 5px solid texto4
+	border-left 5px solid azul
+	border-right 5px solid azul
 	height auto
 	position relative
 	width 100%
@@ -12,7 +11,7 @@
 	&:after
 		border-bottom 37px solid transparent
 		border-left 10px solid transparent
-		border-right 8px solid texto4
+		border-right 8px solid azul
 		border-top 37px solid transparent
 		content ''
 		position absolute
@@ -45,6 +44,11 @@
 					left 30%
 					position absolute
 					top 28px
+		.botoneraActive
+			background #63aeee
+			// box-shadow 0 2px 4px rgba(black,.4) inset
+			a
+				// text-shadow 0 2px 4px rgba(black,.4)
 .contieneColaboradores
 	.colaboradores
 		background white
@@ -69,7 +73,9 @@
 		background negroInterface3
 		position relative
 		.infoHeader
-			color texto
+			background blancoManchado
+			border-bottom 1px solid borde
+			color texto2
 			height 80px
 			h2
 				font-size 21px
@@ -85,16 +91,15 @@
 					text-transform lowercase
 		.infoOuter
 			.infoInner
-				border-bottom 1px solid negroInterface3
+				border-bottom 1px solid borde
 				.checkInfo
-					background transparent
 					height 70px 
 					position relative
 					width 100%
 					z-index 20
 					.puntos
 						&:after
-							color texto
+							color borde
 							content puntos
 							font-family icomoon
 							font-style normal
@@ -143,8 +148,8 @@
 						position absolute
 						top 30px
 				.post
-					background negroInterface
-					color rgba(white,.7)
+					background white
+					color rgba(texto2,.7)
 					font-size 16px
 					font-style italic
 					line-height 21px
@@ -155,24 +160,24 @@
 					.detallePost
 						border-left none
 						h5
-							color rgba(white,1)
+							color rgba(texto2,.7)
 							font-style normal
 							margin 20px 20px 10px 55px
 							&:first-child
 								margin 40px 20px 10px 55px
 						p
-							color rgba(white,.6)
+							color rgba(black,.6)
 							font-style normal
 							font-weight 400
-							margin 0 20px 0 55px
+							margin 0 30px 0 55px
 							&:last-child 
 								margin 0 20px 30px 55px
 						p.detallePostPiscina
 							margin 20px 20px 30px 55px
 						ul
-							margin 20px 20px 0 55px
+							margin 20px 30px 0 55px
 							li 
-								color rgba(white,.6)
+								color rgba(black,.6)
 								font-style normal
 								font-weight 400
 								list-style-type circle
@@ -182,58 +187,58 @@
 					&:last-child
 						border-bottom none
 .tituloAra
-		-webkit-animation timeLineLento .8s
-		animation timeLineLento .8s 
-		height auto
-		left 0
-		position absolute
-		top 430px
-		width 100%
-		z-index 10
-		.tituloInner
-			background verdeOscuro
-			border-radius 5px 5px 0 0 
-			box-shadow 0 -2px 16px rgba(black,.7)
-			height 70px
-			left 50%
-			margin 0 0 0 -73px
-			position relative 
-			width 140px
-			&:after
-				border-bottom 37px solid transparent
-				border-left 70px solid transparent
-				border-right 70px solid transparent
-				border-top 15px solid verdeOscuro
-				bottom -52px
-				content ""
-				content ''
-				left 0
-				position absolute
-				right 0px
-			p
-				color rgba(white,1)
-				font-family Oswald
-				font-size 1.2em
-				font-weight 400
-				left 14px
-				line-height 30px
-				margin 0 
-				position absolute
-				text-transform uppercase
-				top 9px
-				transform: scale(1, .9);
-				-ms-transform: scale(1, .9);
-				-webkit-transform: scale(1, .9);
-				span
-					display block
-					font-weight 700
-					transform: scale(1, 1.2);
-					-ms-transform: scale(1, 1.2);
-					-webkit-transform: scale(1, 1.2);
+	-webkit-animation timeLineLento .8s
+	animation timeLineLento .8s 
+	height auto
+	left 0
+	position absolute
+	top 430px
+	width 100%
+	z-index 10
+	.tituloInner
+		background verdeOscuro
+		border-radius 5px 5px 0 0 
+		box-shadow 0 -2px 16px rgba(black,.7)
+		height 72px
+		left 50%
+		margin -2px 0 0 -73px
+		position relative 
+		width 145px
+		&:after
+			border-bottom 37px solid transparent
+			border-left 70px solid transparent
+			border-right 70px solid transparent
+			border-top 15px solid verdeOscuro
+			bottom -52px
+			content ""
+			content ''
+			left 0
+			position absolute
+			right 0px
+		p
+			color rgba(white,1)
+			font-family Oswald
+			font-size 1.2em
+			font-weight 400
+			left 14px
+			letter-spacing 1px
+			line-height 31px
+			margin 0 
+			position absolute
+			text-transform uppercase
+			top 9px
+			transform: scale(1, .9);
+			-ms-transform: scale(1, .9);
+			-webkit-transform: scale(1, .9);
+			span
+				display block
+				font-weight 700
+				letter-spacing .5px
+				transform: scale(1, 1.3);
+				-ms-transform: scale(1, 1.3);
+				-webkit-transform: scale(1, 1.3);
 .eventoActual
 	background eventoActualFonfo
-	box-shadow 0 3px 5px rgba(black,.7) inset
-	box-shadow none
 	color eventoActualFuente
 	position relative
 	z-index 5
@@ -323,6 +328,8 @@
 		float right
 		margin 8px 0 0 0
 		vertical-align bottom
+		a
+			color white
 		span
 			display inline-block
 			font-weight 400
@@ -340,6 +347,8 @@
 		.contieneEvento
 			width 92%
 			margin 10px auto 15px auto
+			&:last-child 
+				padding 0 0 100px 0 
 			.evento
 				.headerEvento
 					background blancoManchado
@@ -453,6 +462,7 @@
 					.tituloEvento
 						margin 0 10px 0 70px
 						padding 0 10px 5px 0
+						
 .logo
 	height 0
 	position relative
@@ -552,3 +562,8 @@
 .tiro
 	&:before
 		content estrellaLlena
+// Clase descansem
+.descansem
+	&:before
+		content estrellaLlena
+// Clase descansem

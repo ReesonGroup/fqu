@@ -150,8 +150,8 @@ a:active {
 .botonera {
   background: #f8f8f8;
   border: 1px solid #dcdcdc;
-  border-left: 5px solid #6f8595;
-  border-right: 5px solid #6f8595;
+  border-left: 5px solid #177dd4;
+  border-right: 5px solid #177dd4;
   height: auto;
   position: relative;
   width: 100%;
@@ -160,7 +160,7 @@ a:active {
 .botonera:after {
   border-bottom: 37px solid transparent;
   border-left: 10px solid transparent;
-  border-right: 8px solid #6f8595;
+  border-right: 8px solid #177dd4;
   border-top: 37px solid transparent;
   content: '';
   position: absolute;
@@ -200,6 +200,9 @@ a:active {
   position: absolute;
   top: 28px;
 }
+.botonera ul .botoneraActive {
+  background: #63aeee;
+}
 .contieneColaboradores .colaboradores {
   background: #fff;
   color: rgba(0,0,0,0.7);
@@ -228,7 +231,9 @@ a:active {
   position: relative;
 }
 .contieneInformacion .informacion .infoHeader {
-  color: rgba(255,255,255,0.8);
+  background: #f8f8f8;
+  border-bottom: 1px solid #dcdcdc;
+  color: rgba(0,0,0,0.75);
   height: 80px;
 }
 .contieneInformacion .informacion .infoHeader h2 {
@@ -246,17 +251,16 @@ a:active {
   text-transform: lowercase;
 }
 .contieneInformacion .informacion .infoOuter .infoInner {
-  border-bottom: 1px solid #2a2c2f;
+  border-bottom: 1px solid #dcdcdc;
 }
 .contieneInformacion .informacion .infoOuter .infoInner .checkInfo {
-  background: transparent;
   height: 70px;
   position: relative;
   width: 100%;
   z-index: 20;
 }
 .contieneInformacion .informacion .infoOuter .infoInner .checkInfo .puntos:after {
-  color: rgba(255,255,255,0.8);
+  color: #dcdcdc;
   content: '\e600';
   font-family: icomoon;
   font-style: normal;
@@ -314,8 +318,8 @@ a:active {
   top: 30px;
 }
 .contieneInformacion .informacion .infoOuter .infoInner .post {
-  background: #222326;
-  color: rgba(255,255,255,0.7);
+  background: #fff;
+  color: rgba(0,0,0,0.7);
   font-size: 16px;
   font-style: italic;
   line-height: 21px;
@@ -329,7 +333,7 @@ a:active {
   border-left: none;
 }
 .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost h5 {
-  color: #fff;
+  color: rgba(0,0,0,0.7);
   font-style: normal;
   margin: 20px 20px 10px 55px;
 }
@@ -337,10 +341,10 @@ a:active {
   margin: 40px 20px 10px 55px;
 }
 .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p {
-  color: rgba(255,255,255,0.6);
+  color: rgba(0,0,0,0.6);
   font-style: normal;
   font-weight: 400;
-  margin: 0 20px 0 55px;
+  margin: 0 30px 0 55px;
 }
 .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p:last-child {
   margin: 0 20px 30px 55px;
@@ -349,10 +353,10 @@ a:active {
   margin: 20px 20px 30px 55px;
 }
 .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul {
-  margin: 20px 20px 0 55px;
+  margin: 20px 30px 0 55px;
 }
 .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul li {
-  color: rgba(255,255,255,0.6);
+  color: rgba(0,0,0,0.6);
   font-style: normal;
   font-weight: 400;
   list-style-type: circle;
@@ -378,11 +382,11 @@ a:active {
   background: #a01157;
   border-radius: 5px 5px 0 0;
   box-shadow: 0 -2px 16px rgba(0,0,0,0.7);
-  height: 70px;
+  height: 72px;
   left: 50%;
-  margin: 0 0 0 -73px;
+  margin: -2px 0 0 -73px;
   position: relative;
-  width: 140px;
+  width: 145px;
 }
 .tituloAra .tituloInner:after {
   border-bottom: 37px solid transparent;
@@ -402,7 +406,8 @@ a:active {
   font-size: 1.2em;
   font-weight: 400;
   left: 14px;
-  line-height: 30px;
+  letter-spacing: 1px;
+  line-height: 31px;
   margin: 0;
   position: absolute;
   text-transform: uppercase;
@@ -414,14 +419,13 @@ a:active {
 .tituloAra .tituloInner p span {
   display: block;
   font-weight: 700;
-  transform: scale(1, 1.2);
-  -ms-transform: scale(1, 1.2);
-  -webkit-transform: scale(1, 1.2);
+  letter-spacing: 0.5px;
+  transform: scale(1, 1.3);
+  -ms-transform: scale(1, 1.3);
+  -webkit-transform: scale(1, 1.3);
 }
 .eventoActual {
   background: #cae8fb;
-  box-shadow: 0 3px 5px rgba(0,0,0,0.7) inset;
-  box-shadow: none;
   color: #177afc;
   position: relative;
   z-index: 5;
@@ -524,6 +528,9 @@ a:active {
   margin: 8px 0 0 0;
   vertical-align: bottom;
 }
+.footer .right a {
+  color: #fff;
+}
 .footer .right span {
   display: inline-block;
   font-weight: 400;
@@ -545,6 +552,9 @@ a:active {
 .listaDias .listaEventos .contieneEvento {
   width: 92%;
   margin: 10px auto 15px auto;
+}
+.listaDias .listaEventos .contieneEvento:last-child {
+  padding: 0 0 100px 0;
 }
 .listaDias .listaEventos .contieneEvento .evento .headerEvento {
   background: #f8f8f8;
@@ -789,6 +799,9 @@ background: rgb(215,81,93);
   content: '\e613';
 }
 .tiro:before {
+  content: '\e602';
+}
+.descansem:before {
   content: '\e602';
 }
 @media screen and (min-width: 770px) {
