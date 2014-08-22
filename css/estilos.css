@@ -251,7 +251,7 @@ a:active {
   text-transform: lowercase;
 }
 .contieneInformacion .informacion .infoOuter .infoInner {
-  border-bottom: 1px solid #dcdcdc;
+  border-bottom: 1px solid #e6e6e6;
 }
 .contieneInformacion .informacion .infoOuter .infoInner .checkInfo {
   height: 70px;
