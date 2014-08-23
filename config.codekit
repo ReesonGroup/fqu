@@ -26,15 +26,6 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
 		},
-	"\/css\/bp2.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/bp2.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/css\/bp2.styl": {
 		"debugStyle": 0,
 		"fileType": 8,
