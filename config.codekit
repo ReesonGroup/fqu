@@ -98,6 +98,15 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
 		},
+	"\/css\/estilos.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/estilos.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/estilos.styl": {
 		"debugStyle": 0,
 		"fileType": 8,
@@ -172,17 +181,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/eventos\/dibujo.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 311318,
-		"inputAbbreviatedPath": "\/img\/eventos\/dibujo.jpg",
-		"outputAbbreviatedPath": "\/img\/eventos\/dibujo.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/eventos\/disco.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -201,6 +199,39 @@
 		"initialSize": 80291,
 		"inputAbbreviatedPath": "\/img\/eventos\/globos.jpg",
 		"outputAbbreviatedPath": "\/img\/eventos\/globos.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/eventos\/moto.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 151241,
+		"inputAbbreviatedPath": "\/img\/eventos\/moto.jpg",
+		"outputAbbreviatedPath": "\/img\/eventos\/moto.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/eventos\/mural.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 130352,
+		"inputAbbreviatedPath": "\/img\/eventos\/mural.jpg",
+		"outputAbbreviatedPath": "\/img\/eventos\/mural.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/eventos\/nadador.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73993,
+		"inputAbbreviatedPath": "\/img\/eventos\/nadador.jpg",
+		"outputAbbreviatedPath": "\/img\/eventos\/nadador.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

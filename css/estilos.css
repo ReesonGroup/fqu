@@ -638,16 +638,18 @@ span
   line-height: 1.2em;
 }
 .listaDias .listaEventos .contieneEvento .evento .desplegado .hero .imagen {
-  -webkit-filter: grayscale(0.4);
-  background-position: 0 0;
-  background-repeat: no-repeat;
-  background-size: auto 110%;
-  bottom: 0;
-  left: 0;
+  position: relative;
+}
+.listaDias .listaEventos .contieneEvento .evento .desplegado .hero .imagen .imagenInner {
   position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 250px;
+}
+.listaDias .listaEventos .contieneEvento .evento .desplegado .hero .imagen .imagenInner img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
 }
 .listaDias .listaEventos .contieneEvento .evento .desplegado .hero .sombra {
   bottom: 0;
