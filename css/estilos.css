@@ -178,7 +178,7 @@ a:active {
 }
 .rayos {
   background-position: 0px -351px;
-  width: 500px;
+  width: 100%;
   height: 500px;
 }
 .botonera {
@@ -526,6 +526,7 @@ a:active {
 }
 .header {
   height: 500px;
+  width: 100%;
   position: relative;
 }
 .header .degradado {
@@ -535,6 +536,7 @@ a:active {
   position: absolute;
   right: 0;
   top: 0;
+  z-index: 0;
 }
 .header .degradado .marco {
   height: 250%;
