@@ -783,6 +783,14 @@ span
   content: '\e602';
 }
 @media screen and (min-width: 770px) {
+  .contenido {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 85px;
+    width: 100%;
+  }
   .contenido .calendario {
     bottom: 0;
     float: right;
@@ -812,11 +820,15 @@ span
     margin: 308px 0 0 0;
   }
   .contenido .contieneInformacion {
-    position: absolute;
-    top: 85px;
-    right: 420px;
+    background: #fff;
     bottom: 0;
+    border-right: 1px solid #dcdcdc;
     left: 0;
+    overflow-y: auto;
+    position: fixed;
+    right: 420px;
+    top: 85px;
+    z-index: 0;
   }
   .contenido .contieneInformacion .puntos {
     display: none;
