@@ -159,6 +159,9 @@ a:active {
   background-position: 0px 0px;
   width: 160px;
   height: 88px;
+  transform: scale(0.5, 0.5);
+  -ms-transform: scale(0.5, 0.5);
+  -webkit-transform: scale(0.5, 0.5);
 }
 .negro {
   background-position: -160px 0px;
@@ -548,11 +551,10 @@ a:active {
   position: relative;
   z-index: 5;
 }
-.footer img {
-  float: left;
-  height: 50px;
-  vertical-align: middle;
-  width: auto;
+.footer .blanco {
+  position: absolute;
+  left: -20px;
+  bottom: -10px;
 }
 .footer .right {
   float: right;
@@ -719,12 +721,6 @@ span
 .listaDias .listaEventos .contieneEvento .evento .plegado .tituloEvento {
   margin: 0 10px 0 70px;
   padding: 0 10px 5px 0;
-}
-.logoOuter {
-  height: 0;
-  position: relative;
-  text-align: center;
-  z-index: 5;
 }
 .header {
   height: 500px;
