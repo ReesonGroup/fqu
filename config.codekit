@@ -98,15 +98,6 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
 		},
-	"\/css\/estilos.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/estilos.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/css\/estilos.styl": {
 		"debugStyle": 0,
 		"fileType": 8,
@@ -203,6 +194,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/eventos\/moto.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15874,
+		"inputAbbreviatedPath": "\/img\/eventos\/moto.jpg",
+		"outputAbbreviatedPath": "\/img\/eventos\/moto.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/eventos\/mural.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 130352,
+		"inputAbbreviatedPath": "\/img\/eventos\/mural.jpg",
+		"outputAbbreviatedPath": "\/img\/eventos\/mural.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/eventos\/nadador.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34069,
+		"inputAbbreviatedPath": "\/img\/eventos\/nadador.jpg",
+		"outputAbbreviatedPath": "\/img\/eventos\/nadador.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/eventos\/tiro.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -214,104 +238,25 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/hero.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 301700,
-		"inputAbbreviatedPath": "\/img\/hero.jpg",
-		"outputAbbreviatedPath": "\/img\/hero.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/logo\/logo_reeson_blanco.png": {
+	"\/img\/sprites.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4843,
-		"inputAbbreviatedPath": "\/img\/logo\/logo_reeson_blanco.png",
-		"outputAbbreviatedPath": "\/img\/logo\/logo_reeson_blanco.png",
+		"initialSize": 111594,
+		"inputAbbreviatedPath": "\/img\/sprites.png",
+		"outputAbbreviatedPath": "\/img\/sprites.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/img\/logo\/logo_reeson_negro.png": {
-		"fileType": 32768,
+	"\/index.html": {
+		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4642,
-		"inputAbbreviatedPath": "\/img\/logo\/logo_reeson_negro.png",
-		"outputAbbreviatedPath": "\/img\/logo\/logo_reeson_negro.png",
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/logo\/logo_reeson_vertical.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3867,
-		"inputAbbreviatedPath": "\/img\/logo\/logo_reeson_vertical.png",
-		"outputAbbreviatedPath": "\/img\/logo\/logo_reeson_vertical.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/logo\/logo_vertical.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 10150,
-		"inputAbbreviatedPath": "\/img\/logo\/logo_vertical.png",
-		"outputAbbreviatedPath": "\/img\/logo\/logo_vertical.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/logo\/logoBlanco.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 62221,
-		"inputAbbreviatedPath": "\/img\/logo\/logoBlanco.png",
-		"outputAbbreviatedPath": "\/img\/logo\/logoBlanco.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/logo\/logoPlano.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 23453,
-		"inputAbbreviatedPath": "\/img\/logo\/logoPlano.png",
-		"outputAbbreviatedPath": "\/img\/logo\/logoPlano.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/logo\/logoRojo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 33453,
-		"inputAbbreviatedPath": "\/img\/logo\/logoRojo.png",
-		"outputAbbreviatedPath": "\/img\/logo\/logoRojo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/rayos.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 17585,
-		"inputAbbreviatedPath": "\/img\/rayos.png",
-		"outputAbbreviatedPath": "\/img\/rayos.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"outputPathIsSetByUser": 0
 		},
 	"\/js\/main-ck.js": {
 		"fileType": 64,
@@ -319,6 +264,28 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/main-ck.js",
 		"outputAbbreviatedPath": "\/js\/min\/main-ck-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/main.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/main.js",
+		"outputAbbreviatedPath": "\/js\/min\/main-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/main-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/main-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/main-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -371,7 +338,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Jordi iMac",
+"lastSavedByUser": "Jordi Air ",
 "manualImportLinks": {
 	},
 "projectAttributes": {
