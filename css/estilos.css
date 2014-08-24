@@ -466,7 +466,7 @@ a:active {
 }
 .eventoActual .detalleEvento {
   font-weight: 400;
-  min-height: 104px;
+  min-height: 105px;
   padding: 30px 0 30px 0;
 }
 .eventoActual .detalleEvento .logoEvento {
@@ -481,12 +481,12 @@ a:active {
 .eventoActual .detalleEvento .sitioEvento {
   color: rgba(23,122,252,0.5);
   font-size: 12px;
-  margin: 5px 0 0 75px;
+  margin: 5px 20px 0 75px;
   text-align: left;
   text-transform: uppercase;
 }
 .eventoActual .detalleEvento .tituloEvento {
-  margin: 0 40px 0 75px;
+  margin: 0 20px 0 75px;
 }
 .eventoActual .tituloOuter {
   -webkit-animation: timeLineLento 0.8s;
@@ -736,6 +736,7 @@ span
   right: 0;
   top: 0;
   z-index: 4;
+  opacity: 0.12;
 }
 .header .degradado {
   background: #2b1d53;
@@ -835,12 +836,13 @@ background: rgb(215,81,93);
     border-radius: 0 0 0 10px;
     position: fixed;
     right: 0;
-    top: 189px;
+    top: 215px;
     width: 420px;
   }
   .calendario .eventoActual {
     position: fixed;
     right: 0;
+    min-height: 130px;
     top: 85px;
     width: 420px;
   }
