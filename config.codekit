@@ -26,6 +26,15 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
 		},
+	"\/css\/bp2.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/bp2.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/bp2.styl": {
 		"debugStyle": 0,
 		"fileType": 8,
@@ -194,39 +203,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/eventos\/moto.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 151241,
-		"inputAbbreviatedPath": "\/img\/eventos\/moto.jpg",
-		"outputAbbreviatedPath": "\/img\/eventos\/moto.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/eventos\/mural.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 130352,
-		"inputAbbreviatedPath": "\/img\/eventos\/mural.jpg",
-		"outputAbbreviatedPath": "\/img\/eventos\/mural.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/eventos\/nadador.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 73993,
-		"inputAbbreviatedPath": "\/img\/eventos\/nadador.jpg",
-		"outputAbbreviatedPath": "\/img\/eventos\/nadador.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/eventos\/tiro.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -245,72 +221,6 @@
 		"initialSize": 301700,
 		"inputAbbreviatedPath": "\/img\/hero.jpg",
 		"outputAbbreviatedPath": "\/img\/hero.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/logo\/animalons.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 26034,
-		"inputAbbreviatedPath": "\/img\/logo\/animalons.png",
-		"outputAbbreviatedPath": "\/img\/logo\/animalons.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/logo\/energy.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 41465,
-		"inputAbbreviatedPath": "\/img\/logo\/energy.png",
-		"outputAbbreviatedPath": "\/img\/logo\/energy.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/logo\/jjp.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8639,
-		"inputAbbreviatedPath": "\/img\/logo\/jjp.png",
-		"outputAbbreviatedPath": "\/img\/logo\/jjp.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/logo\/lagrama.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 14207,
-		"inputAbbreviatedPath": "\/img\/logo\/lagrama.png",
-		"outputAbbreviatedPath": "\/img\/logo\/lagrama.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/logo\/logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 27074,
-		"inputAbbreviatedPath": "\/img\/logo\/logo.png",
-		"outputAbbreviatedPath": "\/img\/logo\/logo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/logo\/logo2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 38775,
-		"inputAbbreviatedPath": "\/img\/logo\/logo2.png",
-		"outputAbbreviatedPath": "\/img\/logo\/logo2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -359,17 +269,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/logo\/logo_vertical2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 10005,
-		"inputAbbreviatedPath": "\/img\/logo\/logo_vertical2.png",
-		"outputAbbreviatedPath": "\/img\/logo\/logo_vertical2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/logo\/logoBlanco.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -403,270 +302,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/logo\/logoVerde.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 29261,
-		"inputAbbreviatedPath": "\/img\/logo\/logoVerde.png",
-		"outputAbbreviatedPath": "\/img\/logo\/logoVerde.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/logo\/logoVerdeBlanco.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 36056,
-		"inputAbbreviatedPath": "\/img\/logo\/logoVerdeBlanco.png",
-		"outputAbbreviatedPath": "\/img\/logo\/logoVerdeBlanco.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/logo\/ulldeclinic.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 30141,
-		"inputAbbreviatedPath": "\/img\/logo\/ulldeclinic.png",
-		"outputAbbreviatedPath": "\/img\/logo\/ulldeclinic.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/pintura.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 136974,
-		"inputAbbreviatedPath": "\/img\/pintura.jpg",
-		"outputAbbreviatedPath": "\/img\/pintura.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/pintura.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 189475,
-		"inputAbbreviatedPath": "\/img\/pintura.png",
-		"outputAbbreviatedPath": "\/img\/pintura.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/pintura2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 577366,
-		"inputAbbreviatedPath": "\/img\/pintura2.jpg",
-		"outputAbbreviatedPath": "\/img\/pintura2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/pubilles\/pubilla1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6193,
-		"inputAbbreviatedPath": "\/img\/pubilles\/pubilla1.jpg",
-		"outputAbbreviatedPath": "\/img\/pubilles\/pubilla1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/pubilles\/pubilla10.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6138,
-		"inputAbbreviatedPath": "\/img\/pubilles\/pubilla10.jpg",
-		"outputAbbreviatedPath": "\/img\/pubilles\/pubilla10.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/pubilles\/pubilla11.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5522,
-		"inputAbbreviatedPath": "\/img\/pubilles\/pubilla11.jpg",
-		"outputAbbreviatedPath": "\/img\/pubilles\/pubilla11.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/pubilles\/pubilla12.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6013,
-		"inputAbbreviatedPath": "\/img\/pubilles\/pubilla12.jpg",
-		"outputAbbreviatedPath": "\/img\/pubilles\/pubilla12.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/pubilles\/pubilla13.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5737,
-		"inputAbbreviatedPath": "\/img\/pubilles\/pubilla13.jpg",
-		"outputAbbreviatedPath": "\/img\/pubilles\/pubilla13.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/pubilles\/pubilla14.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6106,
-		"inputAbbreviatedPath": "\/img\/pubilles\/pubilla14.jpg",
-		"outputAbbreviatedPath": "\/img\/pubilles\/pubilla14.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/pubilles\/pubilla2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6427,
-		"inputAbbreviatedPath": "\/img\/pubilles\/pubilla2.jpg",
-		"outputAbbreviatedPath": "\/img\/pubilles\/pubilla2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/pubilles\/pubilla3.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5714,
-		"inputAbbreviatedPath": "\/img\/pubilles\/pubilla3.jpg",
-		"outputAbbreviatedPath": "\/img\/pubilles\/pubilla3.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/pubilles\/pubilla4.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5920,
-		"inputAbbreviatedPath": "\/img\/pubilles\/pubilla4.jpg",
-		"outputAbbreviatedPath": "\/img\/pubilles\/pubilla4.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/pubilles\/pubilla5.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5877,
-		"inputAbbreviatedPath": "\/img\/pubilles\/pubilla5.jpg",
-		"outputAbbreviatedPath": "\/img\/pubilles\/pubilla5.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/pubilles\/pubilla6.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5289,
-		"inputAbbreviatedPath": "\/img\/pubilles\/pubilla6.jpg",
-		"outputAbbreviatedPath": "\/img\/pubilles\/pubilla6.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/pubilles\/pubilla7.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5905,
-		"inputAbbreviatedPath": "\/img\/pubilles\/pubilla7.jpg",
-		"outputAbbreviatedPath": "\/img\/pubilles\/pubilla7.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/pubilles\/pubilla8.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7098,
-		"inputAbbreviatedPath": "\/img\/pubilles\/pubilla8.jpg",
-		"outputAbbreviatedPath": "\/img\/pubilles\/pubilla8.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/pubilles\/pubilla9.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5963,
-		"inputAbbreviatedPath": "\/img\/pubilles\/pubilla9.jpg",
-		"outputAbbreviatedPath": "\/img\/pubilles\/pubilla9.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/pubilles\/pubillaGran1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 27114,
-		"inputAbbreviatedPath": "\/img\/pubilles\/pubillaGran1.jpg",
-		"outputAbbreviatedPath": "\/img\/pubilles\/pubillaGran1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/pubilles\/pubillaGran1.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 274204,
-		"inputAbbreviatedPath": "\/img\/pubilles\/pubillaGran1.png",
-		"outputAbbreviatedPath": "\/img\/pubilles\/pubillaGran1.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/pubilles\/pubillaGran2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 40609,
-		"inputAbbreviatedPath": "\/img\/pubilles\/pubillaGran2.jpg",
-		"outputAbbreviatedPath": "\/img\/pubilles\/pubillaGran2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/pubilles\/pubillaGran2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 400449,
-		"inputAbbreviatedPath": "\/img\/pubilles\/pubillaGran2.png",
-		"outputAbbreviatedPath": "\/img\/pubilles\/pubillaGran2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/rayos.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -678,87 +313,12 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/salutacions\/alcaldesaMin.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 50371,
-		"inputAbbreviatedPath": "\/img\/salutacions\/alcaldesaMin.jpg",
-		"outputAbbreviatedPath": "\/img\/salutacions\/alcaldesaMin.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/salutacions\/pregoneraMin.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 96774,
-		"inputAbbreviatedPath": "\/img\/salutacions\/pregoneraMin.jpg",
-		"outputAbbreviatedPath": "\/img\/salutacions\/pregoneraMin.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/salutacions\/regidoraMin.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 120212,
-		"inputAbbreviatedPath": "\/img\/salutacions\/regidoraMin.jpg",
-		"outputAbbreviatedPath": "\/img\/salutacions\/regidoraMin.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/senefa.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6578,
-		"inputAbbreviatedPath": "\/img\/senefa.png",
-		"outputAbbreviatedPath": "\/img\/senefa.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/js\/main-ck.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/main-ck.js",
 		"outputAbbreviatedPath": "\/js\/min\/main-ck-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/main.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/main.js",
-		"outputAbbreviatedPath": "\/js\/min\/main-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/min\/main-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/min\/main-min.js",
-		"outputAbbreviatedPath": "\/js\/min\/min\/main-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
