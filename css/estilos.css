@@ -159,9 +159,9 @@ a:active {
   background-position: 0px 0px;
   width: 160px;
   height: 88px;
-  transform: scale(0.5, 0.5);
-  -ms-transform: scale(0.5, 0.5);
-  -webkit-transform: scale(0.5, 0.5);
+  transform: scale(0.55, 0.55);
+  -ms-transform: scale(0.55, 0.55);
+  -webkit-transform: scale(0.55, 0.55);
 }
 .negro {
   background-position: -160px 0px;
@@ -546,6 +546,7 @@ a:active {
 .footer {
   background: rgba(23,125,212,0.8);
   color: #fff;
+  height: 100px;
   overflow: hidden;
   padding: 20px;
   position: relative;
@@ -553,8 +554,8 @@ a:active {
 }
 .footer .blanco {
   position: absolute;
-  left: -20px;
-  bottom: -10px;
+  left: -15px;
+  bottom: 10px;
 }
 .footer .right {
   float: right;
