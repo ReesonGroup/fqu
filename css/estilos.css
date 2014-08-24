@@ -783,13 +783,6 @@ span
   content: '\e602';
 }
 @media screen and (min-width: 770px) {
-  .contenido {
-    position: absolute;
-    top: 85px;
-    right: 420px;
-    bottom: 0;
-    left: 0;
-  }
   .contenido .calendario {
     bottom: 0;
     float: right;
@@ -817,6 +810,13 @@ span
   }
   .contenido .calendario .listaDias {
     margin: 308px 0 0 0;
+  }
+  .contenido .contieneInformacion {
+    position: absolute;
+    top: 85px;
+    right: 420px;
+    bottom: 0;
+    left: 0;
   }
   .contenido .contieneInformacion .puntos {
     display: none;
