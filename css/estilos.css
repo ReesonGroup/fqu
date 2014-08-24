@@ -402,62 +402,6 @@ a:active {
 .contieneInformacion .informacion .infoOuter .infoInner .post:last-child {
   border-bottom: none;
 }
-.tituloAra {
-  -webkit-animation: timeLineLento 0.8s;
-  animation: timeLineLento 0.8s;
-  height: auto;
-  left: 0;
-  position: absolute;
-  top: 430px;
-  width: 100%;
-  z-index: 10;
-}
-.tituloAra .tituloInner {
-  background: #a01157;
-  border-radius: 5px 5px 0 0;
-  box-shadow: 0 -2px 16px rgba(0,0,0,0.7);
-  height: 72px;
-  left: 50%;
-  margin: -2px 0 0 -73px;
-  position: relative;
-  width: 145px;
-}
-.tituloAra .tituloInner:after {
-  border-bottom: 37px solid transparent;
-  border-left: 70px solid transparent;
-  border-right: 70px solid transparent;
-  border-top: 15px solid #a01157;
-  bottom: -52px;
-  content: "";
-  content: '';
-  left: 0;
-  position: absolute;
-  right: 0px;
-}
-.tituloAra .tituloInner p {
-  color: #fff;
-  font-family: Oswald;
-  font-size: 1.2em;
-  font-weight: 400;
-  left: 14px;
-  letter-spacing: 1px;
-  line-height: 31px;
-  margin: 0;
-  position: absolute;
-  text-transform: uppercase;
-  top: 9px;
-  transform: scale(1, 0.9);
-  -ms-transform: scale(1, 0.9);
-  -webkit-transform: scale(1, 0.9);
-}
-.tituloAra .tituloInner p span {
-  display: block;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  transform: scale(1, 1.3);
-  -ms-transform: scale(1, 1.3);
-  -webkit-transform: scale(1, 1.3);
-}
 .eventoActual {
   background: #cae8fb;
   color: #177afc;
@@ -580,6 +524,41 @@ a:active {
   font-family: icomoon;
   vertical-align: bottom;
 }
+.header {
+  height: 500px;
+  position: relative;
+}
+.header .degradado {
+  background: #2b1d53;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.header .degradado .marco {
+  height: 250%;
+  left: -50%;
+  position: relative;
+  top: 80px;
+  width: 190%;
+background: rgb(215,81,93);
+				background: -moz-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%, rgba(215,81,93,1) 23%, rgba(43,29,83,1) 71%, rgba(43,29,83,1) 71%);
+				background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(215,81,93,1)), color-stop(23%,rgba(215,81,93,1)), color-stop(71%,rgba(43,29,83,1)), color-stop(71%,rgba(43,29,83,1)));
+				background: -webkit-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				background: -o-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				background: -ms-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				background: radial-gradient(ellipse at center,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7515d', endColorstr='#2b1d53',GradientType=1 );
+}
+background: rgb(215,81,93);
+				background: -moz-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%, rgba(215,81,93,1) 23%, rgba(43,29,83,1) 71%, rgba(43,29,83,1) 71%);
+				background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(215,81,93,1)), color-stop(23%,rgba(215,81,93,1)), color-stop(71%,rgba(43,29,83,1)), color-stop(71%,rgba(43,29,83,1)));
+				background: -webkit-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				background: -o-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				background: -ms-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				background: radial-gradient(ellipse at center,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7515d', endColorstr='#2b1d53',GradientType=1 );
 .listaDias .listaEventos {
   margin-top: 15px;
 }
@@ -725,6 +704,62 @@ span
 }
 .menu {
   display: none;
+}
+.tituloAra {
+  -webkit-animation: timeLineLento 0.8s;
+  animation: timeLineLento 0.8s;
+  height: auto;
+  left: 0;
+  position: absolute;
+  top: 430px;
+  width: 100%;
+  z-index: 10;
+}
+.tituloAra .tituloInner {
+  background: #a01157;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 -2px 16px rgba(0,0,0,0.7);
+  height: 72px;
+  left: 50%;
+  margin: -2px 0 0 -73px;
+  position: relative;
+  width: 145px;
+}
+.tituloAra .tituloInner:after {
+  border-bottom: 37px solid transparent;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  border-top: 15px solid #a01157;
+  bottom: -52px;
+  content: "";
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 0px;
+}
+.tituloAra .tituloInner p {
+  color: #fff;
+  font-family: Oswald;
+  font-size: 1.2em;
+  font-weight: 400;
+  left: 14px;
+  letter-spacing: 1px;
+  line-height: 31px;
+  margin: 0;
+  position: absolute;
+  text-transform: uppercase;
+  top: 9px;
+  transform: scale(1, 0.9);
+  -ms-transform: scale(1, 0.9);
+  -webkit-transform: scale(1, 0.9);
+}
+.tituloAra .tituloInner p span {
+  display: block;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  transform: scale(1, 1.3);
+  -ms-transform: scale(1, 1.3);
+  -webkit-transform: scale(1, 1.3);
 }
 .wraper {
   overflow: hidden;
