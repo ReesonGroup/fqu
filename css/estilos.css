@@ -181,8 +181,7 @@ a:active {
   width: 100%;
   height: 500px;
 }
-.contenido .calendario,
-.contenido .botonera {
+.contenido .calendario .botonera {
   background: #f8f8f8;
   border: 1px solid #dcdcdc;
   border-left: 5px solid #177dd4;
@@ -192,8 +191,7 @@ a:active {
   width: 100%;
   z-index: 6;
 }
-.contenido .calendario:after,
-.contenido .botonera:after {
+.contenido .calendario .botonera:after {
   border-bottom: 37px solid transparent;
   border-left: 10px solid transparent;
   border-right: 8px solid #177dd4;
@@ -203,18 +201,15 @@ a:active {
   right: 0px;
   top: 0;
 }
-.contenido .calendario ul,
-.contenido .botonera ul {
+.contenido .calendario .botonera ul {
   overflow-x: auto;
   padding: 12px 0;
   white-space: nowrap;
 }
-.contenido .calendario ul::-webkit-scrollbar,
-.contenido .botonera ul::-webkit-scrollbar {
+.contenido .calendario .botonera ul::-webkit-scrollbar {
   display: none;
 }
-.contenido .calendario ul li,
-.contenido .botonera ul li {
+.contenido .calendario .botonera ul li {
   background: #177dd4;
   border-radius: 50%;
   display: inline-block;
@@ -225,58 +220,54 @@ a:active {
   text-align: center;
   width: 50px;
 }
-.contenido .calendario ul li:first-child,
-.contenido .botonera ul li:first-child {
+.contenido .calendario .botonera ul li:first-child {
   margin: 0 20px 0 20px;
 }
-.contenido .calendario ul li a,
-.contenido .botonera ul li a {
+.contenido .calendario .botonera ul li a {
   color: #fff;
   font-style: italic;
   text-decoration: none;
 }
-.contenido .calendario ul li a span,
-.contenido .botonera ul li a span {
+.contenido .calendario .botonera ul li a span {
   font-size: 0.5em;
   left: 30%;
   position: absolute;
   top: 28px;
 }
-.contenido .calendario ul .botoneraActive,
-.contenido .botonera ul .botoneraActive {
+.contenido .calendario .botonera ul .botoneraActive {
   background: #1d5c90;
 }
-.contenido .eventoActual {
+.contenido .calendario .eventoActual {
   background: #cae8fb;
   color: #177afc;
   position: relative;
   z-index: 5;
 }
-.contenido .eventoActual .detalleEvento {
+.contenido .calendario .eventoActual .detalleEvento {
   font-weight: 400;
   min-height: 105px;
   padding: 30px 0 30px 0;
 }
-.contenido .eventoActual .detalleEvento .logoEvento {
+.contenido .calendario .eventoActual .detalleEvento .logoEvento {
   position: relative;
 }
-.contenido .eventoActual .detalleEvento .logoEvento:before {
+.contenido .calendario .eventoActual .detalleEvento .logoEvento:before {
   font-family: icomoon;
   left: 30px;
   position: absolute;
   top: 5px;
 }
-.contenido .eventoActual .detalleEvento .sitioEvento {
+.contenido .calendario .eventoActual .detalleEvento .sitioEvento {
   color: rgba(23,122,252,0.5);
   font-size: 12px;
   margin: 5px 20px 0 75px;
   text-align: left;
   text-transform: uppercase;
 }
-.contenido .eventoActual .detalleEvento .tituloEvento {
+.contenido .calendario .eventoActual .detalleEvento .tituloEvento {
   margin: 0 20px 0 75px;
 }
-.contenido .eventoActual .tituloOuter {
+.contenido .calendario .eventoActual .tituloOuter {
   -webkit-animation: timeLineLento 0.8s;
   animation: timeLineLento 0.8s;
   display: none;
@@ -287,7 +278,7 @@ a:active {
   width: 100%;
   z-index: 5;
 }
-.contenido .eventoActual .tituloOuter .tituloInner {
+.contenido .calendario .eventoActual .tituloOuter .tituloInner {
   background: #a01157;
   border-radius: 5px 5px 0 0;
   box-shadow: 0 -2px 16px rgba(0,0,0,0.8);
@@ -297,7 +288,7 @@ a:active {
   position: relative;
   width: 140px;
 }
-.contenido .eventoActual .tituloOuter .tituloInner:after {
+.contenido .calendario .eventoActual .tituloOuter .tituloInner:after {
   border-bottom: 37px solid transparent;
   border-left: 70px solid transparent;
   border-right: 70px solid transparent;
@@ -309,7 +300,7 @@ a:active {
   position: absolute;
   right: 0px;
 }
-.contenido .eventoActual .tituloOuter .tituloInner p {
+.contenido .calendario .eventoActual .tituloOuter .tituloInner p {
   color: #fff;
   font-family: Oswald;
   font-size: 1.2em;
@@ -324,28 +315,24 @@ a:active {
   -ms-transform: scale(1, 0.9);
   -webkit-transform: scale(1, 0.9);
 }
-.contenido .eventoActual .tituloOuter .tituloInner p span {
+.contenido .calendario .eventoActual .tituloOuter .tituloInner p span {
   display: block;
   font-weight: 700;
   transform: scale(1, 1.2);
   -ms-transform: scale(1, 1.2);
   -webkit-transform: scale(1, 1.2);
 }
-.contenido .listaDias,
-.contenido .listaEventos {
+.contenido .calendario .listaEventos {
   margin-top: 15px;
 }
-.contenido .listaDias .contieneEvento,
-.contenido .listaEventos .contieneEvento {
+.contenido .calendario .listaEventos .contieneEvento {
   width: 92%;
   margin: 10px auto 15px auto;
 }
-.contenido .listaDias .contieneEvento:last-child,
-.contenido .listaEventos .contieneEvento:last-child {
+.contenido .calendario .listaEventos .contieneEvento:last-child {
   padding: 0 0 100px 0;
 }
-.contenido .listaDias .contieneEvento .evento .headerEvento,
-.contenido .listaEventos .contieneEvento .evento .headerEvento {
+.contenido .calendario .listaEventos .contieneEvento .evento .headerEvento {
   background: #f8f8f8;
   border-bottom: 1px solid #dcdcdc;
   border-radius: 10px 10px 0 0;
@@ -353,14 +340,12 @@ a:active {
   position: relative;
   text-align: center;
 }
-.contenido .listaDias .contieneEvento .evento .headerEvento span,
-.contenido .listaEventos .contieneEvento .evento .headerEvento span {
+.contenido .calendario .listaEventos .contieneEvento .evento .headerEvento span {
   color: rgba(0,0,0,0.75);
   font-size: 18px;
   font-weight: 400;
 }
-.contenido .listaDias .contieneEvento .evento .headerEvento span:after,
-.contenido .listaEventos .contieneEvento .evento .headerEvento span:after {
+.contenido .calendario .listaEventos .contieneEvento .evento .headerEvento span:after {
   color: #177dd4;
   content: '\e609';
   font-family: icomoon;
@@ -370,8 +355,7 @@ a:active {
   right: 16px;
   top: 10px;
 }
-.contenido .listaDias .contieneEvento .evento .footerEvento,
-.contenido .listaEventos .contieneEvento .evento .footerEvento {
+.contenido .calendario .listaEventos .contieneEvento .evento .footerEvento {
   background: #f8f8f8;
   border-radius: 0 0 10px 10px;
   border-top: 1px solid #dcdcdc;
@@ -379,85 +363,71 @@ a:active {
   padding: 10px 0;
 span
 }
-.contenido .listaDias .contieneEvento .evento .desplegado,
-.contenido .listaEventos .contieneEvento .evento .desplegado {
+.contenido .calendario .listaEventos .contieneEvento .evento .desplegado {
   display: none;
 }
-.contenido .listaDias .contieneEvento .evento .desplegado .contenido,
-.contenido .listaEventos .contieneEvento .evento .desplegado .contenido {
+.contenido .calendario .listaEventos .contieneEvento .evento .desplegado .contenido {
   background: #fff;
 }
-.contenido .listaDias .contieneEvento .evento .desplegado .contenido .texto,
-.contenido .listaEventos .contieneEvento .evento .desplegado .contenido .texto {
+.contenido .calendario .listaEventos .contieneEvento .evento .desplegado .contenido .texto {
   font-family: 'Open Sans', sans-serif;
   font-size: 17px;
   line-height: 24px;
   padding: 17px 17px 35px 17px;
 }
-.contenido .listaDias .contieneEvento .evento .desplegado .contenido .texto p,
-.contenido .listaEventos .contieneEvento .evento .desplegado .contenido .texto p {
+.contenido .calendario .listaEventos .contieneEvento .evento .desplegado .contenido .texto p {
   padding: 9px;
 }
-.contenido .listaDias .contieneEvento .evento .desplegado .hero,
-.contenido .listaEventos .contieneEvento .evento .desplegado .hero {
+.contenido .calendario .listaEventos .contieneEvento .evento .desplegado .hero {
   height: 250px;
   position: relative;
   width: 100%;
 }
-.contenido .listaDias .contieneEvento .evento .desplegado .hero .detalle,
-.contenido .listaEventos .contieneEvento .evento .desplegado .hero .detalle {
+.contenido .calendario .listaEventos .contieneEvento .evento .desplegado .hero .detalle {
   color: #fff;
   position: relative;
   text-align: center;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
   z-index: 1;
 }
-.contenido .listaDias .contieneEvento .evento .desplegado .hero .detalle .logoEvento:before,
-.contenido .listaEventos .contieneEvento .evento .desplegado .hero .detalle .logoEvento:before {
+.contenido .calendario .listaEventos .contieneEvento .evento .desplegado .hero .detalle .logoEvento:before {
   font-family: icomoon;
   font-size: 3em;
   position: relative;
   top: 30px;
 }
-.contenido .listaDias .contieneEvento .evento .desplegado .hero .detalle .noLogo,
-.contenido .listaEventos .contieneEvento .evento .desplegado .hero .detalle .noLogo {
+.contenido .calendario .listaEventos .contieneEvento .evento .desplegado .hero .detalle .noLogo {
   font-weight: 400;
   margin: 0 auto;
   position: relative;
   top: 55px;
   width: 75%;
 }
-.contenido .listaDias .contieneEvento .evento .desplegado .hero .detalle .noLogo .sitioEvento,
-.contenido .listaEventos .contieneEvento .evento .desplegado .hero .detalle .noLogo .sitioEvento {
+.contenido .calendario .listaEventos .contieneEvento .evento .desplegado .hero .detalle .noLogo .sitioEvento {
   font-size: 12px;
   font-weight: 300;
   margin-top: 7px;
   text-transform: uppercase;
 }
-.contenido .listaDias .contieneEvento .evento .desplegado .hero .detalle .noLogo .tituloEvento,
-.contenido .listaEventos .contieneEvento .evento .desplegado .hero .detalle .noLogo .tituloEvento {
+.contenido .calendario .listaEventos .contieneEvento .evento .desplegado .hero .detalle .noLogo .tituloEvento {
   font-size: 1.2em;
   line-height: 1.2em;
 }
-.contenido .listaDias .contieneEvento .evento .desplegado .hero .imagen,
-.contenido .listaEventos .contieneEvento .evento .desplegado .hero .imagen {
+.contenido .calendario .listaEventos .contieneEvento .evento .desplegado .hero .imagen {
   position: relative;
 }
-.contenido .listaDias .contieneEvento .evento .desplegado .hero .imagen .imagenInner,
-.contenido .listaEventos .contieneEvento .evento .desplegado .hero .imagen .imagenInner {
+.contenido .calendario .listaEventos .contieneEvento .evento .desplegado .hero .imagen .imagenInner {
   position: absolute;
   overflow: hidden;
   width: 100%;
   height: 250px;
 }
-.contenido .listaDias .contieneEvento .evento .desplegado .hero .imagen .imagenInner img,
-.contenido .listaEventos .contieneEvento .evento .desplegado .hero .imagen .imagenInner img {
+.contenido .calendario .listaEventos .contieneEvento .evento .desplegado .hero .imagen .imagenInner img {
   width: 100%;
   height: auto;
   overflow: hidden;
 }
-.contenido .listaDias .contieneEvento .evento .desplegado .hero .sombra,
-.contenido .listaEventos .contieneEvento .evento .desplegado .hero .sombra {
+.contenido .calendario .listaEventos .contieneEvento .evento .desplegado .hero .sombra {
   bottom: 0;
   box-shadow: 0 -100px 100px rgba(0,0,0,0.5) inset;
   left: 0;
@@ -466,20 +436,17 @@ span
   top: 0;
   z-index: 1;
 }
-.contenido .listaDias .contieneEvento .evento .plegado,
-.contenido .listaEventos .contieneEvento .evento .plegado {
+.contenido .calendario .listaEventos .contieneEvento .evento .plegado {
   background: #fff;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   padding: 18px 0 18px 18px;
   vertical-align: 25px;
 }
-.contenido .listaDias .contieneEvento .evento .plegado .logoEvento,
-.contenido .listaEventos .contieneEvento .evento .plegado .logoEvento {
+.contenido .calendario .listaEventos .contieneEvento .evento .plegado .logoEvento {
   position: relative;
 }
-.contenido .listaDias .contieneEvento .evento .plegado .logoEvento:before,
-.contenido .listaEventos .contieneEvento .evento .plegado .logoEvento:before {
+.contenido .calendario .listaEventos .contieneEvento .evento .plegado .logoEvento:before {
   color: rgba(0,0,0,0.75);
   font-family: icomoon;
   font-size: 1.5em;
@@ -487,20 +454,18 @@ span
   position: absolute;
   top: 5px;
 }
-.contenido .listaDias .contieneEvento .evento .plegado .sitioEvento,
-.contenido .listaEventos .contieneEvento .evento .plegado .sitioEvento {
+.contenido .calendario .listaEventos .contieneEvento .evento .plegado .sitioEvento {
   color: #a4a8aa;
   font-size: 12px;
   margin-left: 70px;
   margin-top: 0px;
   text-transform: uppercase;
 }
-.contenido .listaDias .contieneEvento .evento .plegado .tituloEvento,
-.contenido .listaEventos .contieneEvento .evento .plegado .tituloEvento {
+.contenido .calendario .listaEventos .contieneEvento .evento .plegado .tituloEvento {
   margin: 0 10px 0 70px;
   padding: 0 10px 5px 0;
 }
-.contenido .tituloAra {
+.contenido .calendario .tituloAra {
   height: auto;
   left: 0;
   position: absolute;
@@ -508,7 +473,7 @@ span
   width: 100%;
   z-index: 10;
 }
-.contenido .tituloAra .tituloInner {
+.contenido .calendario .tituloAra .tituloInner {
   background: #a01157;
   border-radius: 5px 5px 0 0;
   box-shadow: 0 -2px 16px rgba(0,0,0,0.7);
@@ -518,7 +483,7 @@ span
   position: relative;
   width: 145px;
 }
-.contenido .tituloAra .tituloInner:after {
+.contenido .calendario .tituloAra .tituloInner:after {
   border-bottom: 37px solid transparent;
   border-left: 70px solid transparent;
   border-right: 70px solid transparent;
@@ -530,7 +495,7 @@ span
   position: absolute;
   right: 0px;
 }
-.contenido .tituloAra .tituloInner p {
+.contenido .calendario .tituloAra .tituloInner p {
   color: #fff;
   font-family: Oswald;
   font-size: 1.2em;
@@ -546,7 +511,7 @@ span
   -ms-transform: scale(1, 0.9);
   -webkit-transform: scale(1, 0.9);
 }
-.contenido .tituloAra .tituloInner p span {
+.contenido .calendario .tituloAra .tituloInner p span {
   display: block;
   font-weight: 700;
   letter-spacing: 0.5px;
@@ -554,47 +519,40 @@ span
   -ms-transform: scale(1, 1.3);
   -webkit-transform: scale(1, 1.3);
 }
-.contenido .contieneInformacion,
-.contenido .informacion {
+.contenido .contieneInformacion .informacion {
   background: #2a2c2f;
   position: relative;
 }
-.contenido .contieneInformacion .infoHeader,
-.contenido .informacion .infoHeader {
+.contenido .contieneInformacion .informacion .infoHeader {
   background: #f8f8f8;
   border-bottom: 1px solid #dcdcdc;
   color: rgba(0,0,0,0.75);
   height: 80px;
 }
-.contenido .contieneInformacion .infoHeader h2,
-.contenido .informacion .infoHeader h2 {
+.contenido .contieneInformacion .informacion .infoHeader h2 {
   font-size: 21px;
   font-style: italic;
   letter-spacing: 1px;
   padding: 15px 0 0 30px;
   text-transform: uppercase;
 }
-.contenido .contieneInformacion .infoHeader h2 span,
-.contenido .informacion .infoHeader h2 span {
+.contenido .contieneInformacion .informacion .infoHeader h2 span {
   display: block;
   font-size: 16px;
   letter-spacing: 0px;
   line-height: 21px;
   text-transform: lowercase;
 }
-.contenido .contieneInformacion .infoOuter .infoInner,
-.contenido .informacion .infoOuter .infoInner {
+.contenido .contieneInformacion .informacion .infoOuter .infoInner {
   border-bottom: 1px solid #e6e6e6;
 }
-.contenido .contieneInformacion .infoOuter .infoInner .checkInfo,
-.contenido .informacion .infoOuter .infoInner .checkInfo {
+.contenido .contieneInformacion .informacion .infoOuter .infoInner .checkInfo {
   height: 70px;
   position: relative;
   width: 100%;
   z-index: 20;
 }
-.contenido .contieneInformacion .infoOuter .infoInner .checkInfo .puntos:after,
-.contenido .informacion .infoOuter .infoInner .checkInfo .puntos:after {
+.contenido .contieneInformacion .informacion .infoOuter .infoInner .checkInfo .puntos:after {
   color: #dcdcdc;
   content: '\e600';
   font-family: icomoon;
@@ -604,12 +562,10 @@ span
   right: 20px;
   top: 20px;
 }
-.contenido .contieneInformacion .infoOuter .infoInner .entrades,
-.contenido .informacion .infoOuter .infoInner .entrades {
+.contenido .contieneInformacion .informacion .infoOuter .infoInner .entrades {
   margin: -70px 0 0 0;
 }
-.contenido .contieneInformacion .infoOuter .infoInner .entrades:before,
-.contenido .informacion .infoOuter .infoInner .entrades:before {
+.contenido .contieneInformacion .informacion .infoOuter .infoInner .entrades:before {
   content: '\e60c';
   font-family: icomoon;
   font-size: 18px;
@@ -618,12 +574,10 @@ span
   position: absolute;
   top: 30px;
 }
-.contenido .contieneInformacion .infoOuter .infoInner .inscripcions,
-.contenido .informacion .infoOuter .infoInner .inscripcions {
+.contenido .contieneInformacion .informacion .infoOuter .infoInner .inscripcions {
   margin: -70px 0 0 0;
 }
-.contenido .contieneInformacion .infoOuter .infoInner .inscripcions:before,
-.contenido .informacion .infoOuter .infoInner .inscripcions:before {
+.contenido .contieneInformacion .informacion .infoOuter .infoInner .inscripcions:before {
   content: '\e60b';
   font-family: icomoon;
   font-size: 18px;
@@ -632,12 +586,10 @@ span
   position: absolute;
   top: 30px;
 }
-.contenido .contieneInformacion .infoOuter .infoInner .horario,
-.contenido .informacion .infoOuter .infoInner .horario {
+.contenido .contieneInformacion .informacion .infoOuter .infoInner .horario {
   margin: -70px 0 0 0;
 }
-.contenido .contieneInformacion .infoOuter .infoInner .horario:before,
-.contenido .informacion .infoOuter .infoInner .horario:before {
+.contenido .contieneInformacion .informacion .infoOuter .infoInner .horario:before {
   content: '\e60a';
   font-family: icomoon;
   font-size: 18px;
@@ -646,12 +598,10 @@ span
   position: absolute;
   top: 30px;
 }
-.contenido .contieneInformacion .infoOuter .infoInner .notes,
-.contenido .informacion .infoOuter .infoInner .notes {
+.contenido .contieneInformacion .informacion .infoOuter .infoInner .notes {
   margin: -70px 0 0 0;
 }
-.contenido .contieneInformacion .infoOuter .infoInner .notes:before,
-.contenido .informacion .infoOuter .infoInner .notes:before {
+.contenido .contieneInformacion .informacion .infoOuter .infoInner .notes:before {
   content: '\e608';
   font-family: icomoon;
   font-size: 14px;
@@ -660,8 +610,7 @@ span
   position: absolute;
   top: 30px;
 }
-.contenido .contieneInformacion .infoOuter .infoInner .post,
-.contenido .informacion .infoOuter .infoInner .post {
+.contenido .contieneInformacion .informacion .infoOuter .infoInner .post {
   background: #fff;
   color: rgba(0,0,0,0.7);
   font-size: 16px;
@@ -670,57 +619,46 @@ span
   padding: 28px 0 28px 0;
   position: relative;
 }
-.contenido .contieneInformacion .infoOuter .infoInner .post h4,
-.contenido .informacion .infoOuter .infoInner .post h4 {
+.contenido .contieneInformacion .informacion .infoOuter .infoInner .post h4 {
   margin: 0 78px 0 55px;
 }
-.contenido .contieneInformacion .infoOuter .infoInner .post .detallePost,
-.contenido .informacion .infoOuter .infoInner .post .detallePost {
+.contenido .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost {
   border-left: none;
 }
-.contenido .contieneInformacion .infoOuter .infoInner .post .detallePost h5,
-.contenido .informacion .infoOuter .infoInner .post .detallePost h5 {
+.contenido .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost h5 {
   color: rgba(0,0,0,0.7);
   font-style: normal;
   margin: 20px 20px 10px 55px;
 }
-.contenido .contieneInformacion .infoOuter .infoInner .post .detallePost h5:first-child,
-.contenido .informacion .infoOuter .infoInner .post .detallePost h5:first-child {
+.contenido .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost h5:first-child {
   margin: 40px 20px 10px 55px;
 }
-.contenido .contieneInformacion .infoOuter .infoInner .post .detallePost p,
-.contenido .informacion .infoOuter .infoInner .post .detallePost p {
+.contenido .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p {
   color: rgba(0,0,0,0.6);
   font-style: normal;
   font-weight: 400;
   margin: 0 30px 0 55px;
 }
-.contenido .contieneInformacion .infoOuter .infoInner .post .detallePost p:last-child,
-.contenido .informacion .infoOuter .infoInner .post .detallePost p:last-child {
+.contenido .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p:last-child {
   margin: 0 20px 30px 55px;
 }
-.contenido .contieneInformacion .infoOuter .infoInner .post .detallePost p.detallePostPiscina,
-.contenido .informacion .infoOuter .infoInner .post .detallePost p.detallePostPiscina {
+.contenido .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p.detallePostPiscina {
   margin: 20px 20px 30px 55px;
 }
-.contenido .contieneInformacion .infoOuter .infoInner .post .detallePost ul,
-.contenido .informacion .infoOuter .infoInner .post .detallePost ul {
+.contenido .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul {
   margin: 20px 30px 0 55px;
 }
-.contenido .contieneInformacion .infoOuter .infoInner .post .detallePost ul li,
-.contenido .informacion .infoOuter .infoInner .post .detallePost ul li {
+.contenido .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul li {
   color: rgba(0,0,0,0.6);
   font-style: normal;
   font-weight: 400;
   list-style-type: circle;
   margin: 0 0 10px 0;
 }
-.contenido .contieneInformacion .infoOuter .infoInner .post .detallePost ul li:last-child,
-.contenido .informacion .infoOuter .infoInner .post .detallePost ul li:last-child {
+.contenido .contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul li:last-child {
   margin: 0 0 30px 0;
 }
-.contenido .contieneInformacion .infoOuter .infoInner .post:last-child,
-.contenido .informacion .infoOuter .infoInner .post:last-child {
+.contenido .contieneInformacion .informacion .infoOuter .infoInner .post:last-child {
   border-bottom: none;
 }
 .footer {
@@ -853,6 +791,13 @@ background: rgb(215,81,93);
   .contenido .calendario .listaDias {
     margin: 308px 0 0 0;
   }
+  .contenido .calendario .tituloAra {
+    height: auto;
+    position: absolute;
+    top: 15px;
+    left: 71%;
+    width: 170px;
+  }
   .contenido .contieneInformacion {
     background: #fff;
     bottom: 0;
@@ -864,13 +809,13 @@ background: rgb(215,81,93);
     top: 85px;
     z-index: 0;
   }
-  .contenido .contieneInformacion .infoHeader {
+  .contenido .contieneInformacion .infoHeaderbp3 {
     background: #f8f8f8;
     border-bottom: 1px solid #dcdcdc;
     color: rgba(0,0,0,0.75);
     height: 70px;
   }
-  .contenido .contieneInformacion .infoHeader h2 {
+  .contenido .contieneInformacion .infoHeaderbp3 h2 {
     font-size: 24px;
     font-style: normal;
     font-weight: 100;
@@ -878,7 +823,7 @@ background: rgb(215,81,93);
     padding: 20px 0 0 30px;
     text-transform: none;
   }
-  .contenido .contieneInformacion .infoHeader h2 span {
+  .contenido .contieneInformacion .infoHeaderbp3 h2 span {
     display: inline-block;
     font-size: 24px;
     letter-spacing: 0px;
@@ -969,12 +914,5 @@ background: rgb(215,81,93);
   }
   .logo img {
     width: 63px;
-  }
-  .tituloAra {
-    height: auto;
-    position: absolute;
-    top: 15px;
-    left: 71%;
-    width: 170px;
   }
 }
