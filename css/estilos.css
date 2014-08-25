@@ -170,6 +170,7 @@ a:active {
   transform: scale(0.45, 0.45);
   -ms-transform: scale(0.45, 0.45);
   -webkit-transform: scale(0.45, 0.45);
+  opacity: 0.7;
 }
 .logo {
   background-position: -320px 0px;
@@ -701,6 +702,9 @@ span
   font-family: icomoon;
   vertical-align: bottom;
 }
+.footerbp3 {
+  display: none;
+}
 .header {
   height: 500px;
   width: 100%;
@@ -968,11 +972,42 @@ background: rgb(215,81,93);
     display: block;
     background: rgba(255,255,255,0.95);
     border-top: 1px solid #dcdcdc;
+    border-right: 1px solid #dcdcdc;
     bottom: 0;
-    height: 60px;
+    height: 70px;
     left: 0;
     position: fixed;
     right: 420px;
     z-index: 20;
+  }
+  .footerbp3 .contactar {
+    vertical-align: bottom;
+    position: absolute;
+    right: 30px;
+    bottom: 28px;
+  }
+  .footerbp3 .contactar a {
+    color: rgba(0,0,0,0.7);
+  }
+  .footerbp3 .contactar span {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .footerbp3 .contactar span:after {
+    content: " |";
+  }
+  .footerbp3 .contactar .email {
+    display: inline-block;
+  }
+  .footerbp3 .contactar .email:after {
+    content: '\e60d';
+    font-family: icomoon;
+    vertical-align: bottom;
+  }
+  .footerbp3 .negro {
+    position: absolute;
+    left: -15px;
+    bottom: -10px;
   }
 }

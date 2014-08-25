@@ -175,9 +175,33 @@
 	display block
 	background rgba(white,.95)
 	border-top 1px solid borde
+	border-right 1px solid borde
 	bottom 0 
-	height 60px
+	height 70px
 	left 0
 	position fixed
 	right 420px
 	z-index 20
+	.contactar
+		vertical-align bottom
+		position absolute
+		right 30px 
+		bottom 28px 
+		a
+			color rgba(black,.7)
+		span
+			display inline-block
+			font-size 18px
+			font-weight 400
+			&:after
+				content " |"
+		.email
+			display inline-block
+			&:after
+				content email
+				font-family icomoon
+				vertical-align bottom
+	.negro
+		position absolute
+		left -15px 
+		bottom -10px
