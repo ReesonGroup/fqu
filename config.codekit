@@ -242,12 +242,12 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 111594,
+		"initialSize": 33759,
 		"inputAbbreviatedPath": "\/img\/sprites.png",
 		"outputAbbreviatedPath": "\/img\/sprites.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/index.html": {
 		"fileType": 8192,
@@ -338,7 +338,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Jordi Air ",
+"lastSavedByUser": "Jordi iMac",
 "manualImportLinks": {
 	},
 "projectAttributes": {

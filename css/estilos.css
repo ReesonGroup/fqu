@@ -830,6 +830,26 @@ span
     top: 85px;
     z-index: 0;
   }
+  .contenido .contieneInformacion .infoHeader {
+    background: #f8f8f8;
+    border-bottom: 1px solid #dcdcdc;
+    color: rgba(0,0,0,0.75);
+    height: 70px;
+  }
+  .contenido .contieneInformacion .infoHeader h2 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: 0px;
+    padding: 20px 0 0 30px;
+    text-transform: none;
+  }
+  .contenido .contieneInformacion .infoHeader h2 span {
+    display: inline-block;
+    font-size: 24px;
+    letter-spacing: 0px;
+    text-transform: lowercase;
+  }
   .contenido .contieneInformacion .puntos {
     display: none;
   }
