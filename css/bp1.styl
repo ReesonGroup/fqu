@@ -240,6 +240,55 @@
 						.tituloEvento
 							margin 0 10px 0 70px
 							padding 0 10px 5px 0
+	.tituloAra
+		height auto
+		left 0
+		position absolute
+		top 430px
+		width 100%
+		z-index 10
+		.tituloInner
+			background verdeOscuro
+			border-radius 5px 5px 0 0 
+			box-shadow 0 -2px 16px rgba(black,.7)
+			height 72px
+			left 50%
+			margin -2px 0 0 -73px
+			position relative 
+			width 145px
+			&:after
+				border-bottom 37px solid transparent
+				border-left 70px solid transparent
+				border-right 70px solid transparent
+				border-top 15px solid verdeOscuro
+				bottom -52px
+				content ""
+				content ''
+				left 0
+				position absolute
+				right 0px
+			p
+				color rgba(white,1)
+				font-family Oswald
+				font-size 1.2em
+				font-weight 400
+				left 14px
+				letter-spacing 1px
+				line-height 31px
+				margin 0 
+				position absolute
+				text-transform uppercase
+				top 9px
+				transform: scale(1, .9);
+				-ms-transform: scale(1, .9);
+				-webkit-transform: scale(1, .9);
+				span
+					display block
+					font-weight 700
+					letter-spacing .5px
+					transform: scale(1, 1.3);
+					-ms-transform: scale(1, 1.3);
+					-webkit-transform: scale(1, 1.3);
 .contieneInformacion
 	.informacion
 		background negroInterface3
@@ -418,57 +467,7 @@
 			}
 .menu
 	display none
-.tituloAra
-	-webkit-animation timeLineLento .8s
-	animation timeLineLento .8s 
-	height auto
-	left 0
-	position absolute
-	top 430px
-	width 100%
-	z-index 10
-	.tituloInner
-		background verdeOscuro
-		border-radius 5px 5px 0 0 
-		box-shadow 0 -2px 16px rgba(black,.7)
-		height 72px
-		left 50%
-		margin -2px 0 0 -73px
-		position relative 
-		width 145px
-		&:after
-			border-bottom 37px solid transparent
-			border-left 70px solid transparent
-			border-right 70px solid transparent
-			border-top 15px solid verdeOscuro
-			bottom -52px
-			content ""
-			content ''
-			left 0
-			position absolute
-			right 0px
-		p
-			color rgba(white,1)
-			font-family Oswald
-			font-size 1.2em
-			font-weight 400
-			left 14px
-			letter-spacing 1px
-			line-height 31px
-			margin 0 
-			position absolute
-			text-transform uppercase
-			top 9px
-			transform: scale(1, .9);
-			-ms-transform: scale(1, .9);
-			-webkit-transform: scale(1, .9);
-			span
-				display block
-				font-weight 700
-				letter-spacing .5px
-				transform: scale(1, 1.3);
-				-ms-transform: scale(1, 1.3);
-				-webkit-transform: scale(1, 1.3);
+
 .wraper
 	overflow hidden
 // ====================
