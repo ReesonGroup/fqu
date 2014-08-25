@@ -6,6 +6,8 @@
 	height 500px
 	width 100%
 	z-index 5
+#bgCanvas2
+	display none
 .calendario
 	.botonera
 		background blancoManchado
@@ -53,7 +55,7 @@
 						position absolute
 						top 28px
 			.botoneraActive
-				background #1d5c90
+				background #1262a6
 	.eventoActual
 		background eventoActualFonfo
 		color eventoActualFuente
@@ -276,13 +278,13 @@
 				position absolute
 				right 0px
 			p
-				color rgba(white,1)
+				color rgba(white,.93)
 				font-family Oswald
 				font-size 1.2em
 				font-weight 400
 				left 14px
 				letter-spacing 1px
-				line-height 31px
+				line-height 30px
 				margin 0 
 				position absolute
 				text-transform uppercase
@@ -423,13 +425,15 @@
 	padding 20px 
 	position relative
 	z-index 5
-	.blanco
-		position absolute
-		left -15px
-		bottom 10px
+	.logoReeson
+		img
+			position absolute
+			left 20px
+			bottom 20px
+			width 110px
 	.right
 		float right
-		margin 8px 0 0 0
+		margin 10px 0 0 0
 		vertical-align bottom
 		a
 			color white
@@ -475,6 +479,30 @@
 				background: radial-gradient(ellipse at center,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
 				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7515d', endColorstr='#2b1d53',GradientType=1 );
 			}
+	.logo
+		width 100px
+		height 100px
+		img
+			position relative
+			margin 0 auto
+			display block
+			z-index 11
+			width 180px
+			top 20px
+	.programa
+		width 100px
+		height 100px
+		margin 0 auto
+		img
+			position relative
+			z-index 11
+			width 215px
+			top 40px
+			margin 0 0 0 -60px
+.logo2
+	display none
+.programa2
+	display none
 .menu
 	display none
 .tituloArabp3
