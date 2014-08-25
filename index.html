@@ -19,12 +19,13 @@
 	    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 	</head>
 <body>
+	<canvas id="bgCanvas" width="200" height="200"></canvas>
 	<div id="fb-root"></div>
 	<div class="wraper">	
 		<header class="header">
 			<div class="trama"></div>
 			<div class="degradado"><div class="marco"></div></div>
-		</header>k
+		</header>
 		<div class="tituloArabp3"><div class="tituloInner"><p><span id="aux">Ara mateix</span>estem fent</p></div></div>
 		<section class="contenido">
 			<div class="calendario">
@@ -5580,6 +5581,26 @@
 	</script>
 	<script src="js/main.js"></script>
 	<script src="js/vendor/patternizer.js"></script>
+	<script type="text/javascript">
+
+	var bgCanvas = document.getElementById('bgCanvas');
+
+	bgCanvas.patternizer({
+	    stripes : [ 
+	        {
+		  		color: '#5f303d',
+		        rotation: 90,
+		        opacity: 40,
+		        mode: 'normal',
+		        width: 1,
+		        gap: 1,
+		        offset: 1
+	        },
+	    ],
+	    bg : 'rgba(250,250,250,0)'
+	});
+
+	</script>
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
