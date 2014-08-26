@@ -267,6 +267,9 @@ preloadImg('comida', 'http://ulldecona.herobo.com/image/fqu/eventos/comida.jpg')
 preloadImg('cercavila', 'http://ulldecona.herobo.com/image/fqu/eventos/cercavila.jpg');
 preloadImg('independencia', 'http://ulldecona.herobo.com/image/fqu/eventos/independencia.jpg');
 preloadImg('nadar', 'http://ulldecona.herobo.com/image/fqu/eventos/nadar.jpg');
+preloadImg('nadar', 'http://ulldecona.herobo.com/image/fqu/eventos/nadar.jpg');
+preloadImg('chimchim', 'http://ulldecona.herobo.com/image/fqu/eventos/chimchim.jpg');
+preloadImg('chimchim2', 'http://ulldecona.herobo.com/image/fqu/eventos/chimchim2.jpg');
 
 var container = document.getElementById('imgContainer');
 container.style.display = 'block';

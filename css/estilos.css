@@ -354,6 +354,7 @@ span
   padding: 9px;
 }
 .calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .hero {
+  background: #bd294e;
   height: 250px;
   position: relative;
   width: 100%;
@@ -765,6 +766,9 @@ background: rgb(215,81,93);
 .comida:before {
   content: '\e229';
 }
+.chimchim:before {
+  content: '\e19b';
+}
 .dibujo:before {
   content: '\e611';
 }
@@ -773,6 +777,9 @@ background: rgb(215,81,93);
 }
 .musica:before {
   content: '\e03f';
+}
+.nadar:before {
+  content: '\e617';
 }
 .iglesia:before {
   content: '\e00a';
