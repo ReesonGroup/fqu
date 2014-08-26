@@ -98,15 +98,6 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
 		},
-	"\/css\/estilos.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/estilos.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/css\/estilos.styl": {
 		"debugStyle": 0,
 		"fileType": 8,
@@ -185,18 +176,29 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 55259,
+		"initialSize": 10623,
 		"inputAbbreviatedPath": "\/img\/programa.png",
 		"outputAbbreviatedPath": "\/img\/programa.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/programa2-compressed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10174,
+		"inputAbbreviatedPath": "\/img\/programa2-compressed.png",
+		"outputAbbreviatedPath": "\/img\/programa2-compressed.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/programa2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 59690,
+		"initialSize": 10174,
 		"inputAbbreviatedPath": "\/img\/programa2.png",
 		"outputAbbreviatedPath": "\/img\/programa2.png",
 		"outputPathIsOutsideProject": 0,
