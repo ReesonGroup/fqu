@@ -948,7 +948,7 @@ background: rgb(215,81,93);
   }
   .header .logo img {
     width: 68px;
-    position: absolute;
+    position: fixed;
     z-index: 15;
     top: 7px;
     left: 17px;
@@ -963,7 +963,7 @@ background: rgb(215,81,93);
   }
   .logo2 img {
     width: 68px;
-    position: absolute;
+    position: fixed;
     z-index: 15;
     top: 7px;
     left: 17px;
@@ -972,7 +972,7 @@ background: rgb(215,81,93);
     display: block;
     width: 100px;
     height: 100px;
-    position: absolute;
+    position: fixed;
     z-index: 15;
     top: 20px;
     left: 110px;
@@ -982,7 +982,7 @@ background: rgb(215,81,93);
   }
   .tituloArabp3 {
     display: block;
-    position: absolute;
+    position: fixed;
     right: 175px;
     z-index: 10;
     top: 15px;
