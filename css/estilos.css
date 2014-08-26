@@ -165,6 +165,9 @@ a:active {
   background-position: 0px -128px;
   width: 230px;
   height: 128px;
+  transform: scale(0.35, 0.35);
+  -ms-transform: scale(0.35, 0.35);
+  -webkit-transform: scale(0.35, 0.35);
 }
 #bgCanvas {
   position: absolute;
@@ -991,11 +994,10 @@ background: rgb(215,81,93);
     font-family: icomoon;
     vertical-align: bottom;
   }
-  .footerbp3 .logoReeson img {
+  .footerbp3 .logoReeson .color {
     position: absolute;
-    left: 15px;
-    bottom: 12px;
-    width: 87px;
+    left: -40px;
+    bottom: -28px;
   }
   .header {
     height: 85px;
