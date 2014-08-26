@@ -756,6 +756,9 @@ background: rgb(215,81,93);
 .ayuntamiento:before {
   content: '\e075';
 }
+.cercavila:before {
+  content: '\e03d';
+}
 .coptel:before {
   content: '\e615';
 }
