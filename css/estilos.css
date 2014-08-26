@@ -753,20 +753,17 @@ background: rgb(215,81,93);
 .wraper {
   overflow: hidden;
 }
+.coptel:before {
+  content: '\e615';
+}
 .dibujo:before {
   content: '\e611';
 }
 .libro:before {
   content: '\e614';
 }
-.globos:before {
-  content: '\e612';
-}
-.campana:before {
-  content: '\e613';
-}
-.tiro:before {
-  content: '\e602';
+.iglesia:before {
+  content: '\e00a';
 }
 .descansem:before {
   content: '\e602';

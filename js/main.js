@@ -263,6 +263,8 @@ preloadImg('mural', 'http://ulldecona.herobo.com/image/fqu/eventos/mural.jpg');
 preloadImg('nadador', 'http://ulldecona.herobo.com/image/fqu/eventos/nadador.jpg');
 preloadImg('moto', 'http://ulldecona.herobo.com/image/fqu/eventos/moto.jpg');
 preloadImg('libro', 'http://ulldecona.herobo.com/image/fqu/eventos/libro.jpg');
+preloadImg('caribe', 'http://ulldecona.herobo.com/image/fqu/eventos/caribe.jpg');
+preloadImg('velas', 'http://ulldecona.herobo.com/image/fqu/eventos/velas.jpg');
 
 var container = document.getElementById('imgContainer');
 container.style.display = 'block';
