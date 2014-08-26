@@ -260,7 +260,8 @@ function preloadImg(containerId, imgUrl, imageId) {
 
 preloadImg('mural', 'http://ulldecona.herobo.com/image/fqu/eventos/mural.jpg');
 preloadImg('nadador', 'http://ulldecona.herobo.com/image/fqu/eventos/nadador.jpg');
-preloadImg('moto', 'http://ulldecona.herobo.com/image/fqu/eventos/moto.jpg');
+preloadImg('moto', '../img/moto.jpg');
+// preloadImg('moto', 'http://ulldecona.herobo.com/image/fqu/eventos/moto.jpg');
 
 var container = document.getElementById('imgContainer');
 container.style.display = 'block';
