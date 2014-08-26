@@ -223,10 +223,17 @@ a:active {
   min-height: 105px;
   padding: 30px 0 30px 0;
 }
+<<<<<<< HEAD
 .calendario .eventoActual .detalleEvento .logoEvento {
   position: relative;
 }
 .calendario .eventoActual .detalleEvento .logoEvento:before {
+=======
+.contenidos .calendario .eventoActual .detalleEvento .logoEvento {
+  position: relative;
+}
+.contenidos .calendario .eventoActual .detalleEvento .logoEvento:before {
+>>>>>>> f4d4efcefba42b7f1db411dc19e6f43d89f4eff6
   font-family: icomoon;
   left: 30px;
   position: absolute;
@@ -366,7 +373,11 @@ span
   text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
   z-index: 1;
 }
+<<<<<<< HEAD
 .calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .hero .detalle .logoEvento:before {
+=======
+.contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .hero .detalle .logoEvento:before {
+>>>>>>> f4d4efcefba42b7f1db411dc19e6f43d89f4eff6
   font-family: icomoon;
   font-size: 3em;
   position: relative;
@@ -389,10 +400,20 @@ span
   font-size: 1.2em;
   line-height: 1.2em;
 }
+<<<<<<< HEAD
 .calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .hero .imagen {
   position: relative;
 }
 .calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .hero .imagen .imagenInner {
+=======
+.contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .hero .imagen {
+  -webkit-filter: grayscale(0.4);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: auto 110%;
+  bottom: 0;
+  left: 0;
+>>>>>>> f4d4efcefba42b7f1db411dc19e6f43d89f4eff6
   position: absolute;
   overflow: hidden;
   width: 100%;
@@ -441,9 +462,81 @@ span
   margin: 0 10px 0 70px;
   padding: 0 10px 5px 0;
 }
+<<<<<<< HEAD
 .calendario .tituloAra {
   height: auto;
   left: 0;
+=======
+.contenidos .noCalendario {
+  position: relative;
+  z-index: 5;
+}
+.contenidos .noCalendario .contienePubillas .pubillas {
+  background: #fff;
+  color: rgba(0,0,0,0.75);
+}
+.contenidos .noCalendario .contienePubillas .pubillas h2 {
+  font-size: 24px;
+  font-weight: 300;
+  padding: 30px 20px 20px 20px;
+  text-align: center;
+}
+.contenidos .noCalendario .contienePubillas .pubillas .pubillasOuter {
+  display: block;
+  font-size: 0;
+  margin: 0 auto;
+  padding: 20px 0 20px 0;
+  text-align: center;
+}
+.contenidos .noCalendario .contienePubillas .pubillas .pubillasOuter .pubillasInner {
+  display: inline-block;
+  margin: 10px 0;
+  position: relative;
+  width: 150px;
+}
+.contenidos .noCalendario .contienePubillas .pubillas .pubillasOuter .pubillasInner img {
+  border-radius: 50%;
+  box-shadow: 0 0 3px rgba(0,0,0,0.3);
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  width: 85px;
+  height: auto;
+}
+.contenidos .noCalendario .contienePubillas .pubillas .pubillasOuter .pubillasInner .detall {
+  font-size: 14px;
+  font-weight: 300;
+  margin: 12px 0 20px 0;
+  padding: 0 5px;
+  text-align: center;
+}
+.contenidos .noCalendario .contienePubillas .pubillas .pubillasOuter .pubillasInner .detall .nom {
+  font-weight: 400;
+}
+.contenidos .noCalendario .contienePubillas .unaPubilla {
+  background: #fff;
+  padding: 0 0 20px 0;
+}
+.contenidos .noCalendario .contienePubillas .unaPubilla .back {
+  color: rgba(0,0,0,0.75);
+  padding: 20px 0 20px 18px;
+}
+.contenidos .noCalendario .contienePubillas .unaPubilla .back:last-child {
+  padding: 20px 0 45px 18px;
+}
+.contenidos .noCalendario .contienePubillas .unaPubilla .back .backTo {
+  display: inline-block;
+  font-weight: 400;
+  position: relative;
+}
+.contenidos .noCalendario .contienePubillas .unaPubilla .back .backTo span {
+  border-bottom: 1px solid;
+  margin: 0 0 0 25px;
+}
+.contenidos .noCalendario .contienePubillas .unaPubilla .back .backTo:before {
+  content: '\e60f';
+  font-family: icomoon;
+>>>>>>> f4d4efcefba42b7f1db411dc19e6f43d89f4eff6
   position: absolute;
   top: 430px;
   width: 100%;
@@ -787,11 +880,26 @@ background: rgb(215,81,93);
 .descansem:before {
   content: '\e602';
 }
+.dibujo:before {
+  content: '\e611';
+}
+.globos:before {
+  content: '\e612';
+}
+.campana:before {
+  content: '\e613';
+}
+.tiro:before {
+  content: '\e602';
+}
 @media screen and (min-width: 450px) {
+<<<<<<< HEAD
   .contenidos .calendario .listaEventos .contieneEvento .evento {
     max-width: 600px;
     margin: 0 auto;
   }
+=======
+>>>>>>> f4d4efcefba42b7f1db411dc19e6f43d89f4eff6
   .contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .hero .imagen {
     background-size: 100% auto;
   }
@@ -839,7 +947,11 @@ background: rgb(215,81,93);
     margin-bottom: 16px;
   }
   .contenidos .noCalendario .contienePubillas .pubillas .pubillasOuter {
+<<<<<<< HEAD
     padding: 20px 0 70px 0;
+=======
+    padding: 20px 0 20px 0;
+>>>>>>> f4d4efcefba42b7f1db411dc19e6f43d89f4eff6
     width: 70%;
   }
   .contenidos .noCalendario .contienePubillas .pubillas .pubillasOuter .pubillasInner img {
@@ -881,7 +993,107 @@ background: rgb(215,81,93);
     position: fixed;
     right: 0;
     top: 85px;
+<<<<<<< HEAD
     width: 100%;
+=======
+    z-index: 0;
+  }
+  .contenidos .noCalendario .contienePubillas .pubillas .pubillasOuter {
+    width: 80%;
+  }
+  .contenidos .noCalendario .menuNavegacion {
+    display: block;
+    background: rgba(255,255,255,0.95);
+    border-top: 1px solid #dcdcdc;
+    bottom: 0;
+    height: 48px;
+    left: 0;
+    position: fixed;
+    right: 420px;
+    z-index: 20;
+  }
+  .contenidos .noCalendario .menuNavegacion .boton {
+    color: #a4a8aa;
+    display: inline-block;
+    width: 32.7%;
+    text-align: center;
+    max-width: 200px;
+  }
+  .contenidos .noCalendario .menuNavegacion .boton span {
+    line-height: 45px;
+    font-size: 0.8em;
+    font-weight: 400;
+    margin-left: 15px;
+  }
+  .contenidos .noCalendario .menuNavegacion .boton .colaboradores {
+    position: relative;
+  }
+  .contenidos .noCalendario .menuNavegacion .boton .colaboradores:before {
+    content: '\e601';
+    font-family: icomoon;
+    font-size: 1.2em;
+    left: -25px;
+    position: absolute;
+    top: -13px;
+  }
+  .contenidos .noCalendario .menuNavegacion .boton .colaboradoresActive {
+    color: #177dd4;
+    position: relative;
+  }
+  .contenidos .noCalendario .menuNavegacion .boton .colaboradoresActive:before {
+    content: '\e602';
+    font-family: icomoon;
+    font-size: 1.2em;
+    left: -25px;
+    position: absolute;
+    top: -13px;
+  }
+  .contenidos .noCalendario .menuNavegacion .boton .info {
+    position: relative;
+  }
+  .contenidos .noCalendario .menuNavegacion .boton .info:before {
+    content: '\e603';
+    font-family: icomoon;
+    font-size: 1.2em;
+    left: -25px;
+    position: absolute;
+    top: -13px;
+  }
+  .contenidos .noCalendario .menuNavegacion .boton .infoActive {
+    color: #177dd4;
+    position: relative;
+  }
+  .contenidos .noCalendario .menuNavegacion .boton .infoActive:before {
+    content: '\e604';
+    font-family: icomoon;
+    font-size: 1.2em;
+    left: -25px;
+    position: absolute;
+    top: -13px;
+  }
+  .contenidos .noCalendario .menuNavegacion .boton .pubillas {
+    position: relative;
+  }
+  .contenidos .noCalendario .menuNavegacion .boton .pubillas:before {
+    content: '\e605';
+    font-family: icomoon;
+    font-size: 1em;
+    left: -25px;
+    position: absolute;
+    top: -13px;
+  }
+  .contenidos .noCalendario .menuNavegacion .boton .pubillasActive {
+    color: #177dd4;
+    position: relative;
+  }
+  .contenidos .noCalendario .menuNavegacion .boton .pubillasActive:before {
+    content: '\e606';
+    font-family: icomoon;
+    font-size: 1.3em;
+    left: -25px;
+    position: absolute;
+    top: -13px;
+>>>>>>> f4d4efcefba42b7f1db411dc19e6f43d89f4eff6
   }
   .contenido .calendario {
     bottom: 0;
