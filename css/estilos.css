@@ -147,6 +147,25 @@ a:active {
 .left {
   float: left;
 }
+.blanco,
+.color {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url("../img/sprites.png");
+}
+.blanco {
+  background-position: 0px 0px;
+  width: 230px;
+  height: 128px;
+  transform: scale(0.5, 0.5);
+  -ms-transform: scale(0.5, 0.5);
+  -webkit-transform: scale(0.5, 0.5);
+}
+.color {
+  background-position: 0px -128px;
+  width: 230px;
+  height: 128px;
+}
 #bgCanvas {
   position: absolute;
   top: 0;
@@ -648,11 +667,10 @@ span
   position: relative;
   z-index: 5;
 }
-.footer .logoReeson img {
+.footer .logoReeson .blanco {
   position: absolute;
-  left: 20px;
-  bottom: 20px;
-  width: 110px;
+  left: -25px;
+  bottom: -15px;
 }
 .footer .right {
   float: right;
