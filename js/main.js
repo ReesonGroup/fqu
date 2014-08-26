@@ -112,7 +112,7 @@ function startViews()
   if ($(window).width()>=770)
   {
     detallInfo.show();
-    detalleInfo.stop();
+    detallInfo.stop();
   };
 };
 
@@ -243,25 +243,25 @@ function resizer (multiplicador)
 
 
 
-// Precarga de imagenes =============================
-function preloadImg(containerId, imgUrl, imageId) {
-    var i = document.createElement('img'); // or new Image()
-    // may be you need to set the element id...
-    i.id = imageId;
-    // here handle on load event
-    i.onload = function () {
-        var container = document.getElementById(containerId);
-        // finally the new image is loaded, you can trigger your action
-        container.appendChild(this);
-    };
-    // This is the last step, set the url and start the image download.
-    i.src = imgUrl;
-}
+// // Precarga de imagenes =============================
+// function preloadImg(containerId, imgUrl, imageId) {
+//     var i = document.createElement('img'); // or new Image()
+//     // may be you need to set the element id...
+//     i.id = imageId;
+//     // here handle on load event
+//     i.onload = function () {
+//         var container = document.getElementById(containerId);
+//         // finally the new image is loaded, you can trigger your action
+//         container.appendChild(this);
+//     };
+//     // This is the last step, set the url and start the image download.
+//     i.src = imgUrl;
+// }
 
-preloadImg('mural', 'http://ulldecona.herobo.com/image/fqu/eventos/mural.jpg');
-preloadImg('nadador', 'http://ulldecona.herobo.com/image/fqu/eventos/nadador.jpg');
-preloadImg('moto', 'http://ulldecona.herobo.com/image/fqu/eventos/moto.jpg');
+// preloadImg('mural', 'http://ulldecona.herobo.com/image/fqu/eventos/mural.jpg');
+// preloadImg('nadador', 'http://ulldecona.herobo.com/image/fqu/eventos/nadador.jpg');
+// preloadImg('moto', 'http://ulldecona.herobo.com/image/fqu/eventos/moto.jpg');
 
-var container = document.getElementById('imgContainer');
-container.style.display = 'block';
+// var container = document.getElementById('imgContainer');
+// container.style.display = 'block';
 
