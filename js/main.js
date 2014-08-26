@@ -242,30 +242,26 @@ function resizer (multiplicador)
 // }(document, 'script', 'facebook-jssdk'));
 
 
-function preloadImg(containerId, imgUrl, imageId) {
 
+// Precarga de imagenes =============================
+function preloadImg(containerId, imgUrl, imageId) {
     var i = document.createElement('img'); // or new Image()
     // may be you need to set the element id...
     i.id = imageId;
     // here handle on load event
     i.onload = function () {
-
         var container = document.getElementById(containerId);
         // finally the new image is loaded, you can trigger your action
         container.appendChild(this);
-
     };
     // This is the last step, set the url and start the image download.
     i.src = imgUrl;
-
 }
-
 
 preloadImg('mural', '../img/eventos/mural.jpg');
 preloadImg('nadador', '../img/eventos/nadador.jpg');
 preloadImg('moto', '../img/eventos/moto.jpg');
 
 var container = document.getElementById('imgContainer');
-
 container.style.display = 'block';
 
