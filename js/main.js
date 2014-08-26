@@ -246,16 +246,12 @@ function resizer (multiplicador)
 
 // Precarga de imagenes =============================
 function preloadImg(containerId, imgUrl, imageId) {
-    var i = document.createElement('img'); // or new Image()
-    // may be you need to set the element id...
+    var i = document.createElement('img'); 
     i.id = imageId;
-    // here handle on load event
     i.onload = function () {
         var container = document.getElementById(containerId);
-        // finally the new image is loaded, you can trigger your action
         container.appendChild(this);
     };
-    // This is the last step, set the url and start the image download.
     i.src = imgUrl;
 }
 
@@ -265,6 +261,10 @@ preloadImg('moto', 'http://ulldecona.herobo.com/image/fqu/eventos/moto.jpg');
 preloadImg('libro', 'http://ulldecona.herobo.com/image/fqu/eventos/libro.jpg');
 preloadImg('caribe', 'http://ulldecona.herobo.com/image/fqu/eventos/caribe.jpg');
 preloadImg('velas', 'http://ulldecona.herobo.com/image/fqu/eventos/velas.jpg');
+preloadImg('musica', 'http://ulldecona.herobo.com/image/fqu/eventos/musica.jpg');
+preloadImg('ayuntamiento', 'http://ulldecona.herobo.com/image/fqu/eventos/ayuntamiento.jpg');
+preloadImg('comida', 'http://ulldecona.herobo.com/image/fqu/eventos/comida.jpg');
+preloadImg('independencia', 'http://ulldecona.herobo.com/image/fqu/eventos/independencia.jpg');
 
 var container = document.getElementById('imgContainer');
 container.style.display = 'block';

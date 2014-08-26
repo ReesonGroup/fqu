@@ -362,7 +362,7 @@ span
   color: #fff;
   position: relative;
   text-align: center;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
   z-index: 1;
 }
 .calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .hero .detalle .logoEvento:before {
@@ -753,14 +753,23 @@ background: rgb(215,81,93);
 .wraper {
   overflow: hidden;
 }
+.ayuntamiento:before {
+  content: '\e075';
+}
 .coptel:before {
   content: '\e615';
+}
+.comida:before {
+  content: '\e229';
 }
 .dibujo:before {
   content: '\e611';
 }
 .libro:before {
   content: '\e614';
+}
+.musica:before {
+  content: '\e03f';
 }
 .iglesia:before {
   content: '\e00a';
