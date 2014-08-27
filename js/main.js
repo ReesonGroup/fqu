@@ -269,7 +269,6 @@ preloadImg('independencia', 'http://ulldecona.herobo.com/image/fqu/eventos/indep
 preloadImg('nadar', 'http://ulldecona.herobo.com/image/fqu/eventos/nadar.jpg');
 preloadImg('nadar', 'http://ulldecona.herobo.com/image/fqu/eventos/nadar.jpg');
 preloadImg('chimchim', 'http://ulldecona.herobo.com/image/fqu/eventos/chimchim.jpg');
-preloadImg('mantons', 'http://ulldecona.herobo.com/image/fqu/eventos/chimchim2.jpg');
 preloadImg('arte', 'http://ulldecona.herobo.com/image/fqu/eventos/arte.jpg');
 
 var container = document.getElementById('imgContainer');
