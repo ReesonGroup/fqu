@@ -196,6 +196,19 @@ function actionBotonera()
       diasEventos.fadeOut();
       $('#dia14').fadeIn();
     }
+<<<<<<< HEAD
+=======
+    else if ($(this).attr('id')=='d15')
+    {
+      diasEventos.fadeOut();
+      $('#dia15').fadeIn();
+    }
+    else if ($(this).attr('id')=='d16')
+    {
+      diasEventos.fadeOut();
+      $('#dia16').fadeIn();
+    }
+>>>>>>> FETCH_HEAD
     else{console.log('la botonera esta fallando')}
   });
 };
@@ -270,7 +283,10 @@ preloadImg('nadar', 'http://ulldecona.herobo.com/image/fqu/eventos/nadar.jpg');
 preloadImg('nadar', 'http://ulldecona.herobo.com/image/fqu/eventos/nadar.jpg');
 preloadImg('chimchim', 'http://ulldecona.herobo.com/image/fqu/eventos/chimchim.jpg');
 preloadImg('chimchim2', 'http://ulldecona.herobo.com/image/fqu/eventos/chimchim2.jpg');
+<<<<<<< HEAD
 preloadImg('arte', 'http://ulldecona.herobo.com/image/fqu/eventos/arte.jpg');
+=======
+>>>>>>> FETCH_HEAD
 
 var container = document.getElementById('imgContainer');
 container.style.display = 'block';
