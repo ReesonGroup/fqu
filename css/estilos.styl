@@ -1,0 +1,204 @@
+
+@import "reset.styl"
+
+// Fuentes =========================================
+principal = 'Lato', sans-serif;
+lectura = 'Open Sans', sans-serif;
+
+
+// Colores =========================================
+
+
+active = #618617
+azul = #177dd4
+azulClaro = #63aeee
+azulOscuro = #315b8d
+grisMenu = #a4a8aa
+blancoManchado = #f8f8f8
+body = #929292
+borde = #dcdcdc
+footer = #576774 
+granate = #654b6b
+gris = #484645
+grisClaro = #eff3f6
+grisEventoActual = #8a8a8a
+grisFondo = #dcdcdc
+menuLateral = #212121
+morado = #bd294e
+morado2 = #a82e5a
+naranja = #fda524
+negro = #242d35
+negroFondo = #3e4145
+negroInterface = #222326
+negroInterface2 = #161719
+negroInterface3 = #2a2c2f
+negroOscuro = #121314
+rojoClaro = #db321c
+rojoLogo = #bd0506
+rojoOscuro = #982617 
+rosa = #f95d49
+rosa = rgb(209, 80, 95)
+separador = #323438
+separador2 = #121314
+texto = rgba(white,.8)
+texto2 = rgba(black,.75)
+texto3 = #4d4d4d
+texto4 = #6f8595
+textoEvento = #f2f2f2
+verde = #80b21e
+verdeFooter = #98cb6a
+verdeLinea = #b3d494
+verdeOscuro = #a01157
+eventoActualFonfo = #cae8fb
+eventoActualFuente = #177afc
+eventoFondo = #ddeefb
+botoneraFondo = #ddeefb
+
+
+
+// @font-face ======================================
+
+
+// @font-face {
+//     font-family: 'icomoon';
+//     src:url('../fonts/icomoon.eot?-vup9ry');
+//     src:url('../fonts/icomoon.eot?#iefix-vup9ry') format('embedded-opentype');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+// @font-face {
+//     font-family: 'icomoon';
+//     src:url('../fonts/icomoon.woff?-vup9ry') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+// @font-face {
+//     font-family: 'icomoon';
+//     src:url('../fonts/icomoon.ttf?-vup9ry') format('truetype');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+// @font-face {
+//     font-family: 'icomoon';
+//     src:url('../fonts/icomoon.svg?-vup9ry#icomoon') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+ayuntamiento = '\e075'
+email = '\e60d'
+cercavila = '\e03d'
+chimchim = '\e19b'
+coptel = '\e615'
+comida = '\e229'
+disco = '\e60e'
+dibujo = '\e611'
+estrellaVacia= '\e601'
+estrellaLlena = '\e602'
+infoVacia = '\e603'
+infoLlena = '\e604'
+iglesia = '\e00a'
+grillaVacia = '\e605'
+grillaLlena = '\e606'
+musica = '\e03f'
+nadar = '\e617'
+notas = '\e608'
+reloj = '\e60a'
+calendario = '\e60b'
+chimchim = '\e19b'
+ticket = '\e60c'
+flecha = '\e607'
+flechaIzq = '\e60f'
+puntos = '\e600'
+libro = '\e614'
+lineas = '\e609'
+concurs = '\e610'
+globos = '\e612'
+campana = '\e613'
+
+
+
+body
+    background rgba(black,.1)
+    font-family lato
+    font-size 20px
+    font-weight 100
+    height 100%
+    width 100%
+
+::selection
+    background azul
+    color white
+
+a
+    &:link
+        some style
+        text-decoration none
+    &:visited
+        some style
+    &:hover
+        some style
+    &:active
+        some style
+
+
+
+// Clases preconfiguradas =====================
+
+.enlace
+    position absolute
+    top 0
+    right 0
+    bottom 0 
+    left 0
+.invisible
+    display none
+.visible
+    display block
+    transition all .5s ease
+    -webkit-transition all .5s ease
+.left
+    float left
+
+// Sprites ================================
+
+.blanco,
+.color{
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url('../img/sprites.png');
+}
+.blanco
+{
+    background-position:0px 0px;
+    width:230px;
+    height:128px;
+    transform: scale(.5, .5);
+    -ms-transform: scale(.5, .5);
+    -webkit-transform: scale(.5, .5);
+}
+.color
+{
+    background-position:0px -128px;
+    width:230px;
+    height:128px;
+    transform: scale(.35, .35);
+    -ms-transform: scale(.35, .35);
+    -webkit-transform: scale(.35, .35);
+}
+
+// Break points ====================================
+
+@import "bp1.styl"
+
+@media screen and (min-width: 450px) 
+    @import "bp2.styl"
+
+@media screen and (min-width: 770px) 
+    @import "bp3.styl"
+
+// @media screen and (min-width: 760px) 
+//     @import "bp4.styl"
+
+// @media screen and (min-width: 960px) 
+//     @import "bp5.styl"

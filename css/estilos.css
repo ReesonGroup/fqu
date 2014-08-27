@@ -1,0 +1,1124 @@
+html,
+body,
+body div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+menu,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+pre {
+  white-space: pre-wrap;
+}
+body {
+  background: rgba(0,0,0,0.1);
+  font-family: lato;
+  font-size: 20px;
+  font-weight: 100;
+  height: 100%;
+  width: 100%;
+}
+::selection {
+  background: #177dd4;
+  color: #fff;
+}
+a:link {
+  some: style;
+  text-decoration: none;
+}
+a:visited {
+  some: style;
+}
+a:hover {
+  some: style;
+}
+a:active {
+  some: style;
+}
+.enlace {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.invisible {
+  display: none;
+}
+.visible {
+  display: block;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}
+.left {
+  float: left;
+}
+.blanco,
+.color {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url("../img/sprites.png");
+}
+.blanco {
+  background-position: 0px 0px;
+  width: 230px;
+  height: 128px;
+  transform: scale(0.5, 0.5);
+  -ms-transform: scale(0.5, 0.5);
+  -webkit-transform: scale(0.5, 0.5);
+}
+.color {
+  background-position: 0px -128px;
+  width: 230px;
+  height: 128px;
+  transform: scale(0.35, 0.35);
+  -ms-transform: scale(0.35, 0.35);
+  -webkit-transform: scale(0.35, 0.35);
+}
+#bgCanvas {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 500px;
+  width: 100%;
+  z-index: 5;
+}
+#bgCanvas2 {
+  display: none;
+}
+.calendario .botonera {
+  background: #f8f8f8;
+  border: 1px solid #dcdcdc;
+  border-left: 5px solid #177dd4;
+  border-right: 5px solid #177dd4;
+  height: auto;
+  position: relative;
+  width: 100%;
+  z-index: 6;
+}
+.calendario .botonera:after {
+  border-bottom: 37px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 8px solid #177dd4;
+  border-top: 37px solid transparent;
+  content: '';
+  position: absolute;
+  right: 0px;
+  top: 0;
+}
+.calendario .botonera ul {
+  overflow-x: auto;
+  padding: 12px 0;
+  white-space: nowrap;
+}
+.calendario .botonera ul::-webkit-scrollbar {
+  display: none;
+}
+.calendario .botonera ul li {
+  background: #177dd4;
+  border-radius: 50%;
+  display: inline-block;
+  height: 50px;
+  margin: 0 20px 0 0;
+  padding: 5px;
+  position: relative;
+  text-align: center;
+  width: 50px;
+}
+.calendario .botonera ul li:first-child {
+  margin: 0 20px 0 20px;
+}
+.calendario .botonera ul li a {
+  color: #fff;
+  font-style: italic;
+  text-decoration: none;
+}
+.calendario .botonera ul li a span {
+  font-size: 0.5em;
+  left: 30%;
+  position: absolute;
+  top: 28px;
+}
+.calendario .botonera ul .botoneraActive {
+  background: #1262a6;
+}
+.calendario .eventoActual {
+  background: #cae8fb;
+  color: #177afc;
+  position: relative;
+  z-index: 5;
+}
+.calendario .eventoActual .detalleEvento {
+  font-weight: 400;
+  min-height: 105px;
+  padding: 30px 0 30px 0;
+}
+.calendario .eventoActual .detalleEvento .logoEvento {
+  position: relative;
+}
+.calendario .eventoActual .detalleEvento .logoEvento:before {
+  font-family: icomoon;
+  left: 30px;
+  position: absolute;
+  top: 5px;
+}
+.calendario .eventoActual .detalleEvento .sitioEvento {
+  color: rgba(23,122,252,0.5);
+  font-size: 12px;
+  margin: 5px 20px 0 75px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.calendario .eventoActual .detalleEvento .tituloEvento {
+  margin: 0 20px 0 75px;
+}
+.calendario .eventoActual .tituloOuter {
+  -webkit-animation: timeLineLento 0.8s;
+  animation: timeLineLento 0.8s;
+  display: none;
+  height: auto;
+  left: 0;
+  position: absolute;
+  top: 435px;
+  width: 100%;
+  z-index: 5;
+}
+.calendario .eventoActual .tituloOuter .tituloInner {
+  background: #a01157;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 -2px 16px rgba(0,0,0,0.8);
+  height: 70px;
+  left: 50%;
+  margin: 0 0 0 -73px;
+  position: relative;
+  width: 140px;
+}
+.calendario .eventoActual .tituloOuter .tituloInner:after {
+  border-bottom: 37px solid transparent;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  border-top: 15px solid #a01157;
+  bottom: -52px;
+  content: "";
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 0px;
+}
+.calendario .eventoActual .tituloOuter .tituloInner p {
+  color: #fff;
+  font-family: Oswald;
+  font-size: 1.2em;
+  font-weight: 400;
+  left: 14px;
+  line-height: 30px;
+  margin: 0;
+  position: absolute;
+  text-transform: uppercase;
+  top: 9px;
+  transform: scale(1, 0.9);
+  -ms-transform: scale(1, 0.9);
+  -webkit-transform: scale(1, 0.9);
+}
+.calendario .eventoActual .tituloOuter .tituloInner p span {
+  display: block;
+  font-weight: 700;
+  transform: scale(1, 1.2);
+  -ms-transform: scale(1, 1.2);
+  -webkit-transform: scale(1, 1.2);
+}
+.calendario .listaDias .listaEventos {
+  margin-top: 15px;
+}
+.calendario .listaDias .listaEventos .contieneEvento {
+  width: 92%;
+  margin: 10px auto 15px auto;
+}
+.calendario .listaDias .listaEventos .contieneEvento:last-child {
+  padding: 0 0 100px 0;
+}
+.calendario .listaDias .listaEventos .contieneEvento .evento .headerEvento {
+  background: #f8f8f8;
+  border-bottom: 1px solid #dcdcdc;
+  border-radius: 10px 10px 0 0;
+  padding: 10px 0;
+  position: relative;
+  text-align: center;
+}
+.calendario .listaDias .listaEventos .contieneEvento .evento .headerEvento span {
+  color: rgba(0,0,0,0.75);
+  font-size: 18px;
+  font-weight: 400;
+}
+.calendario .listaDias .listaEventos .contieneEvento .evento .headerEvento span:after {
+  color: #177dd4;
+  content: '\e609';
+  font-family: icomoon;
+  font-size: 1.2em;
+  font-weight: 400;
+  position: absolute;
+  right: 16px;
+  top: 10px;
+}
+.calendario .listaDias .listaEventos .contieneEvento .evento .footerEvento {
+  background: #f8f8f8;
+  border-radius: 0 0 10px 10px;
+  border-top: 1px solid #dcdcdc;
+  height: 47px;
+  padding: 10px 0;
+span
+}
+.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado {
+  display: none;
+}
+.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .contenido {
+  background: #fff;
+}
+.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .contenido .texto {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 17px 17px 35px 17px;
+}
+.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .contenido .texto p {
+  padding: 9px;
+}
+.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .hero {
+  background: #a01157;
+  height: 250px;
+  position: relative;
+  width: 100%;
+}
+.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .hero .detalle {
+  color: #fff;
+  position: relative;
+  text-align: center;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+  z-index: 1;
+}
+.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .hero .detalle .logoEvento:before {
+  font-family: icomoon;
+  font-size: 3em;
+  position: relative;
+  top: 30px;
+}
+.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .hero .detalle .noLogo {
+  font-weight: 400;
+  margin: 0 auto;
+  position: relative;
+  top: 55px;
+  width: 75%;
+}
+.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .hero .detalle .noLogo .sitioEvento {
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 7px;
+  text-transform: uppercase;
+}
+.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .hero .detalle .noLogo .tituloEvento {
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
+.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .hero .imagen {
+  position: relative;
+}
+.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .hero .imagen .imagenInner {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 250px;
+}
+.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .hero .imagen .imagenInner img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .hero .sombra {
+  bottom: 0;
+  box-shadow: 0 -100px 100px rgba(0,0,0,0.5) inset;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+.calendario .listaDias .listaEventos .contieneEvento .evento .plegado {
+  background: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  padding: 18px 0 18px 18px;
+  vertical-align: 25px;
+}
+.calendario .listaDias .listaEventos .contieneEvento .evento .plegado .logoEvento {
+  position: relative;
+}
+.calendario .listaDias .listaEventos .contieneEvento .evento .plegado .logoEvento:before {
+  color: rgba(0,0,0,0.75);
+  font-family: icomoon;
+  font-size: 1.5em;
+  left: 10px;
+  position: absolute;
+  top: 5px;
+}
+.calendario .listaDias .listaEventos .contieneEvento .evento .plegado .sitioEvento {
+  color: #a4a8aa;
+  font-size: 12px;
+  margin-left: 70px;
+  margin-top: 0px;
+  text-transform: uppercase;
+}
+.calendario .listaDias .listaEventos .contieneEvento .evento .plegado .tituloEvento {
+  margin: 0 10px 0 70px;
+  padding: 0 10px 5px 0;
+}
+.calendario .tituloAra {
+  height: auto;
+  left: 0;
+  position: absolute;
+  top: 430px;
+  width: 100%;
+  z-index: 10;
+}
+.calendario .tituloAra .tituloInner {
+  background: #a01157;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 -2px 16px rgba(0,0,0,0.7);
+  height: 72px;
+  left: 50%;
+  margin: -2px 0 0 -73px;
+  position: relative;
+  width: 145px;
+}
+.calendario .tituloAra .tituloInner:after {
+  border-bottom: 37px solid transparent;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  border-top: 15px solid #a01157;
+  bottom: -52px;
+  content: "";
+  content: '';
+  left: 0;
+  position: absolute;
+  right: 0px;
+}
+.calendario .tituloAra .tituloInner p {
+  color: rgba(255,255,255,0.93);
+  font-family: Oswald;
+  font-size: 1.2em;
+  font-weight: 400;
+  left: 14px;
+  letter-spacing: 1px;
+  line-height: 30px;
+  margin: 0;
+  position: absolute;
+  text-transform: uppercase;
+  top: 9px;
+  transform: scale(1, 0.9);
+  -ms-transform: scale(1, 0.9);
+  -webkit-transform: scale(1, 0.9);
+}
+.calendario .tituloAra .tituloInner p span {
+  display: block;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  transform: scale(1, 1.3);
+  -ms-transform: scale(1, 1.3);
+  -webkit-transform: scale(1, 1.3);
+}
+.contieneInformacion .informacion {
+  background: #2a2c2f;
+  position: relative;
+}
+.contieneInformacion .informacion .infoHeader {
+  background: #f8f8f8;
+  border-bottom: 1px solid #dcdcdc;
+  color: rgba(0,0,0,0.75);
+  height: 80px;
+}
+.contieneInformacion .informacion .infoHeader h2 {
+  font-size: 21px;
+  font-style: italic;
+  letter-spacing: 1px;
+  padding: 15px 0 0 30px;
+  text-transform: uppercase;
+}
+.contieneInformacion .informacion .infoHeader h2 span {
+  display: block;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 21px;
+  text-transform: lowercase;
+}
+.contieneInformacion .informacion .infoOuter .infoInner {
+  border-bottom: 1px solid #e6e6e6;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .checkInfo {
+  height: 70px;
+  position: relative;
+  width: 100%;
+  z-index: 20;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .checkInfo .puntos:after {
+  color: #dcdcdc;
+  content: '\e600';
+  font-family: icomoon;
+  font-style: normal;
+  padding: 5px 0 5px 20px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .entrades {
+  margin: -70px 0 0 0;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .entrades:before {
+  content: '\e60c';
+  font-family: icomoon;
+  font-size: 18px;
+  font-style: normal;
+  left: 20px;
+  position: absolute;
+  top: 30px;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .inscripcions {
+  margin: -70px 0 0 0;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .inscripcions:before {
+  content: '\e60b';
+  font-family: icomoon;
+  font-size: 18px;
+  font-style: normal;
+  left: 20px;
+  position: absolute;
+  top: 30px;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .horario {
+  margin: -70px 0 0 0;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .horario:before {
+  content: '\e60a';
+  font-family: icomoon;
+  font-size: 18px;
+  font-style: normal;
+  left: 20px;
+  position: absolute;
+  top: 30px;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .notes {
+  margin: -70px 0 0 0;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .notes:before {
+  content: '\e608';
+  font-family: icomoon;
+  font-size: 14px;
+  font-style: normal;
+  left: 20px;
+  position: absolute;
+  top: 30px;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .post {
+  background: #fff;
+  color: rgba(0,0,0,0.7);
+  font-size: 16px;
+  font-style: italic;
+  line-height: 21px;
+  padding: 28px 0 28px 0;
+  position: relative;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .post h4 {
+  margin: 0 78px 0 55px;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .post .detallePost {
+  border-left: none;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .post .detallePost h5 {
+  color: rgba(0,0,0,0.7);
+  font-style: normal;
+  margin: 20px 20px 10px 55px;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .post .detallePost h5:first-child {
+  margin: 40px 20px 10px 55px;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p {
+  color: rgba(0,0,0,0.6);
+  font-style: normal;
+  font-weight: 400;
+  margin: 0 30px 0 55px;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p:last-child {
+  margin: 0 20px 30px 55px;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .post .detallePost p.detallePostPiscina {
+  margin: 20px 20px 30px 55px;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul {
+  margin: 20px 30px 0 55px;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul li {
+  color: rgba(0,0,0,0.6);
+  font-style: normal;
+  font-weight: 400;
+  list-style-type: circle;
+  margin: 0 0 10px 0;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .post .detallePost ul li:last-child {
+  margin: 0 0 30px 0;
+}
+.contieneInformacion .informacion .infoOuter .infoInner .post:last-child {
+  border-bottom: none;
+}
+.footer {
+  background: rgba(23,125,212,0.8);
+  color: #fff;
+  height: 100px;
+  overflow: hidden;
+  padding: 20px;
+  position: relative;
+  z-index: 5;
+}
+.footer .logoReeson .blanco {
+  position: absolute;
+  left: -25px;
+  bottom: -15px;
+}
+.footer .right {
+  float: right;
+  margin: 10px 0 0 0;
+  vertical-align: bottom;
+}
+.footer .right a {
+  color: #fff;
+}
+.footer .right span {
+  display: inline-block;
+  font-weight: 400;
+}
+.footer .right span:after {
+  content: " |";
+}
+.footer .right .email {
+  display: inline-block;
+}
+.footer .right .email:after {
+  content: '\e60d';
+  font-family: icomoon;
+  vertical-align: bottom;
+}
+.footerbp3 {
+  display: none;
+}
+.header {
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+.header .degradado {
+  background: #2b1d53;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+.header .degradado .marco {
+  height: 250%;
+  left: -50%;
+  position: relative;
+  top: 80px;
+  width: 190%;
+background: rgb(215,81,93);
+				background: -moz-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%, rgba(215,81,93,1) 23%, rgba(43,29,83,1) 71%, rgba(43,29,83,1) 71%);
+				background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(215,81,93,1)), color-stop(23%,rgba(215,81,93,1)), color-stop(71%,rgba(43,29,83,1)), color-stop(71%,rgba(43,29,83,1)));
+				background: -webkit-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				background: -o-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				background: -ms-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				background: radial-gradient(ellipse at center,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7515d', endColorstr='#2b1d53',GradientType=1 );
+}
+background: rgb(215,81,93);
+				background: -moz-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%, rgba(215,81,93,1) 23%, rgba(43,29,83,1) 71%, rgba(43,29,83,1) 71%);
+				background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(215,81,93,1)), color-stop(23%,rgba(215,81,93,1)), color-stop(71%,rgba(43,29,83,1)), color-stop(71%,rgba(43,29,83,1)));
+				background: -webkit-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				background: -o-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				background: -ms-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				background: radial-gradient(ellipse at center,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7515d', endColorstr='#2b1d53',GradientType=1 );
+.header .logo {
+  width: 100px;
+  height: 100px;
+}
+.header .logo img {
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  z-index: 11;
+  width: 180px;
+  top: 25px;
+}
+.header .programa {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+.header .programa img {
+  position: relative;
+  z-index: 11;
+  width: 215px;
+  top: 45px;
+  margin: 0 0 0 -60px;
+}
+.logo2 {
+  display: none;
+}
+.programa2 {
+  display: none;
+}
+.menu {
+  display: none;
+}
+.tituloArabp3 {
+  display: none;
+}
+.wraper {
+  overflow: hidden;
+}
+.ayuntamiento:before {
+  content: '\e075';
+}
+.cercavila:before {
+  content: '\e03d';
+}
+.coptel:before {
+  content: '\e615';
+}
+.comida:before {
+  content: '\e229';
+}
+.chimchim:before {
+  content: '\e19b';
+}
+.dibujo:before {
+  content: '\e611';
+}
+.libro:before {
+  content: '\e614';
+}
+.musica:before {
+  content: '\e03f';
+}
+.nadar:before {
+  content: '\e617';
+}
+.iglesia:before {
+  content: '\e00a';
+}
+.descansem:before {
+  content: '\e602';
+}
+@media screen and (min-width: 450px) {
+  .contenidos .calendario .listaEventos .contieneEvento .evento {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .hero .imagen {
+    background-size: 100% auto;
+  }
+  .contenidos .noCalendario .contieneColaboradores .colaboradores .logoOuter {
+    padding: 0 20px 100px 20px;
+  }
+  .contenidos .noCalendario .contieneColaboradores .colaboradores .logoOuter .logoInner {
+    padding: 15px;
+    width: 30%;
+  }
+  .contenidos .noCalendario .contienePubillas .unaPubilla .back {
+    padding: 30px 0 40px 30px;
+  }
+  .contenidos .noCalendario .contienePubillas .unaPubilla .back:last-child {
+    padding: 10px 0 40px 30px;
+  }
+  .contenidos .noCalendario .contienePubillas .unaPubilla .hero {
+    height: 600px;
+  }
+  .contenidos .noCalendario .contienePubillas .unaPubilla .hero .fotoOuter {
+    height: 600px;
+  }
+  .contenidos .noCalendario .contienePubillas .unaPubilla .hero .fotoOuter .foto {
+    background-position: 10% 100%;
+    background-size: auto 100%;
+    position: absolute;
+  }
+  .contenidos .noCalendario .contienePubillas .unaPubilla .hero .detalle {
+    bottom: 50px;
+    left: 30px;
+    text-align: left;
+  }
+  .contenidos .noCalendario .contienePubillas .unaPubilla .hero .detalle .nombre {
+    font-size: 1.9em;
+    font-weight: 700;
+  }
+  .contenidos .noCalendario .contienePubillas .unaPubilla .hero .detalle .club {
+    font-size: 1.3em;
+    font-weight: 400;
+  }
+  .contenidos .noCalendario .contienePubillas .unaPubilla .texto {
+    padding: 30px 50px;
+  }
+  .contenidos .noCalendario .contienePubillas .unaPubilla .texto p {
+    margin-bottom: 16px;
+  }
+  .contenidos .noCalendario .contienePubillas .pubillas .pubillasOuter {
+    padding: 20px 0 70px 0;
+    width: 70%;
+  }
+  .contenidos .noCalendario .contienePubillas .pubillas .pubillasOuter .pubillasInner img {
+    width: 90px;
+    height: auto;
+  }
+  .header {
+    background: #f00;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  .header .logo img {
+    width: 200px;
+  }
+  .header .programa img {
+    margin: 0 0 0 -70px;
+    width: 240px;
+  }
+}
+@media screen and (min-width: 770px) {
+  #bgCanvas {
+    display: none;
+  }
+  #bgCanvas2 {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 85px;
+    z-index: 9;
+  }
+  .contenido {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 85px;
+    width: 100%;
+  }
+  .contenido .calendario {
+    bottom: 0;
+    float: right;
+    margin: 0;
+    overflow-y: auto;
+    position: fixed;
+    right: 0;
+    top: -5px;
+    width: 420px;
+    z-index: 5;
+  }
+  .contenido .calendario .botonera {
+    border-radius: 0 0 0 10px;
+    position: fixed;
+    right: 0;
+    top: 215px;
+    width: 420px;
+  }
+  .contenido .calendario .eventoActual {
+    position: fixed;
+    right: 0;
+    min-height: 130px;
+    top: 85px;
+    width: 420px;
+  }
+  .contenido .calendario .listaDias {
+    margin: 308px 0 0 0;
+  }
+  .contenido .calendario .tituloAra {
+    display: none;
+  }
+  .contenido .contieneInformacion {
+    background: #fff;
+    bottom: 0;
+    border-right: 1px solid #dcdcdc;
+    left: 0;
+    overflow-y: auto;
+    position: fixed;
+    right: 420px;
+    top: 85px;
+    z-index: 0;
+  }
+  .contenido .contieneInformacion .infoHeader {
+    background: #f8f8f8;
+    border-bottom: 1px solid #dcdcdc;
+    color: rgba(0,0,0,0.75);
+    height: 70px;
+  }
+  .contenido .contieneInformacion .infoHeader h2 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: 0px;
+    padding: 20px 0 0 30px;
+    text-transform: none;
+  }
+  .contenido .contieneInformacion .infoHeader h2 span {
+    display: inline-block;
+    font-size: 24px;
+    letter-spacing: 0px;
+    text-transform: lowercase;
+  }
+  .contenido .contieneInformacion .puntos {
+    display: none;
+  }
+  .footer {
+    display: none;
+  }
+  .footerbp3 {
+    display: block;
+    background: rgba(255,255,255,0.95);
+    border-top: 1px solid #dcdcdc;
+    border-right: 1px solid #dcdcdc;
+    bottom: 0;
+    height: 70px;
+    left: 0;
+    position: fixed;
+    right: 420px;
+    z-index: 20;
+  }
+  .footerbp3 .contactar {
+    vertical-align: bottom;
+    position: absolute;
+    right: 30px;
+    bottom: 28px;
+  }
+  .footerbp3 .contactar a {
+    color: rgba(0,0,0,0.8);
+  }
+  .footerbp3 .contactar span {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .footerbp3 .contactar span:after {
+    content: " |";
+  }
+  .footerbp3 .contactar .email {
+    display: inline-block;
+  }
+  .footerbp3 .contactar .email:after {
+    content: '\e60d';
+    font-family: icomoon;
+    vertical-align: bottom;
+  }
+  .footerbp3 .logoReeson .color {
+    position: absolute;
+    left: -58px;
+    bottom: -28px;
+  }
+  .header {
+    height: 85px;
+    width: 100%;
+    position: fixed;
+    z-index: 8;
+  }
+  .header .degradado {
+    background: #2b1d53;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .header .degradado .marco {
+    height: 500%;
+    width: 250%;
+    position: relative;
+    top: -200px;
+    left: -150%;
+background: rgb(215,81,93);
+				background: -moz-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%, rgba(215,81,93,1) 23%, rgba(43,29,83,1) 71%, rgba(43,29,83,1) 71%);
+				background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(215,81,93,1)), color-stop(23%,rgba(215,81,93,1)), color-stop(71%,rgba(43,29,83,1)), color-stop(71%,rgba(43,29,83,1)));
+				background: -webkit-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				background: -o-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				background: -ms-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				background: radial-gradient(ellipse at center,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7515d', endColorstr='#2b1d53',GradientType=1 );
+  }
+background: rgb(215,81,93);
+				background: -moz-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%, rgba(215,81,93,1) 23%, rgba(43,29,83,1) 71%, rgba(43,29,83,1) 71%);
+				background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(215,81,93,1)), color-stop(23%,rgba(215,81,93,1)), color-stop(71%,rgba(43,29,83,1)), color-stop(71%,rgba(43,29,83,1)));
+				background: -webkit-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				background: -o-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				background: -ms-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				background: radial-gradient(ellipse at center,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7515d', endColorstr='#2b1d53',GradientType=1 );
+  .header .logo {
+    width: 100px;
+    height: 100px;
+  }
+  .header .logo img {
+    width: 68px;
+    position: fixed;
+    z-index: 15;
+    top: 7px;
+    left: 17px;
+  }
+  .header .programa {
+    display: none;
+  }
+  .logo2 {
+    display: block;
+    width: 100px;
+    height: 100px;
+  }
+  .logo2 img {
+    width: 68px;
+    position: fixed;
+    z-index: 15;
+    top: 7px;
+    left: 17px;
+  }
+  .programa2 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    z-index: 15;
+    top: 20px;
+    left: 110px;
+  }
+  .programa2 img {
+    width: 400px;
+  }
+  .tituloArabp3 {
+    display: block;
+    position: fixed;
+    right: 175px;
+    z-index: 10;
+    top: 15px;
+  }
+  .tituloArabp3 .tituloInner {
+    background: #a01157;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 -2px 16px rgba(0,0,0,0.7);
+    height: 72px;
+    left: 50%;
+    margin: -2px 0 0 -73px;
+    position: relative;
+    width: 145px;
+  }
+  .tituloArabp3 .tituloInner:after {
+    border-bottom: 37px solid transparent;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-top: 15px solid #a01157;
+    bottom: -52px;
+    content: "";
+    content: '';
+    left: 0;
+    position: absolute;
+    right: 0px;
+  }
+  .tituloArabp3 .tituloInner p {
+    color: #fff;
+    font-family: Oswald;
+    font-size: 1.2em;
+    font-weight: 400;
+    left: 14px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin: 0;
+    position: absolute;
+    text-transform: uppercase;
+    top: 9px;
+    transform: scale(1, 0.9);
+    -ms-transform: scale(1, 0.9);
+    -webkit-transform: scale(1, 0.9);
+  }
+  .tituloArabp3 .tituloInner p span {
+    display: block;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    transform: scale(1, 1.3);
+    -ms-transform: scale(1, 1.3);
+    -webkit-transform: scale(1, 1.3);
+  }
+}

@@ -1,0 +1,552 @@
+#bgCanvas
+	position absolute
+	top 0
+	right 0
+	left 0 
+	height 500px
+	width 100%
+	z-index 5
+#bgCanvas2
+	display none
+.calendario
+	.botonera
+		background blancoManchado
+		border 1px solid borde
+		border-left 5px solid azul
+		border-right 5px solid azul
+		height auto
+		position relative
+		width 100%
+		z-index 6
+		&:after
+			border-bottom 37px solid transparent
+			border-left 10px solid transparent
+			border-right 8px solid azul
+			border-top 37px solid transparent
+			content ''
+			position absolute
+			right 0px
+			top 0
+		ul
+			overflow-x auto
+			padding 12px 0
+			white-space nowrap
+			&::-webkit-scrollbar
+				display none
+			li
+				background azul
+				border-radius 50%
+				display inline-block
+				height 50px
+				margin 0 20px 0 0 
+				padding 5px
+				position relative
+				text-align center
+				width 50px
+				&:first-child
+					margin 0 20px 0 20px
+				a
+					color white
+					font-style italic
+					text-decoration none
+					span 
+						font-size .5em
+						left 30%
+						position absolute
+						top 28px
+			.botoneraActive
+				background #1262a6
+	.eventoActual
+		background eventoActualFonfo
+		color eventoActualFuente
+		position relative
+		z-index 5
+		.detalleEvento
+			font-weight 400
+			min-height 105px
+			padding 30px 0 30px 0 
+			.logoEvento
+				position relative
+				&:before
+					font-family icomoon
+					left 30px
+					position absolute
+					top 5px
+			.sitioEvento
+				color rgba(eventoActualFuente,.5)
+				font-size 12px
+				margin 5px 20px 0 75px
+				text-align left
+				text-transform uppercase
+			.tituloEvento
+				margin 0 20px 0 75px
+		.tituloOuter
+			-webkit-animation timeLineLento .8s
+			animation timeLineLento .8s 
+			display none
+			height auto
+			left 0
+			position absolute
+			top 435px
+			width 100%
+			z-index 5
+			.tituloInner
+				background verdeOscuro
+				border-radius 5px 5px 0 0 
+				box-shadow 0 -2px 16px rgba(black,.8)
+				height 70px
+				left 50%
+				margin 0 0 0 -73px
+				position relative 
+				width 140px
+				&:after
+					border-bottom 37px solid transparent
+					border-left 70px solid transparent
+					border-right 70px solid transparent
+					border-top 15px solid verdeOscuro
+					bottom -52px
+					content ""
+					content ''
+					left 0
+					position absolute
+					right 0px
+				p
+					color rgba(white,1)
+					font-family Oswald
+					font-size 1.2em
+					font-weight 400
+					left 14px
+					line-height 30px
+					margin 0 
+					position absolute
+					text-transform uppercase
+					top 9px
+					transform: scale(1, .9);
+					-ms-transform: scale(1, .9);
+					-webkit-transform: scale(1, .9);
+					span
+						display block
+						font-weight 700
+						transform: scale(1, 1.2);
+						-ms-transform: scale(1, 1.2);
+						-webkit-transform: scale(1, 1.2);
+	.listaDias
+		.listaEventos
+			margin-top 15px
+			.contieneEvento
+				width 92%
+				margin 10px auto 15px auto
+				&:last-child 
+					padding 0 0 100px 0 
+				.evento
+					.headerEvento
+						background blancoManchado
+						border-bottom 1px solid borde
+						border-radius 10px 10px 0 0 
+						padding 10px 0
+						position relative
+						text-align center 
+						span
+							color texto2
+							font-size 18px
+							font-weight 400
+							&:after
+								color azul
+								content lineas
+								font-family icomoon
+								font-size 1.2em
+								font-weight 400
+								position absolute
+								right 16px
+								top 10px
+					.footerEvento
+						background blancoManchado
+						border-radius  0 0  10px 10px
+						border-top 1px solid borde
+						height 47px
+						padding 10px 0
+						span
+					.desplegado
+						display none
+						.contenido
+							background white
+							.texto
+								font-family lectura
+								font-size 17px 
+								line-height 24px
+								padding 17px 17px 35px 17px
+								p
+									padding 9px
+						.hero
+							background verdeOscuro
+							height 250px
+							position relative
+							width 100%
+							.detalle
+								color white
+								position relative
+								text-align center
+								text-shadow 1px 1px 4px rgba(black,.8)
+								z-index 1
+								.logoEvento
+									&:before
+										font-family icomoon
+										font-size 3em
+										position relative
+										top 30px
+								.noLogo
+									font-weight 400
+									margin 0 auto
+									position relative
+									top 55px
+									width 75%
+									.sitioEvento
+										font-size 12px
+										font-weight 300
+										margin-top 7px
+										text-transform uppercase
+									.tituloEvento
+										font-size 1.2em
+										line-height 1.2em
+							.imagen
+								position relative
+								.imagenInner
+									position absolute
+									overflow hidden
+									width 100%
+									height 250px
+									img
+										width 100%
+										height auto
+										overflow hidden
+							.sombra
+								bottom 0
+								box-shadow 0 -100px 100px rgba(black,.5) inset
+								left 0
+								position absolute
+								right 0
+								top 0
+								z-index 1
+					.plegado
+						background white
+						font-family lectura
+						font-size 18px
+						padding 18px 0 18px 18px
+						vertical-align 25px
+						.logoEvento
+							position relative
+							&:before
+								color texto2
+								font-family icomoon
+								font-size 1.5em
+								left 10px
+								position absolute
+								top 5px
+						.sitioEvento
+							color grisMenu
+							font-size 12px
+							margin-left 70px
+							margin-top 0px
+							text-transform uppercase
+						.tituloEvento
+							margin 0 10px 0 70px
+							padding 0 10px 5px 0
+	.tituloAra
+		height auto
+		left 0
+		position absolute
+		top 430px
+		width 100%
+		z-index 10
+		.tituloInner
+			background verdeOscuro
+			border-radius 5px 5px 0 0 
+			box-shadow 0 -2px 16px rgba(black,.7)
+			height 72px
+			left 50%
+			margin -2px 0 0 -73px
+			position relative 
+			width 145px
+			&:after
+				border-bottom 37px solid transparent
+				border-left 70px solid transparent
+				border-right 70px solid transparent
+				border-top 15px solid verdeOscuro
+				bottom -52px
+				content ""
+				content ''
+				left 0
+				position absolute
+				right 0px
+			p
+				color rgba(white,.93)
+				font-family Oswald
+				font-size 1.2em
+				font-weight 400
+				left 14px
+				letter-spacing 1px
+				line-height 30px
+				margin 0 
+				position absolute
+				text-transform uppercase
+				top 9px
+				transform: scale(1, .9);
+				-ms-transform: scale(1, .9);
+				-webkit-transform: scale(1, .9);
+				span
+					display block
+					font-weight 700
+					letter-spacing .5px
+					transform: scale(1, 1.3);
+					-ms-transform: scale(1, 1.3);
+					-webkit-transform: scale(1, 1.3);
+.contieneInformacion
+	.informacion
+		background negroInterface3
+		position relative
+		.infoHeader
+			background blancoManchado
+			border-bottom 1px solid borde
+			color texto2
+			height 80px
+			h2
+				font-size 21px
+				font-style italic
+				letter-spacing 1px
+				padding 15px 0 0 30px
+				text-transform uppercase
+				span
+					display block
+					font-size 16px 
+					letter-spacing 0px
+					line-height 21px
+					text-transform lowercase
+		.infoOuter
+			.infoInner
+				border-bottom 1px solid #e6e6e6
+				.checkInfo
+					height 70px 
+					position relative
+					width 100%
+					z-index 20
+					.puntos
+						&:after
+							color borde
+							content puntos
+							font-family icomoon
+							font-style normal
+							padding 5px 0 5px 20px
+							position absolute
+							right 20px
+							top 20px
+				.entrades
+					margin -70px 0 0 0
+					&:before
+						content ticket
+						font-family icomoon
+						font-size 18px 
+						font-style normal
+						left 20px
+						position absolute
+						top 30px
+				.inscripcions
+					margin -70px 0 0 0
+					&:before
+						content calendario
+						font-family icomoon
+						font-size 18px 
+						font-style normal
+						left 20px
+						position absolute
+						top 30px
+				.horario
+					margin -70px 0 0 0
+					&:before
+						content reloj
+						font-family icomoon
+						font-size 18px 
+						font-style normal
+						left 20px
+						position absolute
+						top 30px
+				.notes
+					margin -70px 0 0 0
+					&:before
+						content notas
+						font-family icomoon
+						font-size 14px 
+						font-style normal
+						left 20px
+						position absolute
+						top 30px
+				.post
+					background white
+					color rgba(texto2,.7)
+					font-size 16px
+					font-style italic
+					line-height 21px
+					padding 28px 0 28px 0
+					position relative
+					h4
+						margin 0 78px 0 55px
+					.detallePost
+						border-left none
+						h5
+							color rgba(texto2,.7)
+							font-style normal
+							margin 20px 20px 10px 55px
+							&:first-child
+								margin 40px 20px 10px 55px
+						p
+							color rgba(black,.6)
+							font-style normal
+							font-weight 400
+							margin 0 30px 0 55px
+							&:last-child 
+								margin 0 20px 30px 55px
+						p.detallePostPiscina
+							margin 20px 20px 30px 55px
+						ul
+							margin 20px 30px 0 55px
+							li 
+								color rgba(black,.6)
+								font-style normal
+								font-weight 400
+								list-style-type circle
+								margin 0 0 10px 0
+								&:last-child 
+									margin 0 0 30px 0
+					&:last-child
+						border-bottom none
+.footer	
+	background rgba(azul,.8)
+	color white
+	height 100px
+	overflow hidden
+	padding 20px 
+	position relative
+	z-index 5
+	.logoReeson
+		.blanco
+			position absolute
+			left -25px
+			bottom -15px
+	.right
+		float right
+		margin 10px 0 0 0
+		vertical-align bottom
+		a
+			color white
+		span
+			display inline-block
+			font-weight 400
+			&:after
+				content " |"
+		.email
+			display inline-block
+			&:after
+				content email
+				font-family icomoon
+				vertical-align bottom
+.footerbp3
+	display none
+.header
+	height 500px
+	width 100%
+	position relative
+	.degradado
+		background #2b1d53
+		bottom 0
+		left 0
+		position absolute
+		right 0
+		top 0
+		z-index 0
+		overflow hidden
+		.marco
+			height 250%
+			left -50%
+			position relative
+			top 80px
+			width 190%
+			@css {
+				background: rgb(215,81,93);
+				background: -moz-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%, rgba(215,81,93,1) 23%, rgba(43,29,83,1) 71%, rgba(43,29,83,1) 71%);
+				background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(215,81,93,1)), color-stop(23%,rgba(215,81,93,1)), color-stop(71%,rgba(43,29,83,1)), color-stop(71%,rgba(43,29,83,1)));
+				background: -webkit-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				background: -o-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				background: -ms-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				background: radial-gradient(ellipse at center,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7515d', endColorstr='#2b1d53',GradientType=1 );
+			}
+	.logo
+		width 100px
+		height 100px
+		img
+			position relative
+			margin 0 auto
+			display block
+			z-index 11
+			width 180px
+			top 25px
+	.programa
+		width 100px
+		height 100px
+		margin 0 auto
+		img
+			position relative
+			z-index 11
+			width 215px
+			top 45px
+			margin 0 0 0 -60px
+.logo2
+	display none
+.programa2
+	display none
+.menu
+	display none
+.tituloArabp3
+	display none
+.wraper
+	overflow hidden
+// ====================
+
+
+// DECLARA ICONOS DE LOS EVENTOS con esta clase se pinta el mismo icono en evento actual y evnetos plegado y desplegado
+
+.ayuntamiento
+	&:before
+		content ayuntamiento
+.cercavila
+	&:before
+		content cercavila
+.coptel
+	&:before
+		content coptel
+.comida
+	&:before
+		content comida
+.chimchim
+	&:before
+		content chimchim
+.dibujo
+	&:before
+		content dibujo
+.libro
+	&:before
+		content libro
+.musica
+	&:before
+		content musica
+.nadar
+	&:before
+		content nadar
+.iglesia
+	&:before
+		content iglesia
+
+// Clase descansem
+.descansem
+	&:before
+		content estrellaLlena
+// Clase descansem

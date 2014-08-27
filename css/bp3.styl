@@ -1,0 +1,222 @@
+#bgCanvas
+	display none
+#bgCanvas2
+	display block
+	position fixed
+	top 0 
+	right 0 
+	left 0 
+	width 100%
+	height 85px
+	z-index 9
+.contenido
+	bottom 0 
+	left 0
+	position fixed
+	right 0
+	top 85px
+	width 100%
+	.calendario
+		bottom 0
+		float right
+		margin 0
+		overflow-y auto
+		position fixed
+		right 0 
+		top -5px
+		width 420px
+		z-index 5
+		.botonera
+			border-radius 0 0 0 10px
+			position fixed 
+			right 0
+			top 215px
+			width 420px	
+		.eventoActual
+			position fixed 
+			right 0
+			min-height 130px
+			top 85px
+			width 420px
+		.listaDias
+			margin 308px 0 0 0 
+		.tituloAra
+			display none
+	.contieneInformacion
+		background white
+		bottom 0 
+		border-right 1px solid borde
+		left 0
+		overflow-y auto
+		position fixed 
+		right 420px
+		top 85px
+		z-index 0
+		.infoHeader
+			background blancoManchado
+			border-bottom 1px solid borde
+			color texto2
+			height 70px
+			h2
+				font-size 24px
+				font-style normal 
+				font-weight 100
+				letter-spacing 0px
+				padding 20px 0 0 30px
+				text-transform none
+				span
+					display inline-block
+					font-size 24px 
+					letter-spacing 0px
+					text-transform lowercase
+			
+		.puntos
+			display none
+.footer
+	display none
+.footerbp3
+	display block
+	background rgba(white,.95)
+	border-top 1px solid borde
+	border-right 1px solid borde
+	bottom 0 
+	height 70px
+	left 0
+	position fixed
+	right 420px
+	z-index 20
+	.contactar
+		vertical-align bottom
+		position absolute
+		right 30px 
+		bottom 28px 
+		a
+			color rgba(black,.8)
+		span
+			display inline-block
+			font-size 18px
+			font-weight 400
+			&:after
+				content " |"
+		.email
+			display inline-block
+			&:after
+				content email
+				font-family icomoon
+				vertical-align bottom
+	.logoReeson
+		.color
+			position absolute
+			left -58px
+			bottom -28px
+.header
+	height 85px 
+	width 100%
+	position fixed
+	z-index 8
+	.degradado
+		background #2b1d53
+		bottom 0
+		left 0
+		position absolute
+		right 0
+		top 0
+		.marco
+			height 500%
+			width 250%
+			position relative
+			top -200px
+			left -150%
+			@css {
+				background: rgb(215,81,93);
+				background: -moz-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%, rgba(215,81,93,1) 23%, rgba(43,29,83,1) 71%, rgba(43,29,83,1) 71%);
+				background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(215,81,93,1)), color-stop(23%,rgba(215,81,93,1)), color-stop(71%,rgba(43,29,83,1)), color-stop(71%,rgba(43,29,83,1)));
+				background: -webkit-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				background: -o-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				background: -ms-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				background: radial-gradient(ellipse at center,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7515d', endColorstr='#2b1d53',GradientType=1 );
+
+			}
+	.logo
+		width 100px
+		height 100px
+		img
+			width 68px
+			position fixed
+			z-index 15
+			top 7px
+			left 17px
+	.programa
+		display none
+	
+.logo2
+	display block
+	width 100px
+	height 100px
+	img
+		width 68px
+		position fixed
+		z-index 15
+		top 7px
+		left 17px
+.programa2
+	display block
+	width 100px
+	height 100px
+	position fixed
+	z-index 15
+	top 20px
+	left 110px
+	img
+		width 400px
+.tituloArabp3
+	display block
+	position fixed
+	right 175px
+	z-index 10
+	top 15px
+	.tituloInner
+		background verdeOscuro
+		border-radius 5px 5px 0 0 
+		box-shadow 0 -2px 16px rgba(black,.7)
+		height 72px
+		left 50%
+		margin -2px 0 0 -73px
+		position relative 
+		width 145px
+		&:after
+			border-bottom 37px solid transparent
+			border-left 70px solid transparent
+			border-right 70px solid transparent
+			border-top 15px solid verdeOscuro
+			bottom -52px
+			content ""
+			content ''
+			left 0
+			position absolute
+			right 0px
+		p
+			color rgba(white,1)
+			font-family Oswald
+			font-size 1.2em
+			font-weight 400
+			left 14px
+			letter-spacing 1px
+			line-height 30px
+			margin 0 
+			position absolute
+			text-transform uppercase
+			top 9px
+			transform: scale(1, .9);
+			-ms-transform: scale(1, .9);
+			-webkit-transform: scale(1, .9);
+			span
+				display block
+				font-weight 700
+				letter-spacing .5px
+				transform: scale(1, 1.3);
+				-ms-transform: scale(1, 1.3);
+				-webkit-transform: scale(1, 1.3);
+
+
