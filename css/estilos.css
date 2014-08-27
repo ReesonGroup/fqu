@@ -754,11 +754,23 @@ background: rgb(215,81,93);
 .wraper {
   overflow: hidden;
 }
+.arte:before {
+  content: '\e021';
+}
 .ayuntamiento:before {
   content: '\e075';
 }
+.baile:before {
+  content: '\e232';
+}
 .cercavila:before {
   content: '\e03d';
+}
+.campana:before {
+  content: '\e613';
+}
+.chimchim:before {
+  content: '\e19b';
 }
 .coptel:before {
   content: '\e615';
@@ -766,11 +778,20 @@ background: rgb(215,81,93);
 .comida:before {
   content: '\e229';
 }
-.chimchim:before {
-  content: '\e19b';
+.conferencia:before {
+  content: '\e15b';
 }
 .dibujo:before {
   content: '\e611';
+}
+.disco:before {
+  content: '\e60e';
+}
+.futbol:before {
+  content: '\e616';
+}
+.iglesia:before {
+  content: '\e00a';
 }
 .libro:before {
   content: '\e614';
@@ -780,9 +801,6 @@ background: rgb(215,81,93);
 }
 .nadar:before {
   content: '\e617';
-}
-.iglesia:before {
-  content: '\e00a';
 }
 .descansem:before {
   content: '\e602';
