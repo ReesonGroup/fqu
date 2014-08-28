@@ -123,6 +123,7 @@ function actionBotonera()
   {
     console.log($(this).attr('id'));
     e.preventDefault();
+    ancla1();
     botonera.removeClass('botoneraActive');
     $(this).addClass('botoneraActive');
 
