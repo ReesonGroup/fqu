@@ -784,11 +784,17 @@ background: rgb(215,81,93);
 .dibujo:before {
   content: '\e611';
 }
+.desfile:before {
+  content: '\e2e7';
+}
 .disco:before {
   content: '\e60e';
 }
 .futbol:before {
   content: '\e616';
+}
+.globo:before {
+  content: '\e612';
 }
 .iglesia:before {
   content: '\e00a';
@@ -801,6 +807,12 @@ background: rgb(215,81,93);
 }
 .nadar:before {
   content: '\e617';
+}
+.tiro:before {
+  content: '\e60c';
+}
+.trobada:before {
+  content: '\e058';
 }
 .descansem:before {
   content: '\e602';
