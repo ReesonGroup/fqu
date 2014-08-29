@@ -363,7 +363,6 @@ span
   color: #fff;
   position: relative;
   text-align: center;
-  text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
   z-index: 1;
 }
 .calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .hero .detalle .logoEvento:before {
@@ -391,6 +390,7 @@ span
 }
 .calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .hero .imagen {
   position: relative;
+  -webkit-filter: brightness(0.5);
 }
 .calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .hero .imagen .imagenInner {
   position: absolute;
@@ -402,15 +402,6 @@ span
   width: 100%;
   height: auto;
   overflow: hidden;
-}
-.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .hero .sombra {
-  bottom: 0;
-  box-shadow: 0 -100px 100px rgba(0,0,0,0.5) inset;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 1;
 }
 .calendario .listaDias .listaEventos .contieneEvento .evento .plegado {
   background: #fff;

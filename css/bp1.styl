@@ -186,7 +186,7 @@
 								color white
 								position relative
 								text-align center
-								text-shadow 1px 1px 4px rgba(black,.8)
+								// text-shadow 1px 1px 4px rgba(black,.8)
 								z-index 1
 								.logoEvento
 									&:before
@@ -210,6 +210,7 @@
 										line-height 1.2em
 							.imagen
 								position relative
+								-webkit-filter: brightness(0.5);
 								.imagenInner
 									position absolute
 									overflow hidden
@@ -219,14 +220,14 @@
 										width 100%
 										height auto
 										overflow hidden
-							.sombra
-								bottom 0
-								box-shadow 0 -100px 100px rgba(black,.5) inset
-								left 0
-								position absolute
-								right 0
-								top 0
-								z-index 1
+							// .sombra
+							// 	bottom 0
+							// 	box-shadow 0 -100px 100px rgba(black,.5) inset
+							// 	left 0
+							// 	position absolute
+							// 	right 0
+							// 	top 0
+							// 	z-index 1
 					.plegado
 						background white
 						font-family lectura
