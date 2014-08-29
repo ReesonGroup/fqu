@@ -785,7 +785,7 @@ background: rgb(215,81,93);
   content: '\e611';
 }
 .desfile:before {
-  content: '\e2e7';
+  content: '\e2e4';
 }
 .disco:before {
   content: '\e60e';
@@ -809,10 +809,10 @@ background: rgb(215,81,93);
   content: '\e617';
 }
 .tiro:before {
-  content: '\e60c';
+  content: '\e61a';
 }
 .trobada:before {
-  content: '\e058';
+  content: '\e619';
 }
 .descansem:before {
   content: '\e602';
