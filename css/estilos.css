@@ -760,6 +760,9 @@ background: rgb(215,81,93);
 .baile:before {
   content: '\e232';
 }
+.basquet:before {
+  content: basquet;
+}
 .billar:before {
   content: '\e603';
 }
@@ -804,6 +807,9 @@ background: rgb(215,81,93);
 .cancer:before {
   content: '\e602';
 }
+.castillo:before {
+  content: '\e606';
+}
 .comprar:before {
   content: '\e605';
 }
@@ -834,6 +840,9 @@ background: rgb(215,81,93);
 }
 .entreno:before {
   content: '\e1f6';
+}
+.escudo:before {
+  content: '\f132';
 }
 .futbol:before {
   content: '\e616';
