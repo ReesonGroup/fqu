@@ -184,7 +184,7 @@ a:active {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Ayuntamiento.jpg") no-repeat 9999px 9999px;
 }
 .doce {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Caribe.jpg") no-repeat 9999px 9999px;
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Futbol.jpg") no-repeat 9999px 9999px;
 }
 .trece {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Religion.jpg") no-repeat 9999px 9999px;
@@ -839,6 +839,9 @@ background: rgb(215,81,93);
 }
 .imgAyuntamiento {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Ayuntamiento.jpg");
+}
+.imgFutbol {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Futbol.jpg");
 }
 .arte:before {
   content: '\e021';
