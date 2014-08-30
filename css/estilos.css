@@ -853,7 +853,9 @@ background: rgb(215,81,93);
 .nadar:before {
   content: '\e617';
 }
-.tiro:before,
+.tiro:before {
+  content: '\e61a';
+}
 .torneo:before {
   content: '\e21d';
 }
