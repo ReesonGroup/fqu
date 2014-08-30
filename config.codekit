@@ -172,6 +172,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/bouBlue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3267,
+		"inputAbbreviatedPath": "\/img\/bouBlue.png",
+		"outputAbbreviatedPath": "\/img\/bouBlue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/bouWhite.png": {
 		"fileType": 32768,
 		"ignore": 0,

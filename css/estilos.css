@@ -761,7 +761,10 @@ background: rgb(215,81,93);
   content: '\e232';
 }
 .basquet:before {
-  content: basquet;
+  content: '\e285';
+}
+.bicicleta:before {
+  content: '\e610';
 }
 .billar:before {
   content: '\e603';
@@ -778,13 +781,14 @@ background: rgb(215,81,93);
   left: 7px;
   position: relative;
 }
-.bouWhite {
+.bouBlue {
   width: 70px;
   height: 70px;
-  background-image: url("../img/bouWhite.png");
+  background-image: url("../img/bouBlue.png");
   background-repeat: no-repeat;
   background-position: 0 0;
-  background-size: 30px auto;
+  background-size: 25px auto;
+  color: #177dd4;
   float: left;
   left: 7px;
   position: relative;
@@ -829,6 +833,9 @@ background: rgb(215,81,93);
 .conferencia:before {
   content: '\e15b';
 }
+.cubierto:before {
+  content: '\e228';
+}
 .dibujo:before {
   content: '\e601';
 }
@@ -862,8 +869,14 @@ background: rgb(215,81,93);
 .nadar:before {
   content: '\e617';
 }
+.sorteo:before {
+  content: '\e611';
+}
 .tiro:before {
   content: '\e61a';
+}
+.ticket:before {
+  content: '\e60c';
 }
 .torneo:before {
   content: '\e21d';
