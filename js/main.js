@@ -1,5 +1,4 @@
 
-
 var info = $('div.contieneInformacion');
 var detallInfo = $('div.detallePost');
 var diasEventos = $('div.listaEventos');
@@ -352,7 +351,8 @@ preloadImg('independencia', 'http://ulldecona.herobo.com/image/fqu/eventos/indep
 preloadImg('nadar', 'http://ulldecona.herobo.com/image/fqu/eventos/nadar.jpg');
 preloadImg('nadar', 'http://ulldecona.herobo.com/image/fqu/eventos/nadar.jpg');
 preloadImg('chimchim', 'http://ulldecona.herobo.com/image/fqu/eventos/chimchim.jpg');
-preloadImg('chimchim2', 'http://ulldecona.herobo.com/image/fqu/eventos/chimchim2.jpg');
+preloadImg('arte', 'http://ulldecona.herobo.com/image/fqu/eventos/arte.jpg');
+preloadImg('alaska', 'http://ulldecona.herobo.com/image/fqu/eventos/alaska.jpg');
 
 var container = document.getElementById('imgContainer');
 container.style.display = 'block';
