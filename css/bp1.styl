@@ -186,7 +186,7 @@
 								color white
 								position relative
 								text-align center
-								text-shadow 1px 1px 4px rgba(black,.8)
+								// text-shadow 1px 1px 4px rgba(black,.8)
 								z-index 1
 								.logoEvento
 									&:before
@@ -210,6 +210,7 @@
 										line-height 1.2em
 							.imagen
 								position relative
+								-webkit-filter: brightness(0.5);
 								.imagenInner
 									position absolute
 									overflow hidden
@@ -219,14 +220,14 @@
 										width 100%
 										height auto
 										overflow hidden
-							.sombra
-								bottom 0
-								box-shadow 0 -100px 100px rgba(black,.5) inset
-								left 0
-								position absolute
-								right 0
-								top 0
-								z-index 1
+							// .sombra
+							// 	bottom 0
+							// 	box-shadow 0 -100px 100px rgba(black,.5) inset
+							// 	left 0
+							// 	position absolute
+							// 	right 0
+							// 	top 0
+							// 	z-index 1
 					.plegado
 						background white
 						font-family lectura
@@ -514,24 +515,112 @@
 
 // DECLARA ICONOS DE LOS EVENTOS con esta clase se pinta el mismo icono en evento actual y evnetos plegado y desplegado
 
+.arte
+	&:before
+		content arte
 .ayuntamiento
 	&:before
 		content ayuntamiento
+.baile
+	&:before
+		content baile
+.basquet
+	&:before
+		content basquet
+.bicicleta
+	&:before
+		content bicicleta
+.billar
+	&:before
+		content billar
+.bouBlack
+	width 70px
+	height 70px
+	background-image url(../img/bouBlack.png)
+	background-repeat no-repeat
+	background-position 0 0 
+	background-size 30px auto
+	float left
+	opacity .8
+	left 7px
+	position relative
+.bouBlue
+	width 70px
+	height 70px
+	background-image url(../img/bouBlue.png)
+	background-repeat no-repeat
+	background-position 0 0 
+	background-size 25px auto
+	color azul
+	float left
+	left 7px
+	position relative
+.bouWhiteBig
+	background-image url(../img/bouWhiteBig.png)
+	background-repeat no-repeat
+	background-position 0 0 
+	background-size 3em auto
+	margin 0 auto
+	width 70px
+	height 70px
+	top 30px
+	position relative
 .cercavila
 	&:before
 		content cercavila
+.campana
+.cancer
+	&:before
+		content cancer
+.castillo
+	&:before
+		content castillo
+.comprar
+	&:before
+		content comprar
+.chimchim
+	&:before
+		content chimchim
 .coptel
 	&:before
 		content coptel
 .comida
+.coche
 	&:before
-		content comida
-.chimchim
+		content coche
+.concurso
 	&:before
-		content chimchim
+		content concurso
+.conferencia
+	&:before
+		content conferencia
+.cubierto
+	&:before
+		content cubierto
 .dibujo
 	&:before
 		content dibujo
+.desfile
+	&:before
+		content desfile
+.disco
+	&:before
+		content disco
+.entreno
+	&:before
+		content entreno
+.escudo
+	&:before
+		content escudo
+.futbol
+	&:before
+		content futbol
+.globo
+	&:before
+		content globo
+.iglesia
+	&:before
+		content iglesia
 .libro
 	&:before
 		content libro
@@ -541,9 +630,21 @@
 .nadar
 	&:before
 		content nadar
-.iglesia
+.sorteo
 	&:before
-		content iglesia
+		content sorteo
+.tiro
+	&:before
+		content tiro
+.ticket
+	&:before
+		content ticket
+.torneo
+	&:before
+		content torneo
+.trobada
+	&:before
+		content trobada
 
 // Clase descansem
 .descansem
