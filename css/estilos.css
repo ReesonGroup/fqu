@@ -187,19 +187,19 @@ a:active {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Futbol.jpg") no-repeat 9999px 9999px;
 }
 .trece {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Religion.jpg") no-repeat 9999px 9999px;
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Hermita.jpg") no-repeat 9999px 9999px;
 }
 .catorce {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Musica.jpg") no-repeat 9999px 9999px;
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Campanas.jpg") no-repeat 9999px 9999px;
 }
 .quince {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Cercavila.jpg") no-repeat 9999px 9999px;
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Ball.jpg") no-repeat 9999px 9999px;
 }
 .dieciseis {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Comida.jpg") no-repeat 9999px 9999px;
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Disco.jpg") no-repeat 9999px 9999px;
 }
 .diecisiete {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Independencia.jpg") no-repeat 9999px 9999px;
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Alaska.jpg") no-repeat 9999px 9999px;
 }
 .dieciocho {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Nadar.jpg") no-repeat 9999px 9999px;
@@ -842,6 +842,21 @@ background: rgb(215,81,93);
 }
 .imgFutbol {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Futbol.jpg");
+}
+.imgHermita {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Hermita.jpg");
+}
+.imgCampanas {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Campanas.jpg");
+}
+.imgBall {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Ball.jpg");
+}
+.imgDisco {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Disco.jpg");
+}
+.imgAlaska {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Alaska.jpg");
 }
 .arte:before {
   content: '\e021';
