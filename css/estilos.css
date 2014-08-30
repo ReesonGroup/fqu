@@ -820,6 +820,9 @@ background: rgb(215,81,93);
 .chimchim:before {
   content: '\e19b';
 }
+.cloenda:before {
+  content: '\e060';
+}
 .coptel:before {
   content: '\e615';
 }
