@@ -324,37 +324,3 @@ function resizer (multiplicador)
 //   fjs.parentNode.insertBefore(js, fjs);
 // }(document, 'script', 'facebook-jssdk'));
 
-
-
-// Precarga de imagenes =============================
-function preloadImg(containerId, imgUrl, imageId) {
-    var i = document.createElement('img'); 
-    i.id = imageId;
-    i.onload = function () {
-        var container = document.getElementById(containerId);
-        container.appendChild(this);
-    };
-    i.src = imgUrl;
-}
-
-preloadImg('mural', 'http://ulldecona.herobo.com/image/fqu/eventos/mural.jpg');
-preloadImg('nadador', 'http://ulldecona.herobo.com/image/fqu/eventos/nadador.jpg');
-preloadImg('moto', 'http://ulldecona.herobo.com/image/fqu/eventos/moto.jpg');
-// preloadImg('libro', 'https://www.dropbox.com/s/6zydhyx175wr3dn/libro.jpg?dl=0');
-preloadImg('libro', 'http://ulldecona.herobo.com/image/fqu/eventos/libro.jpg');
-preloadImg('caribe', 'http://ulldecona.herobo.com/image/fqu/eventos/caribe.jpg');
-preloadImg('velas', 'http://ulldecona.herobo.com/image/fqu/eventos/velas.jpg');
-preloadImg('musica', 'http://ulldecona.herobo.com/image/fqu/eventos/musica.jpg');
-preloadImg('ayuntamiento', 'http://ulldecona.herobo.com/image/fqu/eventos/ayuntamiento.jpg');
-preloadImg('comida', 'http://ulldecona.herobo.com/image/fqu/eventos/comida.jpg');
-preloadImg('cercavila', 'http://ulldecona.herobo.com/image/fqu/eventos/cercavila.jpg');
-preloadImg('independencia', 'http://ulldecona.herobo.com/image/fqu/eventos/independencia.jpg');
-preloadImg('nadar', 'http://ulldecona.herobo.com/image/fqu/eventos/nadar.jpg');
-preloadImg('nadar', 'http://ulldecona.herobo.com/image/fqu/eventos/nadar.jpg');
-preloadImg('chimchim', 'http://ulldecona.herobo.com/image/fqu/eventos/chimchim.jpg');
-preloadImg('arte', 'http://ulldecona.herobo.com/image/fqu/eventos/arte.jpg');
-preloadImg('alaska', 'http://ulldecona.herobo.com/image/fqu/eventos/alaska.jpg');
-
-var container = document.getElementById('imgContainer');
-container.style.display = 'block';
-

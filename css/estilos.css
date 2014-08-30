@@ -150,6 +150,36 @@ a:active {
   -ms-transform: scale(0.35, 0.35);
   -webkit-transform: scale(0.35, 0.35);
 }
+.uno {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/book.jpg") no-repeat 9999px 9999px;
+}
+.dos {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/caribe.jpg") no-repeat 9999px 9999px;
+}
+.tres {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/religion.jpg") no-repeat 9999px 9999px;
+}
+.cuatro {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/caribe.jpg") no-repeat 9999px 9999px;
+}
+.cinco {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/caribe.jpg") no-repeat 9999px 9999px;
+}
+.seis {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/caribe.jpg") no-repeat 9999px 9999px;
+}
+.siete {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/caribe.jpg") no-repeat 9999px 9999px;
+}
+.ocho {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/caribe.jpg") no-repeat 9999px 9999px;
+}
+.nueve {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/caribe.jpg") no-repeat 9999px 9999px;
+}
+.diez {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/caribe.jpg") no-repeat 9999px 9999px;
+}
 #bgCanvas {
   position: absolute;
   top: 0;
@@ -403,7 +433,6 @@ span
   overflow: hidden;
   width: 100%;
   height: 250px;
-  background-image: url("http://ulldecona.herobo.com/image/fqu/eventos/\e614.jpg");
   background-size: 100% auto;
 }
 .calendario .listaDias .listaEventos .contieneEvento .evento .plegado {
@@ -747,6 +776,15 @@ background: rgb(215,81,93);
 }
 .wraper {
   overflow: hidden;
+}
+.imgLibro {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/book.jpg");
+}
+.imgCaribe {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/caribe.jpg");
+}
+.imgReligion {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/religion.jpg");
 }
 .arte:before {
   content: '\e021';
