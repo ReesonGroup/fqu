@@ -172,7 +172,7 @@ a:active {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/ConciertoIndependencia.jpg") no-repeat 9999px 9999px;
 }
 .ocho {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/caribe.jpg") no-repeat 9999px 9999px;
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Nadar.jpg") no-repeat 9999px 9999px;
 }
 .nueve {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/caribe.jpg") no-repeat 9999px 9999px;
@@ -390,7 +390,7 @@ span
   padding: 9px;
 }
 .calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .hero {
-  background: #a01157;
+  background: #177dd4;
   height: 250px;
   position: relative;
   width: 100%;
@@ -797,6 +797,9 @@ background: rgb(215,81,93);
 }
 .imgConciertoIndependencia {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/ConciertoIndependencia.jpg");
+}
+.imgNadar {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Nadar.jpg");
 }
 .arte:before {
   content: '\e021';
