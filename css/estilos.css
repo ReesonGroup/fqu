@@ -169,13 +169,13 @@ a:active {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Comida.jpg") no-repeat 9999px 9999px;
 }
 .siete {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/ConciertoIndependencia.jpg") no-repeat 9999px 9999px;
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Independencia.jpg") no-repeat 9999px 9999px;
 }
 .ocho {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Nadar.jpg") no-repeat 9999px 9999px;
 }
 .nueve {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/caribe.jpg") no-repeat 9999px 9999px;
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Jota.jpg") no-repeat 9999px 9999px;
 }
 .diez {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/caribe.jpg") no-repeat 9999px 9999px;
@@ -795,11 +795,14 @@ background: rgb(215,81,93);
 .imgComida {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Comida.jpg");
 }
-.imgConciertoIndependencia {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/ConciertoIndependencia.jpg");
+.imgIndependencia {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Independencia.jpg");
 }
 .imgNadar {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Nadar.jpg");
+}
+.imgJota {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Jota.jpg");
 }
 .arte:before {
   content: '\e021';
