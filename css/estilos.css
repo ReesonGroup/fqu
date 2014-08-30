@@ -804,6 +804,9 @@ background: rgb(215,81,93);
 .cancer:before {
   content: '\e602';
 }
+.comprar:before {
+  content: '\e605';
+}
 .chimchim:before {
   content: '\e19b';
 }
@@ -828,6 +831,9 @@ background: rgb(215,81,93);
 }
 .disco:before {
   content: '\e60e';
+}
+.entreno:before {
+  content: '\e1f6';
 }
 .futbol:before {
   content: '\e616';
