@@ -836,6 +836,9 @@ background: rgb(215,81,93);
 .cubierto:before {
   content: '\e228';
 }
+.cultura:before {
+  content: '\e321';
+}
 .dibujo:before {
   content: '\e601';
 }
