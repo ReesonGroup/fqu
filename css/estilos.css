@@ -178,7 +178,37 @@ a:active {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Jota.jpg") no-repeat 9999px 9999px;
 }
 .diez {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/caribe.jpg") no-repeat 9999px 9999px;
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Arte.jpg") no-repeat 9999px 9999px;
+}
+.once {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Ayuntamiento.jpg") no-repeat 9999px 9999px;
+}
+.doce {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Caribe.jpg") no-repeat 9999px 9999px;
+}
+.trece {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Religion.jpg") no-repeat 9999px 9999px;
+}
+.catorce {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Musica.jpg") no-repeat 9999px 9999px;
+}
+.quince {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Cercavila.jpg") no-repeat 9999px 9999px;
+}
+.dieciseis {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Comida.jpg") no-repeat 9999px 9999px;
+}
+.diecisiete {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Independencia.jpg") no-repeat 9999px 9999px;
+}
+.dieciocho {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Nadar.jpg") no-repeat 9999px 9999px;
+}
+.diecinueve {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Jota.jpg") no-repeat 9999px 9999px;
+}
+.veinte {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Arte.jpg") no-repeat 9999px 9999px;
 }
 #bgCanvas {
   position: absolute;
@@ -804,6 +834,12 @@ background: rgb(215,81,93);
 .imgJota {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Jota.jpg");
 }
+.imgArte {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Arte.jpg");
+}
+.imgAyuntamiento {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Ayuntamiento.jpg");
+}
 .arte:before {
   content: '\e021';
 }
@@ -887,7 +923,7 @@ background: rgb(215,81,93);
   content: '\e217';
 }
 .conferencia:before {
-  content: '\e15b';
+  content: '\e618';
 }
 .cubierto:before {
   content: '\e228';
