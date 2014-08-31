@@ -926,6 +926,9 @@ background: rgb(215,81,93);
 .imgMusica {
   background: #a98b73;
 }
+.imgMusica2 {
+  background: #ba8962;
+}
 .imgNadar {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Nadar.jpg");
   -webkit-filter: brightness(0.5);
@@ -953,6 +956,9 @@ background: rgb(215,81,93);
 }
 .imgTorneo {
   background: #6c7a9e;
+}
+.imgTorneo2 {
+  background: #5972b0;
 }
 .arte:before {
   content: '\e021';
