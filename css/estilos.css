@@ -150,9 +150,6 @@ a:active {
   -ms-transform: scale(0.35, 0.35);
   -webkit-transform: scale(0.35, 0.35);
 }
-.uno {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Libro.jpg") no-repeat 9999px 9999px;
-}
 .dos {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Caribe.jpg") no-repeat 9999px 9999px;
 }
@@ -161,9 +158,6 @@ a:active {
 }
 .cuatro {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Musica.jpg") no-repeat 9999px 9999px;
-}
-.cinco {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Cercavila.jpg") no-repeat 9999px 9999px;
 }
 .seis {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Comida.jpg") no-repeat 9999px 9999px;
@@ -176,9 +170,6 @@ a:active {
 }
 .nueve {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Jota.jpg") no-repeat 9999px 9999px;
-}
-.diez {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Arte.jpg") no-repeat 9999px 9999px;
 }
 .once {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Ayuntamiento.jpg") no-repeat 9999px 9999px;
@@ -462,7 +453,6 @@ span
 }
 .calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .hero .imagen {
   position: relative;
-  -webkit-filter: brightness(0.5);
 }
 .calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .hero .imagen .imagenInner {
   position: absolute;
@@ -814,70 +804,84 @@ background: rgb(215,81,93);
   overflow: hidden;
 }
 .imgLibro {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/\e614.jpg");
+  background: #b32d46;
 }
 .imgCaribe {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Caribe.jpg");
+  background: #4f1583;
 }
 .imgReligion {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Religion.jpg");
+  -webkit-filter: brightness(0.5);
 }
 .imgMusica {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Musica.jpg");
+  background: #a2bd1f;
 }
 .imgCercavila {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Cercavila.jpg");
+  background: #e67003;
 }
 .imgComida {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Comida.jpg");
+  -webkit-filter: brightness(0.5);
 }
 .imgIndependencia {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Independencia.jpg");
+  -webkit-filter: brightness(0.5);
 }
 .imgNadar {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Nadar.jpg");
+  -webkit-filter: brightness(0.5);
 }
 .imgJota {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Jota.jpg");
+  -webkit-filter: brightness(0.5);
 }
 .imgArte {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Arte.jpg");
+  background: #83a31a;
 }
 .imgAyuntamiento {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Ayuntamiento.jpg");
+  -webkit-filter: brightness(0.5);
 }
 .imgFutbol {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Futbol.jpg");
+  -webkit-filter: brightness(0.5);
 }
 .imgHermita {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Hermita.jpg");
+  -webkit-filter: brightness(0.5);
 }
 .imgCampanas {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Campanas.jpg");
+  -webkit-filter: brightness(0.5);
 }
 .imgBall {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Ball.jpg");
 }
 .imgDisco {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Disco.jpg");
+  -webkit-filter: brightness(0.5);
 }
 .imgAlaska {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Alaska.jpg");
+  -webkit-filter: brightness(0.5);
 }
 .imgDibujo {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Dibujo.jpg");
+  -webkit-filter: brightness(0.5);
 }
 .imgTiro {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Tiro.jpg");
+  -webkit-filter: brightness(0.5);
 }
-.imgTambor {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Tambor.jpg");
+.imgPubilla {
+  background: #cb032f;
 }
 .imgFiesta {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Globo.jpg");
+  background: #79ab1c;
 }
 .imgGuitarra {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Guitarra.jpg");
+  -webkit-filter: brightness(0.5);
 }
 .arte:before {
   content: '\e021';
