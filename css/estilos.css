@@ -177,6 +177,9 @@ a:active {
 .nueve {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Jota.jpg") no-repeat 9999px 9999px;
 }
+.diez {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Catalunya.jpg") no-repeat 9999px 9999px;
+}
 .once {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Ayuntamiento.jpg") no-repeat 9999px 9999px;
 }
@@ -197,6 +200,9 @@ a:active {
 }
 .diecisiete {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Alaska.jpg") no-repeat 9999px 9999px;
+}
+.dieciocho {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Basquet.jpg") no-repeat 9999px 9999px;
 }
 .diecinueve {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Tiro.jpg") no-repeat 9999px 9999px;
@@ -856,6 +862,10 @@ background: rgb(215,81,93);
 .imgBall2 {
   background: #11a4b4;
 }
+.imgBasquet {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Basquet.jpg");
+  -webkit-filter: brightness(0.5);
+}
 .imgBillar {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Billar.jpg");
   -webkit-filter: brightness(0.5);
@@ -867,8 +877,15 @@ background: rgb(215,81,93);
 .imgCaribe {
   background: #6b91a3;
 }
+.imgCaminar {
+  background: #cb817a;
+}
 .imgCancer {
   background: #8ca26f;
+}
+.imgCatalunya {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Catalunya.jpg");
+  -webkit-filter: brightness(0.5);
 }
 .imgCercavila {
   background: #a97873;
