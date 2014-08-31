@@ -150,8 +150,17 @@ a:active {
   -ms-transform: scale(0.35, 0.35);
   -webkit-transform: scale(0.35, 0.35);
 }
+.uno {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Coche.jpg") no-repeat 9999px 9999px;
+}
+.dos {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Billar.jpg") no-repeat 9999px 9999px;
+}
 .tres {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Religion.jpg") no-repeat 9999px 9999px;
+}
+.cuatro {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Toro.jpg") no-repeat 9999px 9999px;
 }
 .seis {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Comida.jpg") no-repeat 9999px 9999px;
@@ -841,6 +850,13 @@ background: rgb(215,81,93);
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Ball.jpg");
   -webkit-filter: brightness(0.5);
 }
+.imgBall2 {
+  background: #11a4b4;
+}
+.imgBillar {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Billar.jpg");
+  -webkit-filter: brightness(0.5);
+}
 .imgCampanas {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Campanas.jpg");
   -webkit-filter: brightness(0.5);
@@ -848,8 +864,15 @@ background: rgb(215,81,93);
 .imgCaribe {
   background: #6b91a3;
 }
+.imgCancer {
+  background: #8ca26f;
+}
 .imgCercavila {
   background: #a97873;
+}
+.imgCoche {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Coche.jpg");
+  -webkit-filter: brightness(0.5);
 }
 .imgComida {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Comida.jpg");
@@ -870,6 +893,9 @@ background: rgb(215,81,93);
 }
 .imgFiesta {
   background: #a6a872;
+}
+.imgFiesta2 {
+  background: #b1b367;
 }
 .imgFutbol {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Futbol.jpg");
@@ -912,11 +938,18 @@ background: rgb(215,81,93);
   -webkit-filter: brightness(0.5);
 }
 .imgReligion2 {
-  background: #de7311;
+  background: #c66710;
 }
 .imgTiro {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Tiro.jpg");
   -webkit-filter: brightness(0.5);
+}
+.imgToro {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Toro.jpg");
+  -webkit-filter: brightness(0.5);
+}
+.imgToro2 {
+  background: #a25d3a;
 }
 .imgTorneo {
   background: #6c7a9e;
@@ -998,7 +1031,7 @@ background: rgb(215,81,93);
 }
 .comida:before,
 .coche:before {
-  content: '\f1b9';
+  content: '\e619';
 }
 .concurso:before {
   content: '\e217';
