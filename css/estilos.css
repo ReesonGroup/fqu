@@ -162,6 +162,9 @@ a:active {
 .cuatro {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Toro.jpg") no-repeat 9999px 9999px;
 }
+.cinco {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Teatro.jpg") no-repeat 9999px 9999px;
+}
 .seis {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Comida.jpg") no-repeat 9999px 9999px;
 }
@@ -878,6 +881,9 @@ background: rgb(215,81,93);
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Comida.jpg");
   -webkit-filter: brightness(0.5);
 }
+.imgComprar {
+  background: #71bb82;
+}
 .imgConcurso {
   background: #7a6aa4;
 }
@@ -942,6 +948,10 @@ background: rgb(215,81,93);
 }
 .imgReligion2 {
   background: #c66710;
+}
+.imgTeatro {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Teatro.jpg");
+  -webkit-filter: brightness(0.5);
 }
 .imgTiro {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Tiro.jpg");
