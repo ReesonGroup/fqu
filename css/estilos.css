@@ -222,6 +222,9 @@ a:active {
 .veinticuatro {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Musica.jpg") no-repeat 9999px 9999px;
 }
+.veinticinco {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Fuegos.jpg") no-repeat 9999px 9999px;
+}
 #bgCanvas {
   position: absolute;
   top: 0;
@@ -935,6 +938,10 @@ background: rgb(215,81,93);
 }
 .imgFiesta2 {
   background: #b1b367;
+}
+.imgFuegos {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Fuegos.jpg");
+  -webkit-filter: brightness(0.5);
 }
 .imgFutbol {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Futbol.jpg");
