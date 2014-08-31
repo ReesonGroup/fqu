@@ -150,14 +150,8 @@ a:active {
   -ms-transform: scale(0.35, 0.35);
   -webkit-transform: scale(0.35, 0.35);
 }
-.dos {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Caribe.jpg") no-repeat 9999px 9999px;
-}
 .tres {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Religion.jpg") no-repeat 9999px 9999px;
-}
-.cuatro {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Musica.jpg") no-repeat 9999px 9999px;
 }
 .seis {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Comida.jpg") no-repeat 9999px 9999px;
@@ -192,17 +186,8 @@ a:active {
 .diecisiete {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Alaska.jpg") no-repeat 9999px 9999px;
 }
-.dieciocho {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Dibujo.jpg") no-repeat 9999px 9999px;
-}
 .diecinueve {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Tiro.jpg") no-repeat 9999px 9999px;
-}
-.veinte {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Tambor.jpg") no-repeat 9999px 9999px;
-}
-.veintiuno {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Globo.jpg") no-repeat 9999px 9999px;
 }
 .veintidos {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Guitarra.jpg") no-repeat 9999px 9999px;
@@ -222,7 +207,7 @@ a:active {
 .abrirEventos {
   height: 44px;
   width: 90%;
-  margin: 1em;
+  margin: 1em auto 1em auto;
   text-align: center;
 }
 .abrirEventos .ampliar,
@@ -837,84 +822,96 @@ background: rgb(215,81,93);
 .wraper {
   overflow: hidden;
 }
-.imgLibro {
-  background: #b32d46;
-}
-.imgCaribe {
-  background: #4f1583;
-}
-.imgReligion {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Religion.jpg");
+.imgAlaska {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Alaska.jpg");
   -webkit-filter: brightness(0.5);
-}
-.imgMusica {
-  background: #a2bd1f;
-}
-.imgCercavila {
-  background: #e67003;
-}
-.imgComida {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Comida.jpg");
-  -webkit-filter: brightness(0.5);
-}
-.imgIndependencia {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Independencia.jpg");
-  -webkit-filter: brightness(0.5);
-}
-.imgNadar {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Nadar.jpg");
-  -webkit-filter: brightness(0.5);
-}
-.imgJota {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Jota.jpg");
-  -webkit-filter: brightness(0.5);
-}
-.imgArte {
-  background: #83a31a;
 }
 .imgAyuntamiento {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Ayuntamiento.jpg");
   -webkit-filter: brightness(0.5);
 }
-.imgFutbol {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Futbol.jpg");
-  -webkit-filter: brightness(0.5);
+.imgAyuntamiento2 {
+  background: #6dab3d;
 }
-.imgHermita {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Hermita.jpg");
+.imgBall {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Ball.jpg");
   -webkit-filter: brightness(0.5);
 }
 .imgCampanas {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Campanas.jpg");
   -webkit-filter: brightness(0.5);
 }
-.imgBall {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Ball.jpg");
+.imgCaribe {
+  background: #6b91a3;
+}
+.imgCercavila {
+  background: #a97873;
+}
+.imgComida {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Comida.jpg");
+  -webkit-filter: brightness(0.5);
+}
+.imgConcurso {
+  background: #7a6aa4;
 }
 .imgDisco {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Disco.jpg");
   -webkit-filter: brightness(0.5);
 }
-.imgAlaska {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Alaska.jpg");
-  -webkit-filter: brightness(0.5);
+.imgDisco2 {
+  background: #bc3a79;
 }
-.imgDibujo {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Dibujo.jpg");
-  -webkit-filter: brightness(0.5);
-}
-.imgTiro {
-  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Tiro.jpg");
-  -webkit-filter: brightness(0.5);
-}
-.imgPubilla {
-  background: #cb032f;
+.imgExpo {
+  background: #6aa479;
 }
 .imgFiesta {
-  background: #79ab1c;
+  background: #a6a872;
+}
+.imgFutbol {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Futbol.jpg");
+  -webkit-filter: brightness(0.5);
 }
 .imgGuitarra {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Guitarra.jpg");
+  -webkit-filter: brightness(0.5);
+}
+.imgHermita {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Hermita.jpg");
+  -webkit-filter: brightness(0.5);
+}
+.imgHermita2 {
+  background: #567997;
+}
+.imgIndependencia {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Independencia.jpg");
+  -webkit-filter: brightness(0.5);
+}
+.imgJota {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Jota.jpg");
+  -webkit-filter: brightness(0.5);
+}
+.imgJota2 {
+  background: #a56e85;
+}
+.imgMusica {
+  background: #a98b73;
+}
+.imgNadar {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Nadar.jpg");
+  -webkit-filter: brightness(0.5);
+}
+.imgPubilla {
+  background: #9b6aa4;
+}
+.imgReligion {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Religion.jpg");
+  -webkit-filter: brightness(0.5);
+}
+.imgReligion2 {
+  background: #de7311;
+}
+.imgTiro {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Tiro.jpg");
   -webkit-filter: brightness(0.5);
 }
 .arte:before {
