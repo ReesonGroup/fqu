@@ -223,6 +223,10 @@ a:active {
   vertical-align: top;
   width: 45%;
 }
+.abrirEventos .ampliar:hover,
+.abrirEventos .reducir:hover {
+  background: #b8b8b8;
+}
 .abrirEventos .ampliar {
   margin: 0 0.5em 0 0;
 }
