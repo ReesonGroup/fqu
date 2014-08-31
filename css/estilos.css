@@ -207,8 +207,20 @@ a:active {
 .diecinueve {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Tiro.jpg") no-repeat 9999px 9999px;
 }
+.veinte {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Bici.jpg") no-repeat 9999px 9999px;
+}
+.veintiuno {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Sorteo.jpg") no-repeat 9999px 9999px;
+}
 .veintidos {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Guitarra.jpg") no-repeat 9999px 9999px;
+}
+.veintitres {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Recortes.jpg") no-repeat 9999px 9999px;
+}
+.veinticuatro {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Musica.jpg") no-repeat 9999px 9999px;
 }
 #bgCanvas {
   position: absolute;
@@ -866,6 +878,10 @@ background: rgb(215,81,93);
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Basquet.jpg");
   -webkit-filter: brightness(0.5);
 }
+.imgBici {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Bici.jpg");
+  -webkit-filter: brightness(0.5);
+}
 .imgBillar {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Billar.jpg");
   -webkit-filter: brightness(0.5);
@@ -947,7 +963,8 @@ background: rgb(215,81,93);
   background: #a56e85;
 }
 .imgMusica {
-  background: #a98b73;
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Musica.jpg");
+  -webkit-filter: brightness(0.5);
 }
 .imgMusica2 {
   background: #ba8962;
@@ -963,11 +980,19 @@ background: rgb(215,81,93);
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Religion.jpg");
   -webkit-filter: brightness(0.5);
 }
+.imgRecortes {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Recortes.jpg");
+  -webkit-filter: brightness(0.5);
+}
 .imgReligion2 {
   background: #c66710;
 }
 .imgTeatro {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Teatro.jpg");
+  -webkit-filter: brightness(0.5);
+}
+.imgSorteo {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Sorteo.jpg");
   -webkit-filter: brightness(0.5);
 }
 .imgTiro {
