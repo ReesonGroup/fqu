@@ -1,3 +1,4 @@
+
 #bgCanvas
 	position absolute
 	top 0
@@ -8,6 +9,38 @@
 	z-index 5
 #bgCanvas2
 	display none
+
+.abrirEventos
+	height 44px
+	width 90%
+	margin 1em
+	text-align center
+	.ampliar
+	.reducir
+		background #d2d2d2
+		border-radius 3px
+		color #525252
+		display inline-block
+		font-size .8em
+		height 100%
+		line-height 44px
+		text-align center
+		vertical-align top
+		width 45%
+	.ampliar
+		margin 0 .5em 0 0 
+		&:before
+			content maxi
+			font-family icomoon
+			font-size .9em
+			margin 0 1em 0 0 
+	.reducir
+		&:before
+			content mini
+			font-family icomoon
+			font-size .9em
+			margin 0 1em 0 0 
+		
 .calendario
 	.botonera
 		background blancoManchado
