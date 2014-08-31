@@ -138,9 +138,9 @@ a:active {
   background-position: 0px 0px;
   width: 230px;
   height: 128px;
-  transform: scale(0.5, 0.5);
-  -ms-transform: scale(0.5, 0.5);
-  -webkit-transform: scale(0.5, 0.5);
+  transform: scale(0.3, 0.3);
+  -ms-transform: scale(0.3, 0.3);
+  -webkit-transform: scale(0.3, 0.3);
 }
 .color {
   background-position: 0px -128px;
@@ -149,6 +149,72 @@ a:active {
   transform: scale(0.35, 0.35);
   -ms-transform: scale(0.35, 0.35);
   -webkit-transform: scale(0.35, 0.35);
+}
+.uno {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Libro.jpg") no-repeat 9999px 9999px;
+}
+.dos {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Caribe.jpg") no-repeat 9999px 9999px;
+}
+.tres {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Religion.jpg") no-repeat 9999px 9999px;
+}
+.cuatro {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Musica.jpg") no-repeat 9999px 9999px;
+}
+.cinco {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Cercavila.jpg") no-repeat 9999px 9999px;
+}
+.seis {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Comida.jpg") no-repeat 9999px 9999px;
+}
+.siete {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Independencia.jpg") no-repeat 9999px 9999px;
+}
+.ocho {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Nadar.jpg") no-repeat 9999px 9999px;
+}
+.nueve {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Jota.jpg") no-repeat 9999px 9999px;
+}
+.diez {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Arte.jpg") no-repeat 9999px 9999px;
+}
+.once {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Ayuntamiento.jpg") no-repeat 9999px 9999px;
+}
+.doce {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Futbol.jpg") no-repeat 9999px 9999px;
+}
+.trece {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Hermita.jpg") no-repeat 9999px 9999px;
+}
+.catorce {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Campanas.jpg") no-repeat 9999px 9999px;
+}
+.quince {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Ball.jpg") no-repeat 9999px 9999px;
+}
+.dieciseis {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Disco.jpg") no-repeat 9999px 9999px;
+}
+.diecisiete {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Alaska.jpg") no-repeat 9999px 9999px;
+}
+.dieciocho {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Dibujo.jpg") no-repeat 9999px 9999px;
+}
+.diecinueve {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Tiro.jpg") no-repeat 9999px 9999px;
+}
+.veinte {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Tambor.jpg") no-repeat 9999px 9999px;
+}
+.veintiuno {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Globo.jpg") no-repeat 9999px 9999px;
+}
+.veintidos {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Guitarra.jpg") no-repeat 9999px 9999px;
 }
 #bgCanvas {
   position: absolute;
@@ -360,7 +426,7 @@ span
   padding: 9px;
 }
 .calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .hero {
-  background: #a01157;
+  background: #177dd4;
   height: 250px;
   position: relative;
   width: 100%;
@@ -403,11 +469,7 @@ span
   overflow: hidden;
   width: 100%;
   height: 250px;
-}
-.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .hero .imagen .imagenInner img {
-  width: 100%;
-  height: auto;
-  overflow: hidden;
+  background-size: 100% auto;
 }
 .calendario .listaDias .listaEventos .contieneEvento .evento .plegado {
   background: #fff;
@@ -751,6 +813,72 @@ background: rgb(215,81,93);
 .wraper {
   overflow: hidden;
 }
+.imgLibro {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/\e614.jpg");
+}
+.imgCaribe {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Caribe.jpg");
+}
+.imgReligion {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Religion.jpg");
+}
+.imgMusica {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Musica.jpg");
+}
+.imgCercavila {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Cercavila.jpg");
+}
+.imgComida {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Comida.jpg");
+}
+.imgIndependencia {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Independencia.jpg");
+}
+.imgNadar {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Nadar.jpg");
+}
+.imgJota {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Jota.jpg");
+}
+.imgArte {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Arte.jpg");
+}
+.imgAyuntamiento {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Ayuntamiento.jpg");
+}
+.imgFutbol {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Futbol.jpg");
+}
+.imgHermita {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Hermita.jpg");
+}
+.imgCampanas {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Campanas.jpg");
+}
+.imgBall {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Ball.jpg");
+}
+.imgDisco {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Disco.jpg");
+}
+.imgAlaska {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Alaska.jpg");
+}
+.imgDibujo {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Dibujo.jpg");
+}
+.imgTiro {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Tiro.jpg");
+}
+.imgTambor {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Tambor.jpg");
+}
+.imgFiesta {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Globo.jpg");
+}
+.imgGuitarra {
+  background: url("http://ulldecona.herobo.com/image/fqu/eventos/Guitarra.jpg");
+}
 .arte:before {
   content: '\e021';
 }
@@ -834,7 +962,7 @@ background: rgb(215,81,93);
   content: '\e217';
 }
 .conferencia:before {
-  content: '\e15b';
+  content: '\e618';
 }
 .cubierto:before {
   content: '\e228';
