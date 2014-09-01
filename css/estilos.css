@@ -323,7 +323,7 @@ a:active {
   top: 28px;
 }
 .calendario .botonera ul .botoneraActive {
-  background: #1262a6;
+  background: #175487;
 }
 .calendario .eventoActual {
   background: #cae8fb;
@@ -1072,6 +1072,9 @@ background: rgb(215,81,93);
 .cercavila:before {
   content: '\e03d';
 }
+.camara:before {
+  content: '\e61d';
+}
 .campana:before {
   content: '\e613';
 }
@@ -1166,63 +1169,11 @@ background: rgb(215,81,93);
   content: '\e602';
 }
 @media screen and (min-width: 450px) {
-  .contenidos .calendario .listaEventos .contieneEvento .evento {
-    max-width: 600px;
-    margin: 0 auto;
-  }
-  .contenidos .calendario .listaEventos .contieneEvento .evento .desplegado .hero .imagen {
-    background-size: 100% auto;
-  }
-  .contenidos .noCalendario .contieneColaboradores .colaboradores .logoOuter {
-    padding: 0 20px 100px 20px;
-  }
-  .contenidos .noCalendario .contieneColaboradores .colaboradores .logoOuter .logoInner {
-    padding: 15px;
-    width: 30%;
-  }
-  .contenidos .noCalendario .contienePubillas .unaPubilla .back {
-    padding: 30px 0 40px 30px;
-  }
-  .contenidos .noCalendario .contienePubillas .unaPubilla .back:last-child {
-    padding: 10px 0 40px 30px;
-  }
-  .contenidos .noCalendario .contienePubillas .unaPubilla .hero {
-    height: 600px;
-  }
-  .contenidos .noCalendario .contienePubillas .unaPubilla .hero .fotoOuter {
-    height: 600px;
-  }
-  .contenidos .noCalendario .contienePubillas .unaPubilla .hero .fotoOuter .foto {
-    background-position: 10% 100%;
-    background-size: auto 100%;
-    position: absolute;
-  }
-  .contenidos .noCalendario .contienePubillas .unaPubilla .hero .detalle {
-    bottom: 50px;
-    left: 30px;
-    text-align: left;
-  }
-  .contenidos .noCalendario .contienePubillas .unaPubilla .hero .detalle .nombre {
-    font-size: 1.9em;
-    font-weight: 700;
-  }
-  .contenidos .noCalendario .contienePubillas .unaPubilla .hero .detalle .club {
-    font-size: 1.3em;
-    font-weight: 400;
-  }
-  .contenidos .noCalendario .contienePubillas .unaPubilla .texto {
-    padding: 30px 50px;
-  }
-  .contenidos .noCalendario .contienePubillas .unaPubilla .texto p {
-    margin-bottom: 16px;
-  }
-  .contenidos .noCalendario .contienePubillas .pubillas .pubillasOuter {
-    padding: 20px 0 70px 0;
+  .abrirEventos {
     width: 70%;
   }
-  .contenidos .noCalendario .contienePubillas .pubillas .pubillasOuter .pubillasInner img {
-    width: 90px;
-    height: auto;
+  .calendario .listaDias .listaEventos .contieneEvento {
+    width: 70%;
   }
   .header {
     background: #f00;
