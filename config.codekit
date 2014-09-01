@@ -161,6 +161,17 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
 		},
+	"\/img\/ grip.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17662,
+		"inputAbbreviatedPath": "\/img\/ grip.png",
+		"outputAbbreviatedPath": "\/img\/ grip.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/bouBlack.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -248,6 +259,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/img\/prueba.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19475,
+		"inputAbbreviatedPath": "\/img\/prueba.png",
+		"outputAbbreviatedPath": "\/img\/prueba.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/sprites.png": {
 		"fileType": 32768,

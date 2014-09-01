@@ -65,6 +65,7 @@
 			overflow-x auto
 			padding 12px 0
 			white-space nowrap
+			z-index 20
 			&::-webkit-scrollbar
 				display none
 			li
@@ -90,13 +91,23 @@
 						top 28px
 			.botoneraActive
 				background #115b9a
-				// border 5px solid gray
-				box-shadow 0 2px 6px rgba(black,.6) inset
+				// box-shadow 0 2px 6px rgba(black,.6) inset
+		.puntos
+			position absolute
+			left 4px 
+			top 4px 
+			height 67px
+			width 100px
+			background-image url(../img/prueba.png)
+			background-size 122px 117px
+			// -webkit-filter: brightness(1);
 	.eventoActual
 		background eventoActualFonfo
 		color eventoActualFuente
 		position relative
 		z-index 5
+		.detalleMultiEvento
+		.detalleMultiEvento2
 		.detalleEvento
 			font-weight 400
 			min-height 105px
@@ -116,6 +127,23 @@
 				text-transform uppercase
 			.tituloEvento
 				margin 0 20px 0 75px
+		.detalleMultiEvento
+		.detalleMultiEvento2
+			white-space nowrap
+			position relative
+			margin-left 0
+			animation miAnimation 12s infinite
+			-webkit-animation miAnimation 12s infinite
+			.plegado
+				display inline-block
+				margin 0 0 0 30px
+				max-width 150px
+				white-space wrap
+				&:first-child
+					margin 0 
+		.detalleMultiEvento2
+			animation miAnimation2 12s infinite
+			-webkit-animation miAnimation2 12s infinite
 		.tituloOuter
 			-webkit-animation timeLineLento .8s
 			animation timeLineLento .8s 
@@ -454,8 +482,8 @@
 	.logoReeson
 		.blanco
 			position absolute
-			left -25px
-			bottom -15px
+			left -45px
+			bottom -13px
 	.right
 		float right
 		margin 10px 0 0 0
@@ -534,6 +562,26 @@
 	display none
 .wraper
 	overflow hidden
+
+@keyframes miAnimation 
+	0%
+		margin-left 0
+	30%
+		margin-left 0
+	95%
+		margin-left -200%
+	100%
+		margin-left 0
+
+@keyframes miAnimation2
+	0%
+		margin-left 0
+	30%
+		margin-left 0
+	95%
+		margin-left -400%
+	100%
+		margin-left 0
 // ====================
 
 // DECLARA IMAGNES DE LOS EVENTOS

@@ -3,6 +3,14 @@
 .abrirEventos
     width 70%
 .calendario
+    .eventoActual
+        .detalleMultiEvento
+        .detalleMultiEvento2
+            animation miAnimation 12s infinite
+            -webkit-animation miAnimation 12s infinite
+        .detalleMultiEvento2
+            animation miAnimation2 12s infinite
+            -webkit-animation miAnimation2 12s infinite
     .listaDias
         .listaEventos
             .contieneEvento
@@ -75,3 +83,24 @@
         img
             margin 10px 0 0 -100px
             width 280px
+
+
+@keyframes miAnimation 
+    0%
+        margin-left 0
+    30%
+        margin-left 0
+    95%
+        margin-left -100%
+    100%
+        margin-left 0
+
+@keyframes miAnimation2
+    0%
+        margin-left 0
+    30%
+        margin-left 0
+    95%
+        margin-left -200%
+    100%
+        margin-left 0
