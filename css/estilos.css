@@ -324,7 +324,7 @@ a:active {
   top: 28px;
 }
 .calendario .botonera ul .botoneraActive {
-  background: #115b9a;
+  background: #404040;
 }
 .calendario .botonera .puntos {
   background-image: url("../img/prueba.png");
