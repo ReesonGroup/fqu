@@ -901,7 +901,7 @@ background: rgb(215,81,93);
   -webkit-filter: brightness(0.5);
 }
 .imgCercavila {
-  background: #a97873;
+  background: #8570bb;
 }
 .imgCoche {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Coche.jpg");
@@ -1072,7 +1072,9 @@ background: rgb(215,81,93);
 .cercavila:before {
   content: '\e03d';
 }
-.campana:before,
+.campana:before {
+  content: '\e613';
+}
 .cancer:before {
   content: '\e602';
 }
