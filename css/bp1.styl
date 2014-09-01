@@ -93,16 +93,15 @@
 				background #115b9a
 				// box-shadow 0 2px 6px rgba(black,.6) inset
 		.puntos
-			position absolute
-			left 4px 
-			top 4px 
-			height 67px
-			width 100px
 			background-image url(../img/prueba.png)
 			background-size 122px 117px
-			// -webkit-filter: brightness(1);
+			height 67px
+			left 4px 
+			position absolute
+			top 4px 
+			width 100px
 	.eventoActual
-		background eventoActualFonfo
+		background eventoActualFondo
 		color eventoActualFuente
 		position relative
 		z-index 5
@@ -127,23 +126,25 @@
 				text-transform uppercase
 			.tituloEvento
 				margin 0 20px 0 75px
-		.detalleMultiEvento
 		.detalleMultiEvento2
+		.detalleMultiEvento3
 			white-space nowrap
 			position relative
 			margin-left 0
-			animation miAnimation 12s infinite
-			-webkit-animation miAnimation 12s infinite
 			.plegado
 				display inline-block
-				margin 0 0 0 30px
-				max-width 150px
-				white-space wrap
+				margin 0 0 0 15px
+				vertical-align top
+				width 320px
+				white-space initial
 				&:first-child
 					margin 0 
 		.detalleMultiEvento2
-			animation miAnimation2 12s infinite
-			-webkit-animation miAnimation2 12s infinite
+			animation multiEvento2 18s infinite
+			-webkit-animation multiEvento2 18s infinite
+		.detalleMultiEvento3
+			animation multiEvento3 18s infinite
+			-webkit-animation multiEvento3 18s infinite
 		.tituloOuter
 			-webkit-animation timeLineLento .8s
 			animation timeLineLento .8s 
@@ -563,25 +564,30 @@
 .wraper
 	overflow hidden
 
-@keyframes miAnimation 
+@keyframes multiEvento2 
 	0%
 		margin-left 0
-	30%
+	20%
 		margin-left 0
+	65%
+		margin-left -335px
 	95%
-		margin-left -200%
+		margin-left -335px
+	100%
+		margin-left 0
+@keyframes multiEvento3
+	0%
+		margin-left 0
+	20%
+		margin-left 0
+	65%
+		margin-left -335px
+	95%
+		margin-left -670px
 	100%
 		margin-left 0
 
-@keyframes miAnimation2
-	0%
-		margin-left 0
-	30%
-		margin-left 0
-	95%
-		margin-left -400%
-	100%
-		margin-left 0
+
 // ====================
 
 // DECLARA IMAGNES DE LOS EVENTOS

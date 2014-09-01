@@ -161,17 +161,6 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
 		},
-	"\/img\/ grip.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 17662,
-		"inputAbbreviatedPath": "\/img\/ grip.png",
-		"outputAbbreviatedPath": "\/img\/ grip.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/bouBlack.png": {
 		"fileType": 32768,
 		"ignore": 0,
