@@ -1396,14 +1396,17 @@ background: rgb(215,81,93);
   .abrirEventos {
     width: 70%;
   }
-  .calendario .eventoActual .detalleMultiEvento,
-  .calendario .eventoActual .detalleMultiEvento2 {
-    animation: miAnimation 12s infinite;
-    -webkit-animation: miAnimation 12s infinite;
+  .calendario .eventoActual .detalleMultiEvento2 .plegado,
+  .calendario .eventoActual .detalleMultiEvento3 .plegado {
+    width: 360px;
   }
-  .calendario .eventoActual .detalleMultiEvento2 {
-    animation: miAnimation2 12s infinite;
-    -webkit-animation: miAnimation2 12s infinite;
+  .calendario .eventoActual .detalleMultiEvento2 .plegado:first-child,
+  .calendario .eventoActual .detalleMultiEvento3 .plegado:first-child {
+    margin: 0;
+  }
+  .calendario .eventoActual .detalleMultiEvento3 {
+    animation: multiEvento3 10s infinite;
+    -webkit-animation: multiEvento3 10s infinite;
   }
   .calendario .listaDias .listaEventos .contieneEvento {
     width: 70%;
@@ -1422,113 +1425,81 @@ background: rgb(215,81,93);
     margin: 10px 0 0 -100px;
     width: 280px;
   }
-@-moz-keyframes miAnimation {
+@-moz-keyframes multiEvento3 {
     0% {
       margin-left: 0;
     }
-    30% {
+    45% {
       margin-left: 0;
     }
+    50% {
+      margin-left: -385px;
+    }
+    90% {
+      margin-left: -385px;
+    }
     95% {
-      margin-left: -100%;
+      margin-left: -385px;
     }
     100% {
       margin-left: 0;
     }
 }
-@-webkit-keyframes miAnimation {
+@-webkit-keyframes multiEvento3 {
     0% {
       margin-left: 0;
     }
-    30% {
+    45% {
       margin-left: 0;
     }
+    50% {
+      margin-left: -385px;
+    }
+    90% {
+      margin-left: -385px;
+    }
     95% {
-      margin-left: -100%;
+      margin-left: -385px;
     }
     100% {
       margin-left: 0;
     }
 }
-@-o-keyframes miAnimation {
+@-o-keyframes multiEvento3 {
     0% {
       margin-left: 0;
     }
-    30% {
+    45% {
       margin-left: 0;
     }
+    50% {
+      margin-left: -385px;
+    }
+    90% {
+      margin-left: -385px;
+    }
     95% {
-      margin-left: -100%;
+      margin-left: -385px;
     }
     100% {
       margin-left: 0;
     }
 }
-@keyframes miAnimation {
+@keyframes multiEvento3 {
     0% {
       margin-left: 0;
     }
-    30% {
+    45% {
       margin-left: 0;
+    }
+    50% {
+      margin-left: -385px;
+    }
+    90% {
+      margin-left: -385px;
     }
     95% {
-      margin-left: -100%;
-    }
-    100% {
-      margin-left: 0;
-    }
-}
-@-moz-keyframes miAnimation2 {
-    0% {
-      margin-left: 0;
-    }
-    30% {
-      margin-left: 0;
-    }
-    95% {
-      margin-left: -200%;
-    }
-    100% {
-      margin-left: 0;
-    }
-}
-@-webkit-keyframes miAnimation2 {
-    0% {
-      margin-left: 0;
-    }
-    30% {
-      margin-left: 0;
-    }
-    95% {
-      margin-left: -200%;
-    }
-    100% {
-      margin-left: 0;
-    }
-}
-@-o-keyframes miAnimation2 {
-    0% {
-      margin-left: 0;
-    }
-    30% {
-      margin-left: 0;
-    }
-    95% {
-      margin-left: -200%;
-    }
-    100% {
-      margin-left: 0;
-    }
-}
-@keyframes miAnimation2 {
-    0% {
-      margin-left: 0;
-    }
-    30% {
-      margin-left: 0;
-    }
-    95% {
-      margin-left: -200%;
+      margin-left: -385px;
     }
     100% {
       margin-left: 0;
