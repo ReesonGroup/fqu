@@ -1425,6 +1425,86 @@ background: rgb(215,81,93);
     margin: 10px 0 0 -100px;
     width: 280px;
   }
+@-moz-keyframes multiEvento2 {
+    0% {
+      margin-left: 0;
+    }
+    45% {
+      margin-left: 0;
+    }
+    50% {
+      margin-left: 0;
+    }
+    90% {
+      margin-left: 0;
+    }
+    95% {
+      margin-left: 0;
+    }
+    100% {
+      margin-left: 0;
+    }
+}
+@-webkit-keyframes multiEvento2 {
+    0% {
+      margin-left: 0;
+    }
+    45% {
+      margin-left: 0;
+    }
+    50% {
+      margin-left: 0;
+    }
+    90% {
+      margin-left: 0;
+    }
+    95% {
+      margin-left: 0;
+    }
+    100% {
+      margin-left: 0;
+    }
+}
+@-o-keyframes multiEvento2 {
+    0% {
+      margin-left: 0;
+    }
+    45% {
+      margin-left: 0;
+    }
+    50% {
+      margin-left: 0;
+    }
+    90% {
+      margin-left: 0;
+    }
+    95% {
+      margin-left: 0;
+    }
+    100% {
+      margin-left: 0;
+    }
+}
+@keyframes multiEvento2 {
+    0% {
+      margin-left: 0;
+    }
+    45% {
+      margin-left: 0;
+    }
+    50% {
+      margin-left: 0;
+    }
+    90% {
+      margin-left: 0;
+    }
+    95% {
+      margin-left: 0;
+    }
+    100% {
+      margin-left: 0;
+    }
+}
 @-moz-keyframes multiEvento3 {
     0% {
       margin-left: 0;
