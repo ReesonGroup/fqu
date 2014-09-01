@@ -79,31 +79,6 @@ samp {
 pre {
   white-space: pre-wrap;
 }
-@font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon.eot?-vup9ry");
-  src: url("../fonts/icomoon.eot?#iefix-vup9ry") format('embedded-opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon.woff?-vup9ry") format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon.ttf?-vup9ry") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'icomoon';
-  src: url("../fonts/icomoon.svg?-vup9ry#icomoon") format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
 body {
   background: rgba(0,0,0,0.1);
   font-family: lato;
@@ -1056,6 +1031,9 @@ background: rgb(215,81,93);
 .billar:before {
   content: '\e603';
 }
+.bocata:before {
+  content: '\e229';
+}
 .bouBlack {
   width: 70px;
   height: 70px;
@@ -1104,6 +1082,9 @@ background: rgb(215,81,93);
 .comprar:before {
   content: '\e605';
 }
+.concierto:before {
+  content: '\e03d';
+}
 .chimchim:before {
   content: '\e19b';
 }
@@ -1113,7 +1094,6 @@ background: rgb(215,81,93);
 .coptel:before {
   content: '\e615';
 }
-.comida:before,
 .coche:before {
   content: '\e619';
 }
@@ -1144,6 +1124,9 @@ background: rgb(215,81,93);
 .escudo:before {
   content: '\f132';
 }
+.flor:before {
+  content: '\e61c';
+}
 .futbol:before {
   content: '\e616';
 }
@@ -1157,7 +1140,7 @@ background: rgb(215,81,93);
   content: '\e614';
 }
 .musica:before {
-  content: '\e03f';
+  content: '\e61b';
 }
 .nadar:before {
   content: '\e617';
