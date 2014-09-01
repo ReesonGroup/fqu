@@ -1187,8 +1187,8 @@ background: rgb(215,81,93);
     width: 200px;
   }
   .header .programa img {
-    margin: 0 0 0 -70px;
-    width: 240px;
+    margin: 10px 0 0 -100px;
+    width: 280px;
   }
 }
 @media screen and (min-width: 770px) {
