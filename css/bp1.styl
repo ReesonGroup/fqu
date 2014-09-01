@@ -107,6 +107,7 @@
 		z-index 5
 		.detalleMultiEvento
 		.detalleMultiEvento2
+		.detalleMultiEvento3
 		.detalleEvento
 			font-weight 400
 			min-height 105px
@@ -140,11 +141,11 @@
 				&:first-child
 					margin 0 
 		.detalleMultiEvento2
-			animation multiEvento2 18s infinite
-			-webkit-animation multiEvento2 18s infinite
+			animation multiEvento2 20s infinite
+			-webkit-animation multiEvento2 20s infinite
 		.detalleMultiEvento3
-			animation multiEvento3 18s infinite
-			-webkit-animation multiEvento3 18s infinite
+			animation multiEvento3 30s infinite
+			-webkit-animation multiEvento3 30s infinite
 		.tituloOuter
 			-webkit-animation timeLineLento .8s
 			animation timeLineLento .8s 
@@ -567,9 +568,11 @@
 @keyframes multiEvento2 
 	0%
 		margin-left 0
-	20%
+	45%
 		margin-left 0
-	65%
+	50%
+		margin-left -335px
+	90%
 		margin-left -335px
 	95%
 		margin-left -335px
@@ -578,9 +581,9 @@
 @keyframes multiEvento3
 	0%
 		margin-left 0
-	20%
+	10%
 		margin-left 0
-	65%
+	55%
 		margin-left -335px
 	95%
 		margin-left -670px

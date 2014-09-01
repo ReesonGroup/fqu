@@ -343,6 +343,7 @@ a:active {
 }
 .calendario .eventoActual .detalleMultiEvento,
 .calendario .eventoActual .detalleMultiEvento2,
+.calendario .eventoActual .detalleMultiEvento3,
 .calendario .eventoActual .detalleEvento {
   font-weight: 400;
   min-height: 105px;
@@ -350,11 +351,13 @@ a:active {
 }
 .calendario .eventoActual .detalleMultiEvento .logoEvento,
 .calendario .eventoActual .detalleMultiEvento2 .logoEvento,
+.calendario .eventoActual .detalleMultiEvento3 .logoEvento,
 .calendario .eventoActual .detalleEvento .logoEvento {
   position: relative;
 }
 .calendario .eventoActual .detalleMultiEvento .logoEvento:before,
 .calendario .eventoActual .detalleMultiEvento2 .logoEvento:before,
+.calendario .eventoActual .detalleMultiEvento3 .logoEvento:before,
 .calendario .eventoActual .detalleEvento .logoEvento:before {
   font-family: icomoon;
   left: 30px;
@@ -363,6 +366,7 @@ a:active {
 }
 .calendario .eventoActual .detalleMultiEvento .sitioEvento,
 .calendario .eventoActual .detalleMultiEvento2 .sitioEvento,
+.calendario .eventoActual .detalleMultiEvento3 .sitioEvento,
 .calendario .eventoActual .detalleEvento .sitioEvento {
   color: rgba(23,122,252,0.5);
   font-size: 12px;
@@ -372,6 +376,7 @@ a:active {
 }
 .calendario .eventoActual .detalleMultiEvento .tituloEvento,
 .calendario .eventoActual .detalleMultiEvento2 .tituloEvento,
+.calendario .eventoActual .detalleMultiEvento3 .tituloEvento,
 .calendario .eventoActual .detalleEvento .tituloEvento {
   margin: 0 20px 0 75px;
 }
@@ -394,12 +399,12 @@ a:active {
   margin: 0;
 }
 .calendario .eventoActual .detalleMultiEvento2 {
-  animation: multiEvento2 18s infinite;
-  -webkit-animation: multiEvento2 18s infinite;
+  animation: multiEvento2 20s infinite;
+  -webkit-animation: multiEvento2 20s infinite;
 }
 .calendario .eventoActual .detalleMultiEvento3 {
-  animation: multiEvento3 18s infinite;
-  -webkit-animation: multiEvento3 18s infinite;
+  animation: multiEvento3 30s infinite;
+  -webkit-animation: multiEvento3 30s infinite;
 }
 .calendario .eventoActual .tituloOuter {
   -webkit-animation: timeLineLento 0.8s;
@@ -1218,10 +1223,13 @@ background: rgb(215,81,93);
   0% {
     margin-left: 0;
   }
-  20% {
+  45% {
     margin-left: 0;
   }
-  65% {
+  50% {
+    margin-left: -335px;
+  }
+  90% {
     margin-left: -335px;
   }
   95% {
@@ -1235,10 +1243,13 @@ background: rgb(215,81,93);
   0% {
     margin-left: 0;
   }
-  20% {
+  45% {
     margin-left: 0;
   }
-  65% {
+  50% {
+    margin-left: -335px;
+  }
+  90% {
     margin-left: -335px;
   }
   95% {
@@ -1252,10 +1263,13 @@ background: rgb(215,81,93);
   0% {
     margin-left: 0;
   }
-  20% {
+  45% {
     margin-left: 0;
   }
-  65% {
+  50% {
+    margin-left: -335px;
+  }
+  90% {
     margin-left: -335px;
   }
   95% {
@@ -1269,10 +1283,13 @@ background: rgb(215,81,93);
   0% {
     margin-left: 0;
   }
-  20% {
+  45% {
     margin-left: 0;
   }
-  65% {
+  50% {
+    margin-left: -335px;
+  }
+  90% {
     margin-left: -335px;
   }
   95% {
@@ -1286,10 +1303,10 @@ background: rgb(215,81,93);
   0% {
     margin-left: 0;
   }
-  20% {
+  10% {
     margin-left: 0;
   }
-  65% {
+  55% {
     margin-left: -335px;
   }
   95% {
@@ -1303,10 +1320,10 @@ background: rgb(215,81,93);
   0% {
     margin-left: 0;
   }
-  20% {
+  10% {
     margin-left: 0;
   }
-  65% {
+  55% {
     margin-left: -335px;
   }
   95% {
@@ -1320,10 +1337,10 @@ background: rgb(215,81,93);
   0% {
     margin-left: 0;
   }
-  20% {
+  10% {
     margin-left: 0;
   }
-  65% {
+  55% {
     margin-left: -335px;
   }
   95% {
@@ -1337,10 +1354,10 @@ background: rgb(215,81,93);
   0% {
     margin-left: 0;
   }
-  20% {
+  10% {
     margin-left: 0;
   }
-  65% {
+  55% {
     margin-left: -335px;
   }
   95% {
