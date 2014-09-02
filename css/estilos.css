@@ -1625,6 +1625,10 @@ background: rgb(215,81,93);
     height: 85px;
     z-index: 9;
   }
+  .abrirEventos {
+    width: 90%;
+    margin: 315px auto 1em auto;
+  }
   .contenido {
     bottom: 0;
     left: 0;
@@ -1659,7 +1663,10 @@ background: rgb(215,81,93);
     width: 420px;
   }
   .contenido .calendario .listaDias {
-    margin: 308px 0 0 0;
+    margin: 10px 0 0 0;
+  }
+  .contenido .calendario .listaDias .listaEventos .contieneEvento {
+    width: 92%;
   }
   .contenido .calendario .tituloAra {
     display: none;
