@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <Jordi Pàmies> -- <designer web developer> -- <@jpcpamies>
+    <Ivan Bardon> -- <web developer> -- <@Ivan_bardon>
+
+# THANKS
+
+    <Marc Ferrer>
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr
