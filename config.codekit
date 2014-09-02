@@ -194,13 +194,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/img\/prueba.png": {
+	"\/img\/sprites.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 457,
-		"inputAbbreviatedPath": "\/img\/prueba.png",
-		"outputAbbreviatedPath": "\/img\/prueba.png",
+		"initialSize": 35796,
+		"inputAbbreviatedPath": "\/img\/sprites.png",
+		"outputAbbreviatedPath": "\/img\/sprites.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

@@ -148,7 +148,11 @@ a:active {
   float: left;
 }
 .blanco,
-.color {
+.bouBlack,
+.bouBlue,
+.bouWhite,
+.negro,
+.prueba {
   display: inline-block;
   background-repeat: no-repeat;
   background-image: url("../img/sprites.png");
@@ -161,13 +165,34 @@ a:active {
   -ms-transform: scale(0.37, 0.37);
   -webkit-transform: scale(0.37, 0.37);
 }
-.color {
-  background-position: 0px -128px;
+.negro {
+  background-position: -140px -140px;
   width: 230px;
   height: 128px;
-  transform: scale(0.35, 0.35);
-  -ms-transform: scale(0.35, 0.35);
-  -webkit-transform: scale(0.35, 0.35);
+  transform: scale(0.3, 0.3);
+  -ms-transform: scale(0.3, 0.3);
+  -webkit-transform: scale(0.3, 0.3);
+  opacity: 0.85;
+}
+.prueba {
+  background-position: 0px -292px;
+  width: 147px;
+  height: 152px;
+}
+.bouBlack {
+  background-position: -230px 0px;
+  width: 140px;
+  height: 140px;
+}
+.bouBlue {
+  background-position: -370px 0px;
+  width: 140px;
+  height: 140px;
+}
+.bouWhite {
+  background-position: 0px -140px;
+  width: 140px;
+  height: 140px;
 }
 .uno {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Coche.jpg") no-repeat 9999px 9999px;
@@ -1745,9 +1770,9 @@ background: rgb(215,81,93);
     font-family: icomoon;
     vertical-align: bottom;
   }
-  .footerbp3 .logoReeson .color {
+  .footerbp3 .logoReeson .negro {
     position: absolute;
-    left: -58px;
+    left: -50px;
     bottom: -28px;
   }
   .header {
