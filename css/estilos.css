@@ -431,11 +431,35 @@ a:active {
   text-align: left;
   text-transform: uppercase;
 }
+.calendario .eventoActual .detalleMultiEvento .texto,
+.calendario .eventoActual .detalleMultiEvento2 .texto,
+.calendario .eventoActual .detalleMultiEvento3 .texto,
+.calendario .eventoActual .detalleEvento .texto {
+  text-align: center;
+}
 .calendario .eventoActual .detalleMultiEvento .tituloEvento,
 .calendario .eventoActual .detalleMultiEvento2 .tituloEvento,
 .calendario .eventoActual .detalleMultiEvento3 .tituloEvento,
 .calendario .eventoActual .detalleEvento .tituloEvento {
   margin: 0 20px 0 75px;
+}
+.calendario .eventoActual .detalleMultiEvento .pila,
+.calendario .eventoActual .detalleMultiEvento2 .pila,
+.calendario .eventoActual .detalleMultiEvento3 .pila,
+.calendario .eventoActual .detalleEvento .pila {
+  margin: -15px 0 0 0;
+  height: 100px;
+  text-align: center;
+  animation: pilaCargando 10s infinite;
+  -webkit-animation: pilaCargando 10s infinite;
+}
+.calendario .eventoActual .detalleMultiEvento .pila:after,
+.calendario .eventoActual .detalleMultiEvento2 .pila:after,
+.calendario .eventoActual .detalleMultiEvento3 .pila:after,
+.calendario .eventoActual .detalleEvento .pila:after {
+  font-family: icomoon;
+  font-size: 6em;
+  content: '\e61e';
 }
 .calendario .eventoActual .detalleMultiEvento2,
 .calendario .eventoActual .detalleMultiEvento3 {

@@ -126,8 +126,21 @@
 				margin 5px 20px 0 75px
 				text-align left
 				text-transform uppercase
+			.texto
+				text-align center
 			.tituloEvento
 				margin 0 20px 0 75px
+			.pila
+				margin -15px 0 0 0 
+				height 100px
+				text-align center
+				animation pilaCargando 10s infinite
+				-webkit-animation pilaCargando 10s infinite
+				&:after
+					font-family icomoon
+					font-size 6em
+					content pila4
+
 		.detalleMultiEvento2
 		.detalleMultiEvento3
 			white-space nowrap
@@ -600,7 +613,16 @@
 		margin-left -670px
 	100%
 		margin-left 0
-
+// @keyframes pilaCargando 
+// 	0%
+// 		pila:after
+// 			content pila1
+// 	33%
+// 		background blue
+// 	66%
+// 		background green
+// 	100%
+// 		background red
 
 // ====================
 
