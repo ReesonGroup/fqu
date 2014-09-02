@@ -151,8 +151,7 @@ a:active {
 .bouBlack,
 .bouBlue,
 .bouWhite,
-.negro,
-.prueba {
+.negro {
   display: inline-block;
   background-repeat: no-repeat;
   background-image: url("../img/sprites.png");
@@ -165,6 +164,24 @@ a:active {
   -ms-transform: scale(0.37, 0.37);
   -webkit-transform: scale(0.37, 0.37);
 }
+.bouBlack {
+  background-position: -230px 0px;
+  width: 140px;
+  height: 140px;
+  transform: scale(0.23, 0.23);
+  -ms-transform: scale(0.23, 0.23);
+  -webkit-transform: scale(0.23, 0.23);
+}
+.bouBlue {
+  background-position: 0px -128px;
+  width: 140px;
+  height: 140px;
+}
+.bouWhite {
+  background-position: -370px 0px;
+  width: 140px;
+  height: 140px;
+}
 .negro {
   background-position: -140px -140px;
   width: 230px;
@@ -173,26 +190,6 @@ a:active {
   -ms-transform: scale(0.3, 0.3);
   -webkit-transform: scale(0.3, 0.3);
   opacity: 0.85;
-}
-.prueba {
-  background-position: 0px -292px;
-  width: 147px;
-  height: 152px;
-}
-.bouBlack {
-  background-position: -230px 0px;
-  width: 140px;
-  height: 140px;
-}
-.bouBlue {
-  background-position: -370px 0px;
-  width: 140px;
-  height: 140px;
-}
-.bouWhite {
-  background-position: 0px -140px;
-  width: 140px;
-  height: 140px;
 }
 .uno {
   background: url("http://ulldecona.herobo.com/image/fqu/eventos/Coche.jpg") no-repeat 9999px 9999px;
@@ -641,6 +638,10 @@ span
 .calendario .listaDias .listaEventos .contieneEvento .evento .plegado .tituloEvento {
   margin: 0 10px 0 70px;
   padding: 0 10px 5px 0;
+}
+.calendario .listaDias .listaEventos .contieneEvento .evento .conToro {
+  position: relative;
+  left: -70px;
 }
 .calendario .tituloAra {
   height: auto;
@@ -1137,33 +1138,22 @@ background: rgb(215,81,93);
   content: '\e229';
 }
 .bouBlack {
-  width: 70px;
-  height: 70px;
-  background-image: url("../img/bouBlack.png");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-size: 30px auto;
   float: left;
   opacity: 0.8;
-  left: 7px;
+  left: -48px;
+  top: -50px;
   position: relative;
 }
 .bouBlue {
   width: 70px;
   height: 70px;
-  background-image: url("../img/bouBlue.png");
-  background-repeat: no-repeat;
-  background-position: 0 0;
   background-size: 25px auto;
   color: #177dd4;
   float: left;
   left: 7px;
   position: relative;
 }
-.bouWhiteBig {
-  background-image: url("../img/bouWhiteBig.png");
-  background-repeat: no-repeat;
-  background-position: 0 0;
+.bouWhite {
   background-size: 3em auto;
   margin: 0 auto;
   width: 70px;

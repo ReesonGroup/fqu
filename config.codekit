@@ -161,6 +161,39 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0
 		},
+	"\/img\/bouBlack.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4080,
+		"inputAbbreviatedPath": "\/img\/bouBlack.png",
+		"outputAbbreviatedPath": "\/img\/bouBlack.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bouBlue.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4191,
+		"inputAbbreviatedPath": "\/img\/bouBlue.png",
+		"outputAbbreviatedPath": "\/img\/bouBlue.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bouWhite.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3267,
+		"inputAbbreviatedPath": "\/img\/bouWhite.png",
+		"outputAbbreviatedPath": "\/img\/bouWhite.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -194,11 +227,22 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/prueba.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 457,
+		"inputAbbreviatedPath": "\/img\/prueba.png",
+		"outputAbbreviatedPath": "\/img\/prueba.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/sprites.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 35796,
+		"initialSize": 17770,
 		"inputAbbreviatedPath": "\/img\/sprites.png",
 		"outputAbbreviatedPath": "\/img\/sprites.png",
 		"outputPathIsOutsideProject": 0,
