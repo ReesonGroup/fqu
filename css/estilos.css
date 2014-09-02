@@ -531,57 +531,57 @@ span
 .calendario .listaDias .listaEventos .contieneEvento .evento .desplegado {
   display: none;
 }
-.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .contenido {
+.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .contenidoEvento {
   background: #fff;
 }
-.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .contenido .texto {
+.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .contenidoEvento .texto {
   font-family: 'Open Sans', sans-serif;
   font-size: 17px;
   line-height: 24px;
   padding: 17px 17px 35px 17px;
 }
-.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .contenido .texto p {
+.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .contenidoEvento .texto p {
   padding: 9px;
 }
-.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .hero {
+.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .heroEvento {
   background: #177dd4;
   height: 250px;
   position: relative;
   width: 100%;
 }
-.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .hero .detalle {
+.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .heroEvento .detalle {
   color: #fff;
   position: relative;
   text-align: center;
   z-index: 1;
 }
-.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .hero .detalle .logoEvento:before {
+.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .heroEvento .detalle .logoEvento:before {
   font-family: icomoon;
   font-size: 3em;
   position: relative;
   top: 30px;
 }
-.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .hero .detalle .noLogo {
+.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .heroEvento .detalle .noLogo {
   font-weight: 400;
   margin: 0 auto;
   position: relative;
   top: 55px;
   width: 75%;
 }
-.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .hero .detalle .noLogo .sitioEvento {
+.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .heroEvento .detalle .noLogo .sitioEvento {
   font-size: 12px;
   font-weight: 300;
   margin-top: 7px;
   text-transform: uppercase;
 }
-.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .hero .detalle .noLogo .tituloEvento {
+.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .heroEvento .detalle .noLogo .tituloEvento {
   font-size: 1.2em;
   line-height: 1.2em;
 }
-.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .hero .imagen {
+.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .heroEvento .imagen {
   position: relative;
 }
-.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .hero .imagen .imagenInner {
+.calendario .listaDias .listaEventos .contieneEvento .evento .desplegado .heroEvento .imagen .imagenInner {
   position: absolute;
   overflow: hidden;
   width: 100%;
