@@ -168,19 +168,25 @@ a:active {
   background-position: -230px 0px;
   width: 140px;
   height: 140px;
-  transform: scale(0.23, 0.23);
-  -ms-transform: scale(0.23, 0.23);
-  -webkit-transform: scale(0.23, 0.23);
+  transform: scale(0.22, 0.22);
+  -ms-transform: scale(0.22, 0.22);
+  -webkit-transform: scale(0.22, 0.22);
 }
 .bouBlue {
   background-position: 0px -128px;
   width: 140px;
   height: 140px;
+  transform: scale(0.22, 0.22);
+  -ms-transform: scale(0.22, 0.22);
+  -webkit-transform: scale(0.22, 0.22);
 }
 .bouWhite {
   background-position: -370px 0px;
   width: 140px;
   height: 140px;
+  transform: scale(0.55, 0.55);
+  -ms-transform: scale(0.55, 0.55);
+  -webkit-transform: scale(0.55, 0.55);
 }
 .negro {
   background-position: -140px -140px;
@@ -642,6 +648,10 @@ span
 .calendario .listaDias .listaEventos .contieneEvento .evento .conToro {
   position: relative;
   left: -70px;
+}
+.calendario .listaDias .listaEventos .contieneEvento .evento .conToro2 {
+  position: relative;
+  top: -55px;
 }
 .calendario .tituloAra {
   height: auto;
@@ -1145,20 +1155,15 @@ background: rgb(215,81,93);
   position: relative;
 }
 .bouBlue {
-  width: 70px;
-  height: 70px;
-  background-size: 25px auto;
-  color: #177dd4;
   float: left;
-  left: 7px;
+  opacity: 0.8;
+  left: -48px;
+  top: -50px;
   position: relative;
 }
 .bouWhite {
-  background-size: 3em auto;
-  margin: 0 auto;
-  width: 70px;
-  height: 70px;
-  top: 30px;
+  left: 0;
+  top: 0;
   position: relative;
 }
 .cercavila:before {
