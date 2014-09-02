@@ -117,17 +117,20 @@ body {
   color: #fff;
 }
 a:link {
-  some: style;
+  color: #177dd4;
   text-decoration: none;
 }
 a:visited {
-  some: style;
+  color: #055ac9;
+  text-decoration: none;
 }
 a:hover {
-  some: style;
+  color: #549cfa;
+  text-decoration: none;
 }
 a:active {
-  some: style;
+  color: #177dd4;
+  text-decoration: none;
 }
 .enlace {
   position: absolute;
