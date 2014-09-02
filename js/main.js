@@ -59,7 +59,7 @@ function ancla1()
     {
       scrollTop: $('#botonera').offset().top
     })
-}
+};
 
 setInterval(startClock, 1000);
 
@@ -336,9 +336,417 @@ function startClock()
     }
     else if (hora==16)
     {
-      detalleEvento.html(arrayEa[33])
+      detalleEvento.html(arrayEa[57])
+    }
+    else if (hora==17&&min<=29)
+    {
+      detalleEvento.html(arrayEa[58]);
+      detalleEvento.append(arrayEa[59])
+    }
+    else if (hora==17)
+    {
+      detalleEvento.html(arrayEa[60])
+    }
+    else if (hora==18&&min<=29)
+    {
+      detalleEvento.html(arrayEa[61]);
+      detalleEvento.append(arrayEa[62])
+    }
+    else if (hora==18)
+    {
+      detalleEvento.html(arrayEa[63])
+    }
+    else if (hora==19)
+    {
+      detalleEvento.html(arrayEa[64])
+    }
+    else if (hora==20)
+    {
+      detalleEvento.html(arrayEa[65]);
+      detalleEvento.append(arrayEa[66])
+    }
+    else if (hora==21&&min>=30)
+    {
+      detalleEvento.html(arrayEa[67])
+    }
+    else if (hora==22&&min<=29)
+    {
+      detalleEvento.html(arrayEa[68])
+    }
+    else if (hora==22)
+    {
+      detalleEvento.html(arrayEa[69])
     }
   }
+  else if (dia==8)
+  {
+    if (hora==0||hora==1||hora==2||hora==3)
+    {
+      detalleEvento.html(arrayEa[70])
+    }
+    else if (hora==10&&min>=30)
+    {
+      detalleEvento.html(arrayEa[71])
+    }
+    else if (hora==11)
+    {
+      detalleEvento.html(arrayEa[72])
+    }
+    else if ((hora==12&&min>=45)||hora==13&&min<=30)
+    {
+      detalleEvento.html(arrayEa[73])
+    }
+    else if ((hora==15&&min>=30)||hora==16)
+    {
+      detalleEvento.html(arrayEa[74])
+    }
+    else if (hora==17)
+    {
+      detalleEvento.html(arrayEa[75])
+    }
+    else if (hora==18)
+    {
+      detalleEvento.html(arrayEa[76]);
+      detalleEvento.append(arrayEa[77])
+    }
+    else if (hora==19)
+    {
+      detalleEvento.html(arrayEa[77]);
+      detalleEvento.append(arrayEa[78])
+    }
+    else if (hora==20)
+    {
+      detalleEvento.html(arrayEa[79])
+    }
+    else if ((hora==21&&min>=30)||hora==22)
+    {
+      detalleEvento.html(arrayEa[80])
+    }
+    else if (hora==23&&min<=44)
+    {
+      detalleEvento.html(arrayEa[81])
+    }
+    else if (hora==23)
+    {
+      detalleEvento.html(arrayEa[82])
+    }
+  }
+  else if (dia==9)
+  {
+    if (hora==0||hora==1)
+    {
+      detalleEvento.html(arrayEa[83])
+    }
+    else if (hora==2||hora==3||hora==4||hora==5||hora==6)
+    {
+      detalleEvento.html(arrayEa[84])
+    }
+    else if (hora==11&&min<=29)
+    {
+      detalleEvento.html(arrayEa[86]);
+      detalleEvento.append(arrayEa[85])
+      detalleEvento.append(arrayEa[87])
+    }
+    else if (hora==11&&min>=30)
+    {
+      detalleEvento.html(arrayEa[88])
+    }
+    else if (hora==12&&min<=44)
+    {
+      detalleEvento.html(arrayEa[89])
+    }
+    else if (hora==12||(hora=13&&min<=30))
+    {
+      detalleEvento.html(arrayEa[90])
+    }
+    else if ((hora==15&&min>=30)||hora==16)
+    {
+      detalleEvento.html(arrayEa[91])
+    }
+    else if (hora==17)
+    {
+      detalleEvento.html(arrayEa[92]);
+      detalleEvento.append(arrayEa[93])
+    }
+    else if (hora==18)
+    {
+      detalleEvento.html(arrayEa[94]);
+      detalleEvento.append(arrayEa[95]);
+      detalleEvento.append(arrayEa[96])
+    }
+    else if (hora==19)
+    {
+      detalleEvento.html(arrayEa[97])
+    }
+    else if (hora==21||hora==22)
+    {
+      detalleEvento.html(arrayEa[98]);
+      detalleEvento.append(arrayEa[99]);
+      detalleEvento.append(arrayEa[100])
+    }
+    else if (hora==23)
+    {
+      detalleEvento.html(arrayEa[101])
+    }
+  }
+  else if (dia==10)
+  {
+    if (hora==0||hora==1||hora==2||hora==3||hora==4||hora==5)
+    {
+      detalleEvento.html(arrayEa[102]);
+      detalleEvento.append(arrayEa[103]);
+      detalleEvento.append(arrayEa[104])
+    }
+    else if (hora==9)
+    {
+      detalleEvento.html(arrayEa[105])
+    }
+    else if (hora==11)
+    {
+      detalleEvento.html(arrayEa[106]);
+      detalleEvento.append(arrayEa[107])
+    }
+    else if ((hora==12&&min>=45)||hora==13&&min<=30)
+    {
+      detalleEvento.html(arrayEa[108])
+    }
+    else if (hora==15||hora==17)
+    {
+      detalleEvento.html(arrayEa[109]);
+      detalleEvento.append(arrayEa[110])
+    }
+    else if (hora==18)
+    {
+      detalleEvento.html(arrayEa[111]);
+      detalleEvento.append(arrayEa[112]);
+      detalleEvento.append(arrayEa[113])
+    }
+    else if (hora==19)
+    {
+      detalleEvento.html(arrayEa[114])
+    }
+    else if (hora==20||hora==21)
+    {
+      detalleEvento.html(arrayEa[115]);
+      detalleEvento.append(arrayEa[116])
+    }
+    else if (hora==22)
+    {
+      detalleEvento.html(arrayEa[117])
+    }
+    else if (hora==23&&min>=30)
+    {
+      detalleEvento.html(arrayEa[118])
+    }
+  }
+  else if (dia=11)
+  {
+    if (hora==0||(hora==1&&min<=29))
+    {
+      detalleEvento.html(arrayEa[119]);
+      detalleEvento.append(arrayEa[120])
+    }
+    else if (hora==1||hora==2||hora==3||hora==4)
+    {
+      detalleEvento.html(arrayEa[119]);
+      detalleEvento.append(arrayEa[120]);
+      detalleEvento.append(arrayEa[121])
+    }
+    else if ((hora==9&&min>=30)||hora==10)
+    {
+      detalleEvento.html(arrayEa[122])
+    }
+    else if (hora==11&&min<=45)
+    {
+      detalleEvento.html(arrayEa[123])
+    }
+    else if (hora==11)
+    {
+      detalleEvento.html(arrayEa[124])
+    }
+    else if (hora==12&&min<=44)
+    {
+      detalleEvento.html(arrayEa[125])
+    }
+    else if (hora==12||(hora==13&&min<=30))
+    {
+      detalleEvento.html(arrayEa[126])
+    }
+    else if ((hora==15&&min>=30)||hora==16)
+    {
+      detalleEvento.html(arrayEa[127])
+    }
+    else if (hora==17)
+    {
+      detalleEvento.html(arrayEa[128]);
+      detalleEvento.append(arrayEa[129]);
+      detalleEvento.append(arrayEa[130])
+    }
+    else if (hora==18)
+    {
+      detalleEvento.html(arrayEa[131])
+    }
+    else if (hora==20||(hora==21&&min<=29))
+    {
+      detalleEvento.html(arrayEa[132])
+    }
+    else if (hora==21||hora==22)
+    {
+      detalleEvento.html(arrayEa[133])
+    }
+    else if (hora==23&&min<=14)
+    {
+      detalleEvento.html(arrayEa[134]);
+    }
+    else if (hora==23)
+    {
+      detalleEvento.html(arrayEa[135]);
+      detalleEvento.append(arrayEa[136])
+    }
+  }
+  else if (dia==12)
+  {
+    if (hora==0||hora==1||hora==2||hora==3||hora==4)
+    {
+      detalleEvento.html(arrayEa[136]);
+      detalleEvento.append(arrayEa[137]);
+      detalleEvento.append(arrayEa[138]);
+      detalleEvento.append(arrayEa[139])
+    }
+    else if (hora==10)
+    {
+      detalleEvento.html(arrayEa[140]);
+      detalleEvento.append(arrayEa[141])
+    }
+    else if (hora==11)
+    {
+      detalleEvento.html(arrayEa[142])
+    }
+    else if ((hora==12&&min>=45)||hora==13&&min<=30)
+    {
+      detalleEvento.html(arrayEa[143])
+    }
+    else if ((hora==15&&min>=30)||hora==16)
+    {
+      detalleEvento.html(arrayEa[144])
+    }
+    else if (hora==17)
+    {
+      detalleEvento.html(arrayEa[145])
+    }
+    else if (hora==18)
+    {
+      detalleEvento.html(arrayEa[146]);
+      detalleEvento.append(arrayEa[147]);
+      detalleEvento.append(arrayEa[148])
+    }
+    else if (hora==19)
+    {
+      detalleEvento.html(arrayEa[149])
+    }
+    else if ((hora==20&&min>=30)||hora==21)
+    {
+      detalleEvento.html(arrayEa[150])
+    }
+    else if (hora==22)
+    {
+      detalleEvento.html(arrayEa[151]);
+      detalleEvento.append(arrayEa[152])
+    }
+  }
+  else if (dia==13)
+  {
+    if (hora==0||hora==2||hora==3||hora==4)
+    {
+      detalleEvento.html(arrayEa[153]);
+      detalleEvento.append(arrayEa[154]);
+      detalleEvento.append(arrayEa[155]);
+      detalleEvento.append(arrayEa[156])
+    }
+    else if (hora==1)
+    {
+      detalleEvento.html(arrayEa[157])
+    }
+    else if ((hora==9&&min>=30)||hora==10)
+    {
+      detalleEvento.html(arrayEa[158]);
+      detalleEvento.append(arrayEa[159])
+    }
+    else if (hora==11)
+    {
+      detalleEvento.html(arrayEa[161]);
+      detalleEvento.append(arrayEa[162])
+    }
+    else if (hora==12)
+    {
+      detalleEvento.html(arrayEa[160]);
+      detalleEvento.append(arrayEa[162])
+    }
+    else if (hora==18)
+    {
+      detalleEvento.html(arrayEa[163]);
+      detalleEvento.append(arrayEa[164])
+    }
+    else if (hora==20)
+    {
+      detalleEvento.html(arrayEa[165]);
+      detalleEvento.append(arrayEa[166]);
+      detalleEvento.append(arrayEa[167]);
+      detalleEvento.append(arrayEa[168]);
+      detalleEvento.append(arrayEa[169])
+    }
+    else if (hora==21)
+    {
+      detalleEvento.html(arrayEa[168])
+    }
+    else if (hora==22)
+    {
+      detalleEvento.html(arrayEa[170])
+    }
+  }
+  else if (dia==14)
+  {
+    if (hora==0||hora==1||hora==2||hora==3||hora==4||hora==5||hora==6)
+    {
+      detalleEvento.html(arrayEa[171]);
+      detalleEvento.append(arrayEa[172]);
+      detalleEvento.append(arrayEa[173])
+    }
+    else if (hora==8&&min>=30)
+    {
+      detalleEvento.html(arrayEa[174])
+    }
+    else if (hora==9)
+    {
+      detalleEvento.html(arrayEa[175])
+    }
+    else if (hora==10)
+    {
+      detalleEvento.html(arrayEa[176])
+    }
+    else if (hora==11&&min<=29)
+    {
+      detalleEvento.html(arrayEa[177])
+    }
+    else if (hora==11||hora==12)
+    {
+      detalleEvento.html(arrayEa[178])
+    }
+    else if ((hora==13&&min>=30)||hora==14||hora==15)
+    {
+      detalleEvento.html(arrayEa[179])
+    }
+    else if (hora==20||hora==21)
+    {
+      detalleEvento.html(arrayEa[180]);
+      detalleEvento.append(arrayEa[181]);
+      detalleEvento.append(arrayEa[182])
+    }
+    else if (hora==23)
+    {
+      detalleEvento.html(arrayEa[183])
+    }
+  }     
 };
 
 function startViews()
@@ -549,7 +957,7 @@ function plegar()
 {
   $('div.evento .desplegado').slideUp();
   $('div.evento .plegado').fadeIn()
-}
+};
 
 // //Facebook
 // (function(d, s, id) {
