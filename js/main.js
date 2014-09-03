@@ -51,7 +51,7 @@ function init()
 
   actionAmpliar();
 
-  resizeWindow();
+  // resizeWindow();
 };
 
 function ancla1()
@@ -844,7 +844,7 @@ function startViews()
   {
     detallInfo.show();
     detallInfo.stop();
-  };
+  }
 
   if (dia==29)
   {
@@ -1064,18 +1064,19 @@ function plegar()
   $('div.evento .plegado').fadeIn()
 };
 
-function resizeWindow()
-{
-  $(window).resize(function()
-  {
+// function resizeWindow()
+// {
+//   $(window).resize(function()
+//   {
 
-    if ($(window).width()<=600)
-    {
-      detallInfo.hide()
-    }
-    else if ($(window).width()>=800)
-    {
-      detallInfo.show()
-    }
-  })
-}
+//     if ($(window).width()>770)
+//     {
+//       detallInfo.show();
+//       detallInfo.stop();
+//     }
+//     else if ($(window).width()<770)
+//     {
+//       detallInfo.hide();
+//     }
+//   })
+// }
