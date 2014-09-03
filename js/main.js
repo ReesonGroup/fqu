@@ -1069,7 +1069,7 @@ function resizeWindow()
   $(window).resize(function()
   {
 
-    if ($(window).width()<=760)
+    if ($(window).width()<=600)
     {
       detallInfo.hide()
     }
