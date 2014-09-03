@@ -1749,6 +1749,9 @@ background: rgb(215,81,93);
     letter-spacing: 0px;
     text-transform: lowercase;
   }
+  .contenido .contieneInformacion .infoOuter .infoInner .post .detallePost ul li:last-child {
+    margin: 0 0 100px 0;
+  }
   .contenido .contieneInformacion .puntos {
     display: none;
   }
