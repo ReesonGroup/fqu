@@ -85,11 +85,6 @@ function startClock()
     {
       detalleEvento.html(arrayEa[2])
     }
-    else
-    {
-      // eventoActual.removeClass('eventoActual');
-      // eventoActual.addClass('descansando');
-    }
   }
   else if (dia==30)
   {
@@ -109,11 +104,6 @@ function startClock()
     {
       detalleEvento.html(arrayEa[6])
     }
-    else
-    {
-      // eventoActual.removeClass('eventoActual');
-      // eventoActual.addClass('descansando');
-    }
   }
   else if (dia==31)
   {
@@ -125,22 +115,12 @@ function startClock()
     {
       detalleEvento.html(arrayEa[7])
     }
-    else
-    {
-      // eventoActual.removeClass('eventoActual');
-      // eventoActual.addClass('descansando');
-    }
   }
   else if (dia==2)
   {
     if (hora==20||hora==21)
     {
       detalleEvento.html(arrayEa[8])
-    }
-    else
-    {
-      // eventoActual.removeClass('eventoActual');
-      // eventoActual.addClass('descansando');
     }
   }
   else if (dia==3)
@@ -152,11 +132,6 @@ function startClock()
     else if ((hora==22&&min>=30)||hora==23)
     {
       detalleEvento.html(arrayEa[10])
-    }
-    else
-    {
-      // eventoActual.removeClass('eventoActual');
-      // eventoActual.addClass('descansando');
     }
   }
   else if (dia==4)
@@ -177,11 +152,6 @@ function startClock()
       detalleEvento.addClass('detalleEvento');
       detalleEvento.removeClass('detalleMultiEvento2');
       detalleEvento.html(arrayEa[14])
-    }
-    else
-    {
-      // eventoActual.removeClass('eventoActual');
-      // eventoActual.addClass('descansando');
     }
   }
   else if (dia==5)
@@ -217,11 +187,6 @@ function startClock()
     else if (hora==20||hora==21)
     {
       detalleEvento.html(arrayEa[22])
-    }
-    else
-    {
-      // eventoActual.removeClass('eventoActual');
-      // eventoActual.addClass('descansando');
     }
   }
   else if (dia==6)
@@ -300,11 +265,6 @@ function startClock()
       detalleEvento.html(arrayEa[40]);
       detalleEvento.append(arrayEa[41]);
       detalleEvento.append(arrayEa[42]);
-    }
-    else
-    {
-      // eventoActual.removeClass('eventoActual');
-      // eventoActual.addClass('descansando');
     }
   }
   else if (dia==7)
@@ -419,8 +379,6 @@ function startClock()
     {
       detalleEvento.html(arrayEa[69])
     }
-    // eventoActual.removeClass('eventoActual');
-    // eventoActual.addClass('descansando');
   }
   else if (dia==8)
   {
@@ -480,8 +438,6 @@ function startClock()
     {
       detalleEvento.html(arrayEa[82])
     }
-    // eventoActual.removeClass('eventoActual');
-    // eventoActual.addClass('descansando');
   }
   else if (dia==9)
   {
@@ -553,8 +509,6 @@ function startClock()
       detalleEvento.removeClass('detalleMultiEvento3');
       detalleEvento.html(arrayEa[101])
     }
-    // eventoActual.removeClass('eventoActual');
-    // eventoActual.addClass('descansando');
   }
   else if (dia==10)
   {
@@ -622,8 +576,6 @@ function startClock()
     {
       detalleEvento.html(arrayEa[118])
     }
-    // eventoActual.removeClass('eventoActual');
-    // eventoActual.addClass('descansando');
   }
   else if (dia==11)
   {
@@ -702,8 +654,6 @@ function startClock()
       detalleEvento.html(arrayEa[135]);
       detalleEvento.append(arrayEa[136])
     }
-    // eventoActual.removeClass('eventoActual');
-    // eventoActual.addClass('descansando');
   }
   else if (dia==12)
   {
@@ -766,8 +716,6 @@ function startClock()
       detalleEvento.html(arrayEa[151]);
       detalleEvento.append(arrayEa[152])
     }
-    // eventoActual.removeClass('eventoActual');
-    // eventoActual.addClass('descansando');
   }
   else if (dia==13)
   {
@@ -834,8 +782,6 @@ function startClock()
     {
       detalleEvento.html(arrayEa[170])
     }
-    // eventoActual.removeClass('eventoActual');
-    // eventoActual.addClass('descansando');
   }
   else if (dia==14)
   {
@@ -887,8 +833,6 @@ function startClock()
       detalleEvento.removeClass('detalleMultiEvento3');
       detalleEvento.html(arrayEa[183])
     }
-    // eventoActual.removeClass('eventoActual');
-    // eventoActual.addClass('descansando');
   }     
 };
 
@@ -903,66 +847,82 @@ function startViews()
   if (dia==29)
   {
     dia1.fadeIn();
+    $('#d1').addClass('botoneraActive')
   }
   else if (dia==30)
   {
-    dia2.fadeIn()
+    dia2.fadeIn();
+    $('#d2').addClass('botoneraActive')
   }
   else if (dia==31)
   {
-    dia3.fadeIn()
+    dia3.fadeIn();
+    $('#d3').addClass('botoneraActive')
   }
   else if (dia==2)
   {
-    dia4.fadeIn()
+    dia4.fadeIn();
+    $('#d4').addClass('botoneraActive')
   }
   else if (dia==3)
   {
-    dia5.fadeIn()
+    dia5.fadeIn();
+    $('#d5').addClass('botoneraActive')
   }
   else if (dia==4)
   {
-    dia6.fadeIn()
+    dia6.fadeIn();
+    $('#d6').addClass('botoneraActive')
   }
   else if (dia==5)
   {
-    dia7.fadeIn()
+    dia7.fadeIn();
+    $('#d7').addClass('botoneraActive')
   }
   else if (dia==6)
   {
-    dia8.fadeIn()
+    dia8.fadeIn();
+    $('#d8').addClass('botoneraActive')
   }
   else if (dia==7)
   {
-    dia9.fadeIn()
+    dia9.fadeIn();
+    $('#d9').addClass('botoneraActive')
   }
   else if (dia==8)
   {
-    dia10.fadeIn()
+    dia10.fadeIn();
+    $('#d10').addClass('botoneraActive')
   }
   else if (dia==9)
   {
-    dia11.fadeIn()
+    dia11.fadeIn();
+    $('#d11').addClass('botoneraActive')
   }
   else if (dia==10)
   {
-    dia12.fadeIn()
+    dia12.fadeIn();
+    $('#d12').addClass('botoneraActive')
   }
   else if (dia==11)
   {
-    dia13.fadeIn()
+    dia13.fadeIn();
+    $('#d13').addClass('botoneraActive')
   }
   else if (dia==12)
   {
-    dia14.fadeIn()
+    dia14.fadeIn();
+    $('#d14').addClass('botoneraActive')
   }
   else if (dia==13)
   {
-    dia15.fadeIn()
+    dia15.fadeIn();
+    $('#d15').addClass('botoneraActive')
   }
   else if (dia==14)
   {
-    dia16.fadeIn()
+    dia16.fadeIn();
+    $('#d16').addClass('botoneraActive')
   }
 };
 
