@@ -1755,6 +1755,9 @@ background: rgb(215,81,93);
   .contenido .contieneInformacion .puntos {
     display: none;
   }
+  .contenido .eventoActual .detalleEvento .pila:after {
+    font-size: 4em;
+  }
   .footer {
     display: none;
   }
