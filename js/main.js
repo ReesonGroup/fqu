@@ -49,7 +49,9 @@ function init()
 
   actionInfo();
 
-  actionAmpliar()
+  actionAmpliar();
+
+  resizeWindow();
 };
 
 function ancla1()
@@ -1061,3 +1063,19 @@ function plegar()
   $('div.evento .desplegado').slideUp();
   $('div.evento .plegado').fadeIn()
 };
+
+function resizeWindow()
+{
+  $(window).resize(function()
+  {
+
+    if ($(window).width()<=760)
+    {
+      detallInfo.hide()
+    }
+    else if ($(window).width()>=800)
+    {
+      detallInfo.show()
+    }
+  })
+}
