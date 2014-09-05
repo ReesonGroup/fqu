@@ -10,7 +10,7 @@
 
 # TEAM
 
-    <Jordi Pàmies> -- <designer web developer> -- <@jpcpamies>
+    <Jordi Pàmies> -- <designer and web developer> -- <@jpcpamies>
     <Ivan Bardon> -- <web developer> -- <@Ivan_bardon>
 
 # THANKS

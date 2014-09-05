@@ -463,9 +463,9 @@ a:active {
 }
 .calendario .eventoActual .detalleMultiEvento2,
 .calendario .eventoActual .detalleMultiEvento3 {
-  white-space: nowrap;
-  position: relative;
   margin-left: 0;
+  position: relative;
+  white-space: nowrap;
 }
 .calendario .eventoActual .detalleMultiEvento2 .plegado,
 .calendario .eventoActual .detalleMultiEvento3 .plegado {
@@ -480,8 +480,8 @@ a:active {
   margin: 0;
 }
 .calendario .eventoActual .detalleMultiEvento2 {
-  animation: multiEvento2 20s infinite;
-  -webkit-animation: multiEvento2 20s infinite;
+  animation: multiEvento2 16s infinite;
+  -webkit-animation: multiEvento2 16s infinite;
 }
 .calendario .eventoActual .detalleMultiEvento3 {
   animation: multiEvento3 25s infinite;
@@ -937,7 +937,8 @@ span
   position: relative;
   top: 80px;
   width: 190%;
-background: rgb(215,81,93);
+
+				background: rgb(215,81,93);
 				background: -moz-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%, rgba(215,81,93,1) 23%, rgba(43,29,83,1) 71%, rgba(43,29,83,1) 71%);
 				background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(215,81,93,1)), color-stop(23%,rgba(215,81,93,1)), color-stop(71%,rgba(43,29,83,1)), color-stop(71%,rgba(43,29,83,1)));
 				background: -webkit-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
@@ -946,7 +947,8 @@ background: rgb(215,81,93);
 				background: radial-gradient(ellipse at center,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
 				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7515d', endColorstr='#2b1d53',GradientType=1 );
 }
-background: rgb(215,81,93);
+
+				background: rgb(215,81,93);
 				background: -moz-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%, rgba(215,81,93,1) 23%, rgba(43,29,83,1) 71%, rgba(43,29,83,1) 71%);
 				background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(215,81,93,1)), color-stop(23%,rgba(215,81,93,1)), color-stop(71%,rgba(43,29,83,1)), color-stop(71%,rgba(43,29,83,1)));
 				background: -webkit-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
@@ -1755,8 +1757,23 @@ background: rgb(215,81,93);
   .contenido .contieneInformacion .puntos {
     display: none;
   }
+  .contenido .eventoActual {
+    overflow: hidden;
+  }
   .contenido .eventoActual .detalleEvento .pila:after {
     font-size: 4em;
+  }
+  .contenido .eventoActual .detalleMultiEvento2 .plegado,
+  .contenido .eventoActual .detalleMultiEvento3 .plegado {
+    margin: 0 0 0 -10px;
+  }
+  .contenido .eventoActual .detalleMultiEvento2 .plegado .tituloEvento,
+  .contenido .eventoActual .detalleMultiEvento3 .plegado .tituloEvento {
+    font-size: 0.85em;
+  }
+  .contenido .eventoActual .detalleMultiEvento2 .plegado:first-child,
+  .contenido .eventoActual .detalleMultiEvento3 .plegado:first-child {
+    margin: 0;
   }
   .footer {
     display: none;
@@ -1823,7 +1840,8 @@ background: rgb(215,81,93);
     position: relative;
     top: -200px;
     left: -150%;
-background: rgb(215,81,93);
+
+				background: rgb(215,81,93);
 				background: -moz-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%, rgba(215,81,93,1) 23%, rgba(43,29,83,1) 71%, rgba(43,29,83,1) 71%);
 				background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(215,81,93,1)), color-stop(23%,rgba(215,81,93,1)), color-stop(71%,rgba(43,29,83,1)), color-stop(71%,rgba(43,29,83,1)));
 				background: -webkit-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
@@ -1832,7 +1850,8 @@ background: rgb(215,81,93);
 				background: radial-gradient(ellipse at center,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
 				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7515d', endColorstr='#2b1d53',GradientType=1 );
   }
-background: rgb(215,81,93);
+
+				background: rgb(215,81,93);
 				background: -moz-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%, rgba(215,81,93,1) 23%, rgba(43,29,83,1) 71%, rgba(43,29,83,1) 71%);
 				background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(215,81,93,1)), color-stop(23%,rgba(215,81,93,1)), color-stop(71%,rgba(43,29,83,1)), color-stop(71%,rgba(43,29,83,1)));
 				background: -webkit-radial-gradient(center, ellipse cover,  rgba(215,81,93,1) 0%,rgba(215,81,93,1) 23%,rgba(43,29,83,1) 71%,rgba(43,29,83,1) 71%);
@@ -1931,4 +1950,84 @@ background: rgb(215,81,93);
     -ms-transform: scale(1, 1.3);
     -webkit-transform: scale(1, 1.3);
   }
+@-moz-keyframes multiEvento2 {
+    0% {
+      margin-left: 0;
+    }
+    45% {
+      margin-left: 0;
+    }
+    50% {
+      margin-left: -345px;
+    }
+    90% {
+      margin-left: -345px;
+    }
+    95% {
+      margin-left: -345px;
+    }
+    100% {
+      margin-left: 0;
+    }
+}
+@-webkit-keyframes multiEvento2 {
+    0% {
+      margin-left: 0;
+    }
+    45% {
+      margin-left: 0;
+    }
+    50% {
+      margin-left: -345px;
+    }
+    90% {
+      margin-left: -345px;
+    }
+    95% {
+      margin-left: -345px;
+    }
+    100% {
+      margin-left: 0;
+    }
+}
+@-o-keyframes multiEvento2 {
+    0% {
+      margin-left: 0;
+    }
+    45% {
+      margin-left: 0;
+    }
+    50% {
+      margin-left: -345px;
+    }
+    90% {
+      margin-left: -345px;
+    }
+    95% {
+      margin-left: -345px;
+    }
+    100% {
+      margin-left: 0;
+    }
+}
+@keyframes multiEvento2 {
+    0% {
+      margin-left: 0;
+    }
+    45% {
+      margin-left: 0;
+    }
+    50% {
+      margin-left: -345px;
+    }
+    90% {
+      margin-left: -345px;
+    }
+    95% {
+      margin-left: -345px;
+    }
+    100% {
+      margin-left: 0;
+    }
+}
 }
