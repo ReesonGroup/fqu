@@ -462,13 +462,15 @@ a:active {
   content: '\e61e';
 }
 .calendario .eventoActual .detalleMultiEvento2,
-.calendario .eventoActual .detalleMultiEvento3 {
+.calendario .eventoActual .detalleMultiEvento3,
+.calendario .eventoActual .detalleMultiEvento4 {
   margin-left: 0;
   position: relative;
   white-space: nowrap;
 }
 .calendario .eventoActual .detalleMultiEvento2 .plegado,
-.calendario .eventoActual .detalleMultiEvento3 .plegado {
+.calendario .eventoActual .detalleMultiEvento3 .plegado,
+.calendario .eventoActual .detalleMultiEvento4 .plegado {
   display: inline-block;
   margin: 0 0 0 15px;
   vertical-align: top;
@@ -476,16 +478,21 @@ a:active {
   white-space: initial;
 }
 .calendario .eventoActual .detalleMultiEvento2 .plegado:first-child,
-.calendario .eventoActual .detalleMultiEvento3 .plegado:first-child {
+.calendario .eventoActual .detalleMultiEvento3 .plegado:first-child,
+.calendario .eventoActual .detalleMultiEvento4 .plegado:first-child {
   margin: 0;
 }
 .calendario .eventoActual .detalleMultiEvento2 {
-  animation: multiEvento2 16s infinite;
-  -webkit-animation: multiEvento2 16s infinite;
+  animation: multiEvento2 15s infinite;
+  -webkit-animation: multiEvento2 15s infinite;
 }
 .calendario .eventoActual .detalleMultiEvento3 {
-  animation: multiEvento3 25s infinite;
-  -webkit-animation: multiEvento3 25s infinite;
+  animation: multiEvento3 20s infinite;
+  -webkit-animation: multiEvento3 20s infinite;
+}
+.calendario .eventoActual .detalleMultiEvento4 {
+  animation: multiEvento4 25s infinite;
+  -webkit-animation: multiEvento4 25s infinite;
 }
 .calendario .eventoActual .tituloOuter {
   -webkit-animation: timeLineLento 0.8s;
@@ -2025,6 +2032,98 @@ span
     }
     95% {
       margin-left: -345px;
+    }
+    100% {
+      margin-left: 0;
+    }
+}
+@-moz-keyframes multiEvento3 {
+    0% {
+      margin-left: 0;
+    }
+    30% {
+      margin-left: 0;
+    }
+    35% {
+      margin-left: -345px;
+    }
+    60% {
+      margin-left: -345px;
+    }
+    65% {
+      margin-left: -700px;
+    }
+    95% {
+      margin-left: -700px;
+    }
+    100% {
+      margin-left: 0;
+    }
+}
+@-webkit-keyframes multiEvento3 {
+    0% {
+      margin-left: 0;
+    }
+    30% {
+      margin-left: 0;
+    }
+    35% {
+      margin-left: -345px;
+    }
+    60% {
+      margin-left: -345px;
+    }
+    65% {
+      margin-left: -700px;
+    }
+    95% {
+      margin-left: -700px;
+    }
+    100% {
+      margin-left: 0;
+    }
+}
+@-o-keyframes multiEvento3 {
+    0% {
+      margin-left: 0;
+    }
+    30% {
+      margin-left: 0;
+    }
+    35% {
+      margin-left: -345px;
+    }
+    60% {
+      margin-left: -345px;
+    }
+    65% {
+      margin-left: -700px;
+    }
+    95% {
+      margin-left: -700px;
+    }
+    100% {
+      margin-left: 0;
+    }
+}
+@keyframes multiEvento3 {
+    0% {
+      margin-left: 0;
+    }
+    30% {
+      margin-left: 0;
+    }
+    35% {
+      margin-left: -345px;
+    }
+    60% {
+      margin-left: -345px;
+    }
+    65% {
+      margin-left: -700px;
+    }
+    95% {
+      margin-left: -700px;
     }
     100% {
       margin-left: 0;
