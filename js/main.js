@@ -193,7 +193,7 @@ function startClock()
   }
   else if (dia==6)
   {
-    if (hora==0)
+    if (hora==0||hora==1||hora==2||hora==3||hora==4||hora==5||hora==6)
     {
       detalleEvento.addClass('detalleMultiEvento3');
       detalleEvento.removeClass('detalleEvento');
@@ -236,7 +236,7 @@ function startClock()
     {
       detalleEvento.html(arrayEa[33])
     }
-    else if (hora==18(hora==19&&min<=29))
+    else if (hora==18||(hora==19&&min<=29))
     {
       detalleEvento.html(arrayEa[34])
     }
