@@ -4,6 +4,8 @@ var info = $('div.contieneInformacion');
 var detallInfo = $('div.detallePost');
 var diasEventos = $('div.listaEventos');
 var botonera = $('div.botonera li');
+var plegado = $('div.plegado');
+var desplegado = $('div.desplegado');
 
 var dia1 = $('#dia1');
 var dia2 = $('#dia2');
@@ -1055,18 +1057,19 @@ function actionAmpliar()
   $('div#bar').on('click',function(){
 
     var that = $(this);
+    var span = that.find('span')
 
     if (that.hasClass('reducir'))
     {
       that.removeClass();
       that.addClass('ampliar');
-      that.find('span').html('Ampliar')
+      span.html('Ampliar')
     }
     else
     {
       that.removeClass();
       that.addClass('reducir');
-      that.find('span').html('Reduir');
+      span.html('Reduir');
       $('.reducir').one('click', function(){
         plegar()
       })
@@ -1082,14 +1085,14 @@ function actionAmpliar()
 
 function desplegar()
 {
-  $('div.evento .desplegado').slideDown();
-  $('div.evento .plegado').fadeOut()
+  desplegado.slideDown();
+  plegado.fadeOut()
 };
 
 function plegar()
 {
-  $('div.evento .desplegado').slideUp();
-  $('div.evento .plegado').fadeIn()
+  desplegado.slideUp();
+  plegado.fadeIn()
 };
 
 // function resizeWindow()
