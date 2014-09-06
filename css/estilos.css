@@ -628,7 +628,7 @@ a:active {
   font-weight: 400;
 }
 .calendario .listaDias .listaEventos .contieneEvento .evento .headerEvento span:after {
-  color: #177dd4;
+  color: #404040;
   content: '\e609';
   font-family: icomoon;
   font-size: 1.2em;
