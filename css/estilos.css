@@ -1789,16 +1789,28 @@ span
     width: 70%;
   }
   .calendario .eventoActual .detalleMultiEvento2 .plegado,
-  .calendario .eventoActual .detalleMultiEvento3 .plegado {
+  .calendario .eventoActual .detalleMultiEvento3 .plegado,
+  .calendario .eventoActual .detalleMultiEvento4 .plegado,
+  .calendario .eventoActual .detalleMultiEvento5 .plegado {
     width: 360px;
   }
   .calendario .eventoActual .detalleMultiEvento2 .plegado:first-child,
-  .calendario .eventoActual .detalleMultiEvento3 .plegado:first-child {
+  .calendario .eventoActual .detalleMultiEvento3 .plegado:first-child,
+  .calendario .eventoActual .detalleMultiEvento4 .plegado:first-child,
+  .calendario .eventoActual .detalleMultiEvento5 .plegado:first-child {
     margin: 0;
   }
   .calendario .eventoActual .detalleMultiEvento3 {
-    animation: multiEvento3 10s infinite;
-    -webkit-animation: multiEvento3 10s infinite;
+    animation: multiEvento3 15s infinite;
+    -webkit-animation: multiEvento3 15s infinite;
+  }
+  .calendario .eventoActual .detalleMultiEvento4 {
+    animation: multiEvento4 15s infinite;
+    -webkit-animation: multiEvento4 15s infinite;
+  }
+  .calendario .eventoActual .detalleMultiEvento5 {
+    animation: multiEvento5 20s infinite;
+    -webkit-animation: multiEvento5 20s infinite;
   }
   .calendario .listaDias .listaEventos .contieneEvento {
     width: 70%;
@@ -1972,6 +1984,86 @@ span
     }
     95% {
       margin-left: -385px;
+    }
+    100% {
+      margin-left: 0;
+    }
+}
+@-moz-keyframes multiEvento4 {
+    0% {
+      margin-left: 0;
+    }
+    45% {
+      margin-left: 0;
+    }
+    50% {
+      margin-left: -765px;
+    }
+    90% {
+      margin-left: -765px;
+    }
+    95% {
+      margin-left: -765px;
+    }
+    100% {
+      margin-left: 0;
+    }
+}
+@-webkit-keyframes multiEvento4 {
+    0% {
+      margin-left: 0;
+    }
+    45% {
+      margin-left: 0;
+    }
+    50% {
+      margin-left: -765px;
+    }
+    90% {
+      margin-left: -765px;
+    }
+    95% {
+      margin-left: -765px;
+    }
+    100% {
+      margin-left: 0;
+    }
+}
+@-o-keyframes multiEvento4 {
+    0% {
+      margin-left: 0;
+    }
+    45% {
+      margin-left: 0;
+    }
+    50% {
+      margin-left: -765px;
+    }
+    90% {
+      margin-left: -765px;
+    }
+    95% {
+      margin-left: -765px;
+    }
+    100% {
+      margin-left: 0;
+    }
+}
+@keyframes multiEvento4 {
+    0% {
+      margin-left: 0;
+    }
+    45% {
+      margin-left: 0;
+    }
+    50% {
+      margin-left: -765px;
+    }
+    90% {
+      margin-left: -765px;
+    }
+    95% {
+      margin-left: -765px;
     }
     100% {
       margin-left: 0;
