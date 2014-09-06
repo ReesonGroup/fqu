@@ -4,6 +4,8 @@ var info = $('div.contieneInformacion');
 var detallInfo = $('div.detallePost');
 var diasEventos = $('div.listaEventos');
 var botonera = $('div.botonera li');
+var plegado = $('div.plegado');
+var desplegado = $('div.desplegado');
 
 var dia1 = $('#dia1');
 var dia2 = $('#dia2');
@@ -193,7 +195,7 @@ function startClock()
   }
   else if (dia==6)
   {
-    if (hora==0)
+    if (hora==0||hora==1||hora==2||hora==3||hora==4||hora==5||hora==6)
     {
       detalleEvento.addClass('detalleMultiEvento3');
       detalleEvento.removeClass('detalleEvento');
@@ -236,7 +238,7 @@ function startClock()
     {
       detalleEvento.html(arrayEa[33])
     }
-    else if (hora==18(hora==19&&min<=29))
+    else if (hora==18||(hora==19&&min<=29))
     {
       detalleEvento.html(arrayEa[34])
     }
@@ -256,7 +258,7 @@ function startClock()
     {
       detalleEvento.html(arrayEa[38])
     }
-    else if ((hora==23&&min<=29))
+    else if (hora==23&&min<=29)
     {
       detalleEvento.html(arrayEa[39])
     }
@@ -271,7 +273,7 @@ function startClock()
   }
   else if (dia==7)
   {
-    if (hora==0||hora==1||hora==2||hora==3)
+    if (hora==0||hora==1||hora==2||hora==3||hora==4||hora==5||hora==6||hora==8)
     {
       detalleEvento.addClass('detalleMultiEvento2');
       detalleEvento.removeClass('detalleMultiEvento3');
@@ -384,7 +386,7 @@ function startClock()
   }
   else if (dia==8)
   {
-    if (hora==0||hora==1||hora==2||hora==3)
+    if (hora==0||hora==1||hora==2||hora==3||hora==4||hora==5||hora==6)
     {
       detalleEvento.html(arrayEa[70])
     }
@@ -447,7 +449,7 @@ function startClock()
     {
       detalleEvento.html(arrayEa[83])
     }
-    else if (hora==2||hora==3||hora==4||hora==5||hora==6)
+    else if (hora==2||hora==3||hora==4||hora==5||hora==6||hora==7)
     {
       detalleEvento.html(arrayEa[84])
     }
@@ -659,7 +661,7 @@ function startClock()
   }
   else if (dia==12)
   {
-    if (hora==0||hora==1||hora==2||hora==3||hora==4)
+    if (hora==0||hora==1||hora==2||hora==3||hora==4||hora==5||hora==6)
     {
       detalleEvento.addClass('detalleMultiEvento3');
       detalleEvento.removeClass('detalleMultiEvento2')
@@ -721,7 +723,7 @@ function startClock()
   }
   else if (dia==13)
   {
-    if (hora==0||hora==2||hora==3||hora==4)
+    if (hora==0||hora==2||hora==3||hora==4||hora==5||hora==6)
     {
       detalleEvento.addClass('detalleMultiEvento3');
       detalleEvento.removeClass('detalleMultiEvento2')
@@ -787,7 +789,7 @@ function startClock()
   }
   else if (dia==14)
   {
-    if (hora==0||hora==1||hora==2||hora==3||hora==4||hora==5||hora==6)
+    if (hora==0||hora==1||hora==2||hora==3||hora==4||hora==5||hora==6||hora==7||hora==8)
     {
       detalleEvento.addClass('detalleMultiEvento3');
       detalleEvento.removeClass('detalleEvento');
@@ -884,47 +886,56 @@ function startViews()
   else if (dia==6)
   {
     dia8.fadeIn();
-    $('#d8').addClass('botoneraActive')
+    $('#d8').addClass('botoneraActive');
+    $('#botonera ul').scrollLeft(411)
   }
   else if (dia==7)
   {
     dia9.fadeIn();
-    $('#d9').addClass('botoneraActive')
+    $('#d9').addClass('botoneraActive');
+    $('#botonera ul').scrollLeft(479)
   }
   else if (dia==8)
   {
     dia10.fadeIn();
-    $('#d10').addClass('botoneraActive')
+    $('#d10').addClass('botoneraActive');
+    $('#botonera ul').scrollLeft(549)
   }
   else if (dia==9)
   {
     dia11.fadeIn();
-    $('#d11').addClass('botoneraActive')
+    $('#d11').addClass('botoneraActive');
+    $('#botonera ul').scrollLeft(634)
   }
   else if (dia==10)
   {
     dia12.fadeIn();
-    $('#d12').addClass('botoneraActive')
+    $('#d12').addClass('botoneraActive');
+    $('#botonera ul').scrollLeft(704)
   }
   else if (dia==11)
   {
     dia13.fadeIn();
-    $('#d13').addClass('botoneraActive')
+    $('#d13').addClass('botoneraActive');
+    $('#botonera ul').scrollLeft(774)
   }
   else if (dia==12)
   {
     dia14.fadeIn();
-    $('#d14').addClass('botoneraActive')
+    $('#d14').addClass('botoneraActive');
+    $('#botonera ul').scrollLeft(850)
   }
   else if (dia==13)
   {
     dia15.fadeIn();
-    $('#d15').addClass('botoneraActive')
+    $('#d15').addClass('botoneraActive');
+    $('#botonera ul').scrollLeft(890)
   }
   else if (dia==14)
   {
     dia16.fadeIn();
-    $('#d16').addClass('botoneraActive')
+    $('#d16').addClass('botoneraActive');
+    $('#botonera ul').scrollLeft(890)
   }
 };
 
@@ -1043,25 +1054,45 @@ function actionInfo()
 
 function actionAmpliar()
 {
+  $('div#bar').on('click',function(){
+
+    var that = $(this);
+    var span = that.find('span')
+
+    if (that.hasClass('reducir'))
+    {
+      that.removeClass();
+      that.addClass('ampliar');
+      span.html('Ampliar')
+    }
+    else
+    {
+      that.removeClass();
+      that.addClass('reducir');
+      span.html('Reduir');
+      $('.reducir').one('click', function(){
+        plegar()
+      })
+    }
+  })
+
   $('.ampliar').on('click', function(){
     desplegar()
   })
 
-  $('.reducir').on('click', function(){
-    plegar()
-  })
+  
 };
 
 function desplegar()
 {
-  $('div.evento .desplegado').slideDown();
-  $('div.evento .plegado').fadeOut()
+  desplegado.slideDown();
+  plegado.fadeOut()
 };
 
 function plegar()
 {
-  $('div.evento .desplegado').slideUp();
-  $('div.evento .plegado').fadeIn()
+  desplegado.slideUp();
+  plegado.fadeIn()
 };
 
 // function resizeWindow()
