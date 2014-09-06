@@ -1063,13 +1063,13 @@ function actionAmpliar()
     {
       that.removeClass();
       that.addClass('ampliar');
-      span.html('Ampliar')
+      span.html('Expandir events')
     }
     else
     {
       that.removeClass();
       that.addClass('reducir');
-      span.html('Reduir');
+      span.html('Contraure events');
       $('.reducir').one('click', function(){
         plegar()
       })
