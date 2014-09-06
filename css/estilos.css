@@ -479,14 +479,16 @@ a:active {
 }
 .calendario .eventoActual .detalleMultiEvento2,
 .calendario .eventoActual .detalleMultiEvento3,
-.calendario .eventoActual .detalleMultiEvento4 {
+.calendario .eventoActual .detalleMultiEvento4,
+.calendario .eventoActual .detalleMultiEvento5 {
   margin-left: 0;
   position: relative;
   white-space: nowrap;
 }
 .calendario .eventoActual .detalleMultiEvento2 .plegado,
 .calendario .eventoActual .detalleMultiEvento3 .plegado,
-.calendario .eventoActual .detalleMultiEvento4 .plegado {
+.calendario .eventoActual .detalleMultiEvento4 .plegado,
+.calendario .eventoActual .detalleMultiEvento5 .plegado {
   display: inline-block;
   margin: 0 0 0 15px;
   vertical-align: top;
@@ -495,7 +497,8 @@ a:active {
 }
 .calendario .eventoActual .detalleMultiEvento2 .plegado:first-child,
 .calendario .eventoActual .detalleMultiEvento3 .plegado:first-child,
-.calendario .eventoActual .detalleMultiEvento4 .plegado:first-child {
+.calendario .eventoActual .detalleMultiEvento4 .plegado:first-child,
+.calendario .eventoActual .detalleMultiEvento5 .plegado:first-child {
   margin: 0;
 }
 .calendario .eventoActual .detalleMultiEvento2 {
@@ -507,7 +510,7 @@ a:active {
   font-family: icomoon;
   font-size: 1em;
   position: absolute;
-  top: 10px;
+  top: 5px;
   right: 10px;
 }
 .calendario .eventoActual .detalleMultiEvento3 {
@@ -519,7 +522,7 @@ a:active {
   font-family: icomoon;
   font-size: 1em;
   position: absolute;
-  top: 10px;
+  top: 5px;
   right: 10px;
 }
 .calendario .eventoActual .detalleMultiEvento4 {
@@ -531,7 +534,7 @@ a:active {
   font-family: icomoon;
   font-size: 1em;
   position: absolute;
-  top: 10px;
+  top: 5px;
   right: 10px;
 }
 .calendario .eventoActual .detalleMultiEvento5 {
@@ -543,7 +546,7 @@ a:active {
   font-family: icomoon;
   font-size: 1em;
   position: absolute;
-  top: 10px;
+  top: 5px;
   right: 10px;
 }
 .calendario .eventoActual .tituloOuter {
@@ -1636,6 +1639,146 @@ span
   }
   95% {
     margin-left: -1015px;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+@-moz-keyframes multiEvento5 {
+  0% {
+    margin-left: 0;
+  }
+  15% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: -340px;
+  }
+  35% {
+    margin-left: -340px;
+  }
+  40% {
+    margin-left: -680px;
+  }
+  55% {
+    margin-left: -680px;
+  }
+  60% {
+    margin-left: -1015px;
+  }
+  75% {
+    margin-left: -1015px;
+  }
+  80% {
+    margin-left: -1355px;
+  }
+  95% {
+    margin-left: -1355px;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+@-webkit-keyframes multiEvento5 {
+  0% {
+    margin-left: 0;
+  }
+  15% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: -340px;
+  }
+  35% {
+    margin-left: -340px;
+  }
+  40% {
+    margin-left: -680px;
+  }
+  55% {
+    margin-left: -680px;
+  }
+  60% {
+    margin-left: -1015px;
+  }
+  75% {
+    margin-left: -1015px;
+  }
+  80% {
+    margin-left: -1355px;
+  }
+  95% {
+    margin-left: -1355px;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+@-o-keyframes multiEvento5 {
+  0% {
+    margin-left: 0;
+  }
+  15% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: -340px;
+  }
+  35% {
+    margin-left: -340px;
+  }
+  40% {
+    margin-left: -680px;
+  }
+  55% {
+    margin-left: -680px;
+  }
+  60% {
+    margin-left: -1015px;
+  }
+  75% {
+    margin-left: -1015px;
+  }
+  80% {
+    margin-left: -1355px;
+  }
+  95% {
+    margin-left: -1355px;
+  }
+  100% {
+    margin-left: 0;
+  }
+}
+@keyframes multiEvento5 {
+  0% {
+    margin-left: 0;
+  }
+  15% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: -340px;
+  }
+  35% {
+    margin-left: -340px;
+  }
+  40% {
+    margin-left: -680px;
+  }
+  55% {
+    margin-left: -680px;
+  }
+  60% {
+    margin-left: -1015px;
+  }
+  75% {
+    margin-left: -1015px;
+  }
+  80% {
+    margin-left: -1355px;
+  }
+  95% {
+    margin-left: -1355px;
   }
   100% {
     margin-left: 0;
