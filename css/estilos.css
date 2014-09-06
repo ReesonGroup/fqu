@@ -462,7 +462,7 @@ a:active {
   -webkit-animation: multiEvento2 15s infinite;
 }
 .calendario .eventoActual .detalleMultiEvento2:after {
-  content: dos;
+  content: '\e622';
   font-family: icomoon;
   font-size: 1em;
   position: absolute;
