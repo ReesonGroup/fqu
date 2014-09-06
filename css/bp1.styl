@@ -109,6 +109,8 @@
 		.detalleMultiEvento
 		.detalleMultiEvento2
 		.detalleMultiEvento3
+		.detalleMultiEvento4
+		.detalleMultiEvento5
 		.detalleEvento
 			font-weight 400
 			min-height 105px
@@ -140,7 +142,6 @@
 					font-family icomoon
 					font-size 6em
 					content pila4
-
 		.detalleMultiEvento2
 		.detalleMultiEvento3
 		.detalleMultiEvento4
@@ -168,9 +169,33 @@
 		.detalleMultiEvento3
 			animation multiEvento3 20s infinite
 			-webkit-animation multiEvento3 20s infinite
+			&:after
+				content tres
+				font-family icomoon
+				font-size 1em
+				position absolute 
+				top 10px 
+				right 10px
 		.detalleMultiEvento4
 			animation multiEvento4 25s infinite
 			-webkit-animation multiEvento4 25s infinite
+			&:after
+				content cuatro
+				font-family icomoon
+				font-size 1em
+				position absolute 
+				top 10px 
+				right 10px
+		.detalleMultiEvento5
+			animation multiEvento5 30s infinite
+			-webkit-animation multiEvento5 30s infinite
+			&:after
+				content cinco
+				font-family icomoon
+				font-size 1em
+				position absolute 
+				top 10px 
+				right 10px
 		.tituloOuter
 			-webkit-animation timeLineLento .8s
 			animation timeLineLento .8s 
@@ -624,21 +649,25 @@
 		margin-left -670px
 	100%
 		margin-left 0
-// @keyframes multiEvento4
-// 	0%
-// 		margin-left 0
-// 	30%
-// 		margin-left 0
-// 	35%
-// 		margin-left -335px
-// 	60%
-// 		margin-left -335px
-// 	65%
-// 		margin-left -670px
-// 	95%
-// 		margin-left -670px
-// 	100%
-// 		margin-left 0
+@keyframes multiEvento4
+	0%
+		margin-left 0
+	20%
+		margin-left 0
+	25%
+		margin-left -340px
+	45%
+		margin-left -340px
+	50%
+		margin-left -680px
+	70%
+		margin-left -680px
+	75%
+		margin-left -1015px
+	95%
+		margin-left -1015px
+	100%
+		margin-left 0
 // @keyframes pilaCargando 
 // 	0%
 // 		pila:after
