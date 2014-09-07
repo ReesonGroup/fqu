@@ -1353,9 +1353,6 @@ span
 .trobada:before {
   content: '\e619';
 }
-.descansem:before {
-  content: '\e602';
-}
 @-moz-keyframes multiEvento2 {
   0% {
     margin-left: 0;
