@@ -65,6 +65,10 @@ function ancla1()
 };
 
 setInterval(startClock, 1000);
+function noBous()
+{
+  detalleEvento.find('div.bouBlack').removeClass()
+}
 
 function startClock()
 {
@@ -415,19 +419,22 @@ function startClock()
       detalleEvento.addClass('detalleMultiEvento2');
       detalleEvento.removeClass('detalleEvento');
       detalleEvento.html(arrayEa[76]);
-      detalleEvento.append(arrayEa[77])
+      detalleEvento.append(arrayEa[77]);
+      noBous()
     }
     else if (hora==19)
     {
       detalleEvento.addClass('detalleMultiEvento2');
       detalleEvento.removeClass('detalleEvento');
       detalleEvento.html(arrayEa[77]);
+      noBous();
       detalleEvento.append(arrayEa[78])
     }
     else if (hora==20)
     {
       detalleEvento.addClass('detalleEvento');
       detalleEvento.removeClass('detalleMultiEvento2');
+      noBous();
       detalleEvento.html(arrayEa[79])
     }
     else if ((hora==21&&min>=30)||hora==22)
