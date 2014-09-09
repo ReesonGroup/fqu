@@ -167,14 +167,6 @@ a:active {
   -ms-transform: scale(0.37, 0.37);
   -webkit-transform: scale(0.37, 0.37);
 }
-.bouBlack {
-  background-position: -230px 0px;
-  width: 140px;
-  height: 140px;
-  transform: scale(0.22, 0.22);
-  -ms-transform: scale(0.22, 0.22);
-  -webkit-transform: scale(0.22, 0.22);
-}
 .bouBlue {
   background-position: 0px -128px;
   width: 140px;
