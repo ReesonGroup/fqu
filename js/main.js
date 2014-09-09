@@ -542,11 +542,12 @@ function startClock()
       detalleEvento.html(arrayEa[106]);
       detalleEvento.append(arrayEa[107])
     }
-    else if ((hora==12&&min>=45)||hora==13&&min<=30)
+    else if ((hora==12&&min>=45)||hora==13||hora==14)
     {
       detalleEvento.addClass('detalleEvento');
       detalleEvento.removeClass('detalleMultiEvento2');
-      detalleEvento.html(arrayEa[108])
+      detalleEvento.html(arrayEa[108]);
+      noBous()
     }
     else if (hora==15||hora==17)
     {
@@ -562,6 +563,7 @@ function startClock()
       detalleEvento.removeClass('detalleEvento');
       detalleEvento.html(arrayEa[111]);
       detalleEvento.append(arrayEa[112]);
+      noBous();
       detalleEvento.append(arrayEa[113])
     }
     else if (hora==19)
@@ -624,9 +626,10 @@ function startClock()
     {
       detalleEvento.html(arrayEa[125])
     }
-    else if (hora==12||(hora==13&&min<=30))
+    else if (hora==12||hora==13||hora==14)
     {
-      detalleEvento.html(arrayEa[126])
+      detalleEvento.html(arrayEa[126]);
+      noBous()
     }
     else if ((hora==15&&min>=30)||hora==16)
     {
@@ -640,11 +643,12 @@ function startClock()
       detalleEvento.append(arrayEa[129]);
       detalleEvento.append(arrayEa[130])
     }
-    else if (hora==18)
+    else if (hora==18||hora==19)
     {
       detalleEvento.addClass('detalleEvento');
       detalleEvento.removeClass('detalleMultiEvento3');
-      detalleEvento.html(arrayEa[131])
+      detalleEvento.html(arrayEa[131]);
+      noBous()
     }
     else if (hora==20||(hora==21&&min<=29))
     {
@@ -690,7 +694,7 @@ function startClock()
     {
       detalleEvento.html(arrayEa[142])
     }
-    else if ((hora==12&&min>=45)||hora==13&&min<=30)
+    else if ((hora==12&&min>=45)||hora==13||hora==14)
     {
       detalleEvento.html(arrayEa[143])
     }
@@ -707,6 +711,7 @@ function startClock()
       detalleEvento.addClass('detalleMultiEvento3');
       detalleEvento.removeClass('detalleEvento');
       detalleEvento.html(arrayEa[146]);
+      noBous();
       detalleEvento.append(arrayEa[147]);
       detalleEvento.append(arrayEa[148])
     }
@@ -714,18 +719,23 @@ function startClock()
     {
       detalleEvento.addClass('detalleEvento');
       detalleEvento.removeClass('detalleMultiEvento3');
-      detalleEvento.html(arrayEa[149])
+      detalleEvento.html(arrayEa[149]);
+      detalleEvento.append(arrayEa[146]);
+      noBous();
     }
     else if ((hora==20&&min>=30)||hora==21)
     {
-      detalleEvento.html(arrayEa[150])
+      detalleEvento.html(arrayEa[150]);
+      noBous()
     }
     else if (hora==22)
     {
       detalleEvento.addClass('detalleMultiEvento2');
       detalleEvento.removeClass('detalleEvento');
       detalleEvento.html(arrayEa[151]);
-      detalleEvento.append(arrayEa[152])
+      detalleEvento.append(arrayEa[152]);
+      detalleEvento.append(arrayEa[150]);
+      noBous()
     }
   }
   else if (dia==13)
